@@ -1,0 +1,131 @@
+!!!
+%html
+  %head
+    %meta{ :charset => 'utf-8' }
+    %title THE RUBYKAIGI 2013
+    %meta{ :name => 'ROBOTS', :content => 'NOARCHIVE' }
+    %meta{ :name => 'ROBOTS', :content => 'INDEX,FOLLOW' }
+    %meta{ 'http-equiv' => 'Expires', :content => 'Mon, 04 Dec 1999 21:29:02 GMT' }
+    %meta{ 'http-equiv' => 'Pragma', :content => 'no-cache' }
+    %meta{ 'http-equiv' => 'cache-control', :content => 'no-cache' }
+    %meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1' }
+    %meta{ 'property' => 'og:title', :content => 'THE RUBYKAIGI 2013' }
+    %meta{ 'property' => 'og:site_name', :content => 'THE RUBYKAIGI 2013' }
+    %meta{ 'property' => 'og:url', :content => 'http://rubykaigi.org/2013' }
+    %meta{ 'property' => 'og:type', :content => 'activity' }
+    %meta{ 'property' => 'og:image', :content => 'http://rubykaigi.org/2013/images/2013/ogImage.png' }
+    %meta{ 'property' => 'og:title', :content => 'THE RUBYKAIGI 2013' }
+
+    %meta{ :name => 'description', :content => 'THE RUBYKAIGI 2013 Official Site' }
+    %meta{ :name => 'keywords', :content => 'rubykaigi, ruby会議, 2013' }
+
+    = javascript_include_tag 'http://html5shiv.googlecode.com/svn/trunk/html5.js'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'
+    = javascript_include_tag '2013/respond.min'
+    = stylesheet_link_tag '2013/boilerplate'
+    = stylesheet_link_tag '2013/common'
+    = stylesheet_link_tag '2013/layout'
+    = favicon_link_tag('/favicon.png')
+    %link{ :rel => 'apple-touch-icon', :href => '/assets/images/2013/icon.png' }
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6972157-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+  %body
+    %div#fb-root
+      :javascript
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=317794091608525";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    %div.gridContainer.clearfix
+      %header
+        %h1#mainImg
+          = image_tag '2013/homeMain.svg', alt: 'THE RUBYKAIGI 2013 MAY 30 - JUNE 1 at Tokyo International Exchange Center Tokyo, Japan'
+      %div#information
+        %h2
+          We are now seeking for sponsors!!
+        %div
+          %p
+            Prospectus:
+            %a{ href: 'http://goo.gl/UrKpm', target: '_blank' }
+              http://goo.gl/UrKpm
+          %p
+            Application Form:
+            %a{ href: 'http://goo.gl/u4xc3', target: '_blank' }
+              http://goo.gl/u4xc3
+        %h2
+          Call For Presentation of RubyKaigi 2013!!!!!
+        %div
+          %p
+            Submission Form:
+            %a{ href: 'http://goo.gl/s6GEQ', target: '_blank' }
+              http://goo.gl/s6GEQ
+          %p
+            DEADLINE: 2013-02-20 19:00(JST)
+        %h2
+          Tags
+        %div
+          %p
+            For Twitter:
+            %a{ href: 'https://twitter.com/#!/search/realtime/%23rubykaigi' }
+              \#rubykaigi
+          %p
+            For Blogs, Flickr: rubykaigi2013
+        %h2
+          Previous
+        %div#previous
+          %ol
+            %li
+              %a{ href: '/2011' }
+                2011
+            %li
+              %a{ href: '/2010' }
+                2010
+            %li
+              %a{ href: '/2009' }
+                2009
+            %li
+              %a{ href: '/2008' }
+                2008
+            %li
+              %a{ href: '/2007' }
+                2007
+            %li
+              %a{ href: '/2006' }
+                2006
+      %p
+        Feel free to contact the team via email to 2013 at rubykaigi.org
+      %div#socialButtons
+        %a{ href: 'https://twitter.com/share', class: 'twitter-share-button', data: { url: 'http://rubykaigi.org/2013', via: 'rubykaigi', hashtags: 'rubykaigi' } }
+          Tweet
+        :javascript
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.t    witter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        %div.fb-like{ data: { href: 'http://rubykaigi.org/2013', send: true, width: '450', show_faces: true } }
+  %footer
+    %div.gridContainer.clearfix
+      %nav
+        %ul
+          %li
+            %a{ href: 'http://lanyrd.com/2013/rubykaigi/', target: '_blank' }
+              lanyrd
+          %li
+            %a{ href: 'http://blog.rubykaigi.org', target: '_blank' }
+              Blog
+          %li
+            %a{ href: 'https://twitter.com/rubykaigi', target: '_blank' }
+              Twitter
+      %aside
+        %p#copyright
+          &copy; 2013 RubyKaigi Team

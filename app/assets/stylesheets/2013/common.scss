@@ -1,0 +1,319 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Alegreya:400,900,700);
+@import 'mixin';
+
+/*--- color ----------------------------------------------*/
+
+$brightRed: #ff68a1;
+
+$brightGreen: #abdbde;
+
+$paleYellowGreen: #f8fee5;
+
+$softPurple: #bd6ab4;
+$darkPurple: #8e5087;
+
+$gray: #666;
+
+/*--- default ----------------------------------------------*/
+
+$defaultFontSize: 16px;
+
+* {
+	color: $brightRed;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-family: "Alegreya", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+html {
+  width: 100%;
+  background: $paleYellowGreen;
+}
+
+body {
+  background-image: url(/assets/2013/commonHeaderBackground.png), url(/assets/2013/commonBackground.png);
+  background-repeat: repeat-x, repeat;
+  width: 100%;
+  height: 100%;
+	line-height: 150%;
+  padding: 50px 0 0 0;
+  font-size: $defaultFontSize;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: $softPurple;
+}
+
+a:hover {
+	color: $darkPurple;
+  text-decoration: underline;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  img {
+    border: none;
+    text-decoration: none;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+
+address {
+	font-style:normal;
+}
+
+h2,
+h3,
+h4 {
+  clear: both;
+	margin: 25px 0 10px 0;
+  font-weight: 700;
+	letter-spacing: 2px;
+  color: #fff;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li img {
+  margin-right: 10px;
+}
+
+ol {
+  padding: 20px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid $gray; 
+}
+
+table tr,
+table tr th,
+table tr td {
+  padding: 10px;
+  border: 1px solid $gray; 
+  border-collapse: collapse;
+}
+
+th {
+  background: $gray;
+}
+
+/*--- id, class ----------------------------------------------*/
+
+p.btn {
+  a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: $defaultFontSize + 4;
+    font-weight: 700;
+  }
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+	  text-decoration:none;
+	  color: #fff;
+  }
+  a:link,
+  a:visited {
+	  background: $softPurple;
+  }
+  a:hover,
+  a:active {
+    background: $darkPurple;
+    position:relative;
+  }
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header nav {
+	background: #293745;
+  text-align: center;
+  margin: 10px 0;
+  ul {
+    margin: 0 auto;
+    padding: 0px;
+    li {
+      margin-right: 0px;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      &:hover {
+        background: #3e4b57;
+      }
+      a:link,
+      a:visited,
+      a:hover,
+      a:active {
+        letter-spacing: 1px;
+        color: #d4d7da;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+#mainImg {
+  margin-bottom: 20px;
+}
+
+#content {
+	background: rgba(255,255,255,0.6);
+  article {
+    padding: 20px;
+  }
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+  }
+  h2 {
+    border-left: 10px solid #edcfd1;
+    padding-left: 6px;
+    font-size: $defaultFontSize + 4;
+  }
+  h3 {
+    font-size: $defaultFontSize + 2;
+  }
+  a:link,
+  a:visited,
+  a:active {
+    color: #293745;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.gridContainer > h1 {
+  color: #fdebe6;
+  background: #ee3706;
+  padding: 20px;
+  margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+
+aside {
+  text-align: right;
+  padding: 5px 0;
+}
+
+footer {
+  background: $paleYellowGreen;
+  clear: both;
+  margin-top: 10px;
+  padding: 20px 0;
+  nav {
+    float: left;
+    li:before {
+      content: "» ";
+    }
+  }
+  aside {
+    float: right;
+    #lang
+      li {
+        background: #293745;
+        &:hover {
+          background: #3e4b57;
+        }
+      a {
+        color: #d4d7da;
+      }
+    }
+  }
+  #copyright {
+    font-size: $defaultFontSize - 2;
+    text-align: right;
+    color: $gray;
+    line-height: 16px;
+    background: url(/assets/2013/officialLogo.png) no-repeat right;
+    padding-right: 20px;
+  }
+}
+
+#socialButtons {
+  clear: both;
+}
+
+/*--- home ----------------------------------------------*/
+
+#information {
+  h2 {
+    @include box_shadow(inset 0, 0, 8, rgba(0, 0, 0, 0.1));
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    background: $brightGreen;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 0 10px 0;
+  }
+  h2 + div {
+    @include box_shadow(inset 0, 0, 8, rgba(0, 0, 0, 0.2));
+    background: $paleYellowGreen;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  margin-bottom: 20px;
+  dl {
+    padding: 0;
+  }
+  dt {
+    white-space: nowrap;
+    vertical-align: top;
+    font-weight: 700;
+    color: #eff6f6;
+  }
+  dd {
+    display: inline-block;
+    color: #fcd7cd;
+  }
+  ul li {
+    color: #fcd7cd;
+  }
+  #previous {
+    ol {
+      padding: 0;
+      li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 20px;
+      }
+      li:before {
+        content: "» ";
+      }
+    }
+  }
+}
