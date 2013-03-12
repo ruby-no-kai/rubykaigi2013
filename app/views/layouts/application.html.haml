@@ -1,10 +1,93 @@
 !!!
 %html
   %head
+    %meta(charset='utf-8')
     %title Rubykaigi2013
-    = stylesheet_link_tag    'application', media: 'all'
-    = javascript_include_tag 'application'
-    = csrf_meta_tags
-  %body
+    %meta(name='ROBOTS' content='NOARCHIVE')
+    %meta(name='ROBOTS' content='INDEX,FOLLOW')
+    %meta(http-equiv='Expires'       content='Mon, 04 Dec 1999 21:29:02 GMT')
+    %meta(http-equiv='Pragma'        content='no-cache')
+    %meta(http-equiv='cache-control' content='no-cache')
+    %meta(name='viewport' content='width=device-width, initial-scale=1')
+    %meta(property='og:title'     content='RubyKaigi 2013')
+    %meta(property='og:site_name' content='RubyKaigi 2013')
+    %meta(property='og:url'       content='http://rubykaigi.org/2013')
+    %meta(property='og:type'      content='activity')
+    %meta(property='og:image'     content='#{'http://rubykaigi.org' + image_path('ogImage.png')}')
 
-    = yield
+    %meta(name='description' content='RubyKaigi 2013 Official Site')
+    %meta(name='keywords'    content='rubykaigi, ruby会議, 2013')
+
+    = javascript_include_tag 'http://html5shiv.googlecode.com/svn/trunk/html5.js'
+    = javascript_include_tag 'application'
+    = stylesheet_link_tag    'application'
+    != yield :head
+    = favicon_link_tag 'favicon.png'
+
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6972157-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+  %body
+    %div#fb-root
+      :javascript
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=317794091608525";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    %div.gridContainer.clearfix
+      %header
+        %p#siteTitleMobile= link_to image_tag('commonSiteTitleMobile.svg', alt: 'RubyKaigi 2013'), root_path
+        %p#siteTitle= link_to image_tag('commonSiteTitle.svg', alt: 'RubyKaigi 2013'), root_path
+        %nav
+          %ul
+            %li= link_to 'HOME', root_path
+            %li= link_to 'SCHEDULE', '/2013/schedule'
+            %li= link_to 'FOR ATTENDEES', '/2013/for_attendees'
+            %li= link_to 'GOODIES', '/2013/goodies'
+            %li= link_to 'SPONSORS', '/2013/sponsors'
+            %li= link_to 'TEAM', '/2013/team'
+      = yield
+
+      %div#socialButtons
+        %a.twitter-share-button{ href: 'https://twitter.com/share', data: { url: 'http://rubykaigi.org/2013', via: 'rubykaigi', hashtags: 'rubykaigi' } }
+          Tweet
+        :javascript
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+        %div.fb-like{ data: { href: 'http://rubykaigi.org/2013', send: true, width: '450', show_faces: true } }
+    %footer
+      %div.gridContainer.clearfix
+        %nav
+          %ul
+            %li
+              %a(href='http://lanyrd.com/2013/rubykaigi/' target='_blank')
+                lanyrd
+            %li
+              %a(href='http://blog.rubykaigi.org' target='_blank')
+                Blog
+            %li
+              %a(href='https://twitter.com/rubykaigi' target='_blank')
+                Twitter
+        %aside
+          %p#copyright
+            <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">RubyKaigi 2013 Team</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6972157-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

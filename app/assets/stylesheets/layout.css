@@ -1,33 +1,46 @@
 @charset "UTF-8";
-/* 標準可変メディア
-   メモ : 可変メディアでは、HTML からメディアの高さおよび幅の属性を削除する必要がある
-   http://www.alistapart.com/articles/fluid-images/ 
-*/
+
 img, object, embed, video {
 	max-width: 100%;
 }
-/* IE 6 では最大幅がサポートされていないため、デフォルトで幅 100% に設定される */
+
 .ie6 img {
 	width:100%;
 }
 
-/*
-	Dreamweaver 可変グリッドプロパティ
-	----------------------------------
-	dw-num-cols-mobile:		4;
-	dw-num-cols-tablet:		8;
-	dw-num-cols-desktop:	10;
-	dw-gutter-percentage:	25;
-	
-	以下からヒントを入手 : Ethan Marcotte 氏の「レスポンシブ Web デザイン」 
-	http://www.alistapart.com/articles/responsive-web-design
-	
-	および Joni Korpi 氏の「Golden Grid System」
-	http://goldengridsystem.com/ 
-*/
-
 /* モバイルレイアウト : 480 px およびそれ以下. */
 /*------------------------------------------------------------------------------------------------------------------【１】*/
+
+body {
+  background-position: 0px -105px, top center;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+header nav ul li {
+  margin: 4px;
+  display: block;
+}
+
+header nav ul li a {
+  padding: 0;
+}
+
+#mainImg {
+  display: none;
+}
+
+#siteTitle {
+  display: none;
+}
+
+#siteTitleMobile {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
 
 .gridContainer {
 	margin-left: auto;
@@ -45,19 +58,43 @@ img, object, embed, video {
 	margin: 10px 50px;
 }
 
-#content {
-	clear: both;
-	margin-left: 0;
-	width: 100%;
-	display: block;
+.teamMembers li {
+  width: 100%;
 }
-
 
 /* タブレットレイアウト : 481 px ～ 768 px。モバイルレイアウトからスタイルを継承。 */
 /*------------------------------------------------------------------------------------------------------------------【２】*/
 
 @media only screen and (min-width: 481px) {
-	
+
+body {
+  background-position: 0px -330px, top center;
+}
+
+header {
+  margin: 10px 0 30px 0;
+}
+
+header nav ul li {
+  margin: 0 2px;
+  display: inline-block;
+  width: 45%;
+}
+
+#mainImg {
+  display: block;
+}
+
+#siteTitle {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+#siteTitleMobile {
+  display: none;
+}
+
 .gridContainer {
 	width: 90.675%;
 	padding-left: 1.1625%;
@@ -76,11 +113,8 @@ footer aside {
 	float: right;
 }
 
-#content {
-	clear: both;
-	margin-left: 0;
-	width: 100%;
-	display: block;
+.teamMembers li {
+  width: 50%;
 }
 
 }
@@ -89,6 +123,19 @@ footer aside {
 /*------------------------------------------------------------------------------------------------------------------【３】*/
 
 @media only screen and (min-width: 769px) {
+
+body {
+  background-position: 0px -395px, top center;
+}
+
+header nav ul li {
+  display: inline-block;
+  width: auto;
+}
+
+header nav ul li a {
+  padding: 0 10px;
+}
 
 .gridContainer {
 	width: 88.2%;
@@ -106,11 +153,8 @@ footer aside {
 	margin: 10px 70px;
 }
 
-#content {
-	clear: none;
-	float: left;
-	width: 69.3877%;
-	display: block;
+.teamMembers li {
+  width: 33.3%;
 }
 
 }

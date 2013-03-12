@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Alegreya:400,900,700);
-@import 'mixin';
+@import 'bourbon/bourbon';
 
 /*--- color ----------------------------------------------*/
 
@@ -13,14 +13,15 @@ $paleYellowGreen: #f8fee5;
 $softPurple: #bd6ab4;
 $darkPurple: #8e5087;
 
+$white: #fff;
 $gray: #666;
+$black: #000;
 
 /*--- default ----------------------------------------------*/
 
 $defaultFontSize: 16px;
 
 * {
-	color: $brightRed;
 	margin: 0px;
 	padding: 0px;
 	font-weight: normal;
@@ -33,13 +34,13 @@ html {
 }
 
 body {
-  background-image: image-url('commonHeaderBackground.png'), image-url('commonBackground.png');
+  background-image: image-url('commonHeaderBackground.svg'), image-url('commonBackground.png');
   background-repeat: repeat-x, repeat;
   width: 100%;
   height: 100%;
 	line-height: 150%;
-  padding: 50px 0 0 0;
   font-size: $defaultFontSize;
+  color: $gray
 }
 
 a:link,
@@ -75,14 +76,14 @@ address {
 	font-style:normal;
 }
 
+h1,
 h2,
 h3,
 h4 {
   clear: both;
-	margin: 25px 0 10px 0;
   font-weight: 700;
 	letter-spacing: 2px;
-  color: #fff;
+  color: $white;
 }
 
 nav {
@@ -94,12 +95,24 @@ ul li {
   list-style: none;
 }
 
-ul li img {
-  margin-right: 10px;
-}
-
 ol {
   padding: 20px;
+}
+
+dl {
+  margin-top: 10px;
+  dt {
+    white-space: nowrap;
+    float: left;
+    display: block;
+    clear: both;
+    width: 12em;
+  }
+  dd {
+    margin: 0;
+    float: left;
+    display: block;
+  }
 }
 
 strong {
@@ -158,28 +171,32 @@ p.btn {
 	clear: both;
 }
 
-header nav {
-	background: #293745;
-  text-align: center;
-  margin: 10px 0;
-  ul {
-    margin: 0 auto;
-    padding: 0px;
-    li {
-      margin-right: 0px;
-      text-align: center;
-      height: 40px;
-      line-height: 40px;
-      &:hover {
-        background: #3e4b57;
-      }
-      a:link,
-      a:visited,
-      a:hover,
-      a:active {
-        letter-spacing: 1px;
-        color: #d4d7da;
-        text-decoration: none;
+header {
+  margin-bottom: 20px;
+  nav {
+    text-align: center;
+    ul {
+      margin: 0 auto;
+      padding: 0px;
+      li {
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 4px;
+        &:hover {
+          background: rgba($black, 0.1);
+        }
+        a:link,
+        a:visited,
+        a:hover,
+        a:active {
+          display: block;
+          font-weight: bold;
+          text-shadow: 0 0 3px rgba($black, 0.2);
+          letter-spacing: 1px;
+          color: $white;
+          text-decoration: none;
+        }
       }
     }
   }
@@ -189,40 +206,71 @@ header nav {
   margin-bottom: 20px;
 }
 
-#content {
-	background: rgba(255,255,255,0.6);
-  article {
-    padding: 20px;
-  }
-  h2,
-  h3,
-  h4 {
-    font-weight: 700;
-  }
-  h2 {
-    border-left: 10px solid #edcfd1;
-    padding-left: 6px;
-    font-size: $defaultFontSize + 4;
-  }
-  h3 {
-    font-size: $defaultFontSize + 2;
-  }
-  a:link,
-  a:visited,
-  a:active {
-    color: #293745;
-  }
-  a:hover {
-    text-decoration: underline;
+.comingSoon {
+  height: 300px;
+}
+
+ul.listMark {
+  padding-left: 10px;
+  li {
+    background: image-url('commonListMarkRed.svg') top left no-repeat;
+    line-height: 30px;
+    padding-left: 30px;
   }
 }
 
-.gridContainer > h1 {
-  color: #fdebe6;
-  background: #ee3706;
-  padding: 20px;
-  margin-bottom: 10px;
-	letter-spacing: 2px;
+.contentBg {
+  @include box-shadow(0 0 8px rgba($black, 0.2) inset);
+  border-radius: 10px;
+}
+
+#information,
+#content {
+  section {
+    @include clearfix;
+    margin-bottom: 20px;
+    h1,
+    h2 {
+      color: $brightRed;
+      font-size: $defaultFontSize + 6;
+      margin-bottom: 10px ;
+    }
+  }
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4 {
+    font-weight: 700;
+    text-shadow: 0 0 3px rgba($black, 0.3);
+    margin: 0 0 10px 0;
+  }
+  & > h1 {
+    @extend .contentBg;
+    background: $brightRed;
+    color: $white;
+    padding: 30px 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: $defaultFontSize + 10;
+  }
+  h2 {
+    @extend .contentBg;
+    padding: 20px;
+    font-size: $defaultFontSize + 6;
+  }
+  h1,
+  h2{
+    & + div {
+      @extend .contentBg;
+      @include clearfix;
+      background: $paleYellowGreen;
+      padding: 20px;
+      margin: 0 0 30px 0;
+    }
+  }
+  h3 {
+    font-size: $defaultFontSize + 4;
+  }
 }
 
 aside {
@@ -267,25 +315,19 @@ footer {
   clear: both;
 }
 
+#content {
+  h2 {
+    background: $softPurple;
+  }
+}
+
 /*--- home ----------------------------------------------*/
 
 #information {
-  h2 {
-    @include box_shadow(inset 0, 0, 8, rgba(0, 0, 0, 0.1));
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-    background: $brightGreen;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 0 0 10px 0;
-  }
-  h2 + div {
-    @include box_shadow(inset 0, 0, 8, rgba(0, 0, 0, 0.2));
-    background: $paleYellowGreen;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 30px;
-  }
   margin-bottom: 20px;
+  h2 {
+    background: $brightGreen;
+  }
   dl {
     padding: 0;
   }
@@ -314,5 +356,46 @@ footer {
         content: "» ";
       }
     }
+  }
+}
+
+/*--- for attendees ----------------------------------------------*/
+
+#map_canvas {
+  width: 100%;
+  height: 600px;
+  img {
+    max-width: none;
+  }
+}
+
+/*--- team ----------------------------------------------*/
+
+.teamMembers {
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+  }
+}
+
+.name {
+  font-size: $defaultFontSize + 4;
+  text-transform: capitalize;
+  color: $brightRed;
+}
+
+.role {
+  text-transform: uppercase;
+  font-size: $defaultFontSize - 1;
+  line-height: 120%;
+}
+
+.avatar {
+  img {
+    border: 4px solid lighten($gray, 50%);
+    margin: 10px;
   }
 }
