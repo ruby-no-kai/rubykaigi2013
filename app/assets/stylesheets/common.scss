@@ -259,8 +259,8 @@ ul.listMark {
     padding: 20px;
     font-size: $defaultFontSize + 6;
   }
-  h1,
-  h2{
+  & > h1,
+  & > h2{
     & + div {
       @extend .contentBg;
       @include clearfix;
@@ -342,6 +342,19 @@ footer {
       }
     }
   }
+  #specialSponsor,
+  #rubySponsor,
+  #platinumSponsor,
+  #goldSponsor,
+  #silverSponsor {
+    ul {
+      padding: 0;
+    }
+    li {
+      margin: 10px;
+      display: inline-block;
+    }
+  }
 }
 
 /*--- for attendees ----------------------------------------------*/
@@ -351,6 +364,44 @@ footer {
   height: 600px;
   img {
     max-width: none;
+  }
+}
+
+/*--- sponsors ----------------------------------------------*/
+
+#sponsors {
+  #specialSponsor {
+    h2 {
+      display: inline-block;
+      color: $white;
+      height: 1em;
+      line-height: 1em;
+      padding: 5px 10px;
+      margin: 0px;
+      font-size: $defaultFontSize;
+    }
+  }
+  #specialSponsor,
+  #rubySponsor,
+  #platinumSponsor,
+  #goldSponsor,
+  #silverSponsor {
+    ul {
+      padding: 0;
+    }
+    li {
+      clear: both;
+      margin-bottom: 20px;
+      @include clearfix;
+    }
+    .logo {
+      margin-right: 20px;
+      float: left;
+    }
+  }
+  .name {
+    font-size: $defaultFontSize + 6;
+    margin: 10px 0;
   }
 }
 
@@ -364,18 +415,16 @@ footer {
     text-align: center;
     margin: 20px 0;
   }
-}
-
-.name {
-  font-size: $defaultFontSize + 4;
-  text-transform: capitalize;
-  color: $brightRed;
-}
-
-.role {
-  text-transform: uppercase;
-  font-size: $defaultFontSize - 1;
-  line-height: 120%;
+  .name {
+    font-size: $defaultFontSize + 4;
+    text-transform: capitalize;
+    color: $brightRed;
+  }
+  .role {
+    text-transform: uppercase;
+    font-size: $defaultFontSize - 1;
+    line-height: 120%;
+  }
 }
 
 .avatar {
