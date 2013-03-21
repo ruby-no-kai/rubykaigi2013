@@ -17,6 +17,17 @@ $white: #fff;
 $gray: #666;
 $black: #000;
 
+/*--- mixin ----------------------------------------------*/
+
+@mixin setListMark($img) {
+  padding-left: 10px;
+  li {
+    background: image-url($img) top left no-repeat;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+}
+
 /*--- default ----------------------------------------------*/
 
 $defaultFontSize: 16px;
@@ -138,14 +149,15 @@ th {
 
 /*--- id, class ----------------------------------------------*/
 
-p.btn {
+.btn {
+  display: inline-block;
   a {
     display: block;
-    height: 50px;
-    line-height: 50px;
+    border-radius: 4px;
+    height: 1.5em;
+    line-height: 1.5em;
     text-align: center;
     font-size: $defaultFontSize + 4;
-    font-weight: 700;
   }
   a:link,
   a:visited,
@@ -156,12 +168,13 @@ p.btn {
   }
   a:link,
   a:visited {
-	  background: $softPurple;
+	  @include background-image(linear-gradient($softPurple, darken($softPurple, 20%)));
+    @include box-shadow(0 0 4px rgba($black, 0.2));
   }
   a:hover,
   a:active {
     background: $darkPurple;
-    position:relative;
+    @include box-shadow(0 0 1px rgba($black, 0.2));
   }
 }
 
@@ -204,7 +217,7 @@ header {
 }
 
 #mainImg {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .comingSoon {
@@ -212,12 +225,11 @@ header {
 }
 
 ul.listMark {
-  padding-left: 10px;
-  li {
-    background: image-url('commonListMarkRed.svg') top left no-repeat;
-    line-height: 30px;
-    padding-left: 30px;
-  }
+  @include setListMark('commonListMarkRed.svg');
+}
+
+ul.listMarkWhite {
+  @include setListMark('commonListMarkWhite.svg');
 }
 
 .contentBg {
@@ -322,6 +334,35 @@ footer {
   }
 }
 
+
+.name {
+  font-size: $defaultFontSize + 4;
+  text-transform: capitalize;
+  color: $brightRed;
+}
+
+.role {
+  text-transform: uppercase;
+  font-size: $defaultFontSize - 1;
+  line-height: 120%;
+}
+
+.avatar {
+  img {
+    border: 4px solid lighten($gray, 50%);
+    margin: 10px;
+  }
+}
+
+.links {
+  .btn {
+    margin: 5px;
+    a {
+      width: 1.5em;
+    }
+  }
+}
+
 /*--- home ----------------------------------------------*/
 
 #information {
@@ -344,6 +385,37 @@ footer {
   }
 }
 
+#summary {
+  @extend .contentBg;
+  background: $brightRed;
+  color: $white;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: $white;
+  }
+  .btn {
+    a {
+      padding: 15px;
+      white-space: nowrap;
+    }
+  }
+  .details {
+    border: 1px dotted $white;
+    border-radius: 4px;
+    padding: 20px;
+    @include clearfix;
+    i {
+      display: inline-block;
+      width: 1.5em;
+      text-align: center;
+    }
+  }
+}
+
 /*--- for attendees ----------------------------------------------*/
 
 #map_canvas {
@@ -354,8 +426,10 @@ footer {
   }
 }
 
-/*--- team ----------------------------------------------*/
+/*--- team, speakers ----------------------------------------------*/
 
+#keynoteSpeakers,
+#speakers,
 .teamMembers {
   margin: 0;
   padding: 0;
@@ -363,24 +437,5 @@ footer {
     display: inline-block;
     text-align: center;
     margin: 20px 0;
-  }
-}
-
-.name {
-  font-size: $defaultFontSize + 4;
-  text-transform: capitalize;
-  color: $brightRed;
-}
-
-.role {
-  text-transform: uppercase;
-  font-size: $defaultFontSize - 1;
-  line-height: 120%;
-}
-
-.avatar {
-  img {
-    border: 4px solid lighten($gray, 50%);
-    margin: 10px;
   }
 }
