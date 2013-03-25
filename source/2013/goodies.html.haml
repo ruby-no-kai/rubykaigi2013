@@ -1,0 +1,65 @@
+%article#content
+  %h1
+    goodies
+  %h2
+    Badges and Banners
+  %div
+    %section
+      %h1
+        160x160
+      %p= image_tag('badgeAttendee.png')
+      %dl.listMark
+        %dt
+          ATTENDEE:
+        %dd
+          = link_to('160x160', image_path('badgeAttendee.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeAttendee@2x.png'), target: '_blank')
+        %dt
+          ATTENDEE(AWAY):
+        %dd
+          = link_to('160x160', image_path('badgeAttendeeAway.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeAttendeeAway@2x.png'), target: '_blank')
+        %dt
+          SPEAKER:
+        %dd
+          = link_to('160x160', image_path('badgeSpeaker.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeSpeaker@2x.png'), target: '_blank')
+        %dt
+          LIGHTNING TALKER:
+        %dd
+          = link_to('160x160', image_path('badgeLightningTalker.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeLightningTalker@2x.png'), target: '_blank')
+        %dt
+          COMMITTER:
+        %dd
+          = link_to('160x160', image_path('badgeCommitter.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeCommitter@2x.png'), target: '_blank')
+        %dt
+          OFFICIAL SPONSOR:
+        %dd
+          = link_to('160x160', image_path('badgeOfficialSponsor.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeOfficialSponsor@2x.png'), target: '_blank')
+        %dt
+          STAFF:
+        %dd
+          = link_to('160x160', image_path('badgeStaff.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('badgeStaff@2x.png'), target: '_blank')
+
+    %section
+      %h1 780x90
+      %p= image_tag('bannerOfficialSponsor.png')
+
+      %dl.listMark
+        %dt
+          OFFICIAL SPONSOR:
+        %dd
+          = link_to('780x90', image_path('bannerOfficialSponsor.png'), target: '_blank')
+          ,&nbsp;
+          = link_to('@2x', image_path('bannerOfficialSponsor@2x.png'), target: '_blank')

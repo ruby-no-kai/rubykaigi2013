@@ -4,7 +4,7 @@
 
 1枚目のスライドは「Why Are We Here?(我われはなぜここにいるのか?)」です。ここでは、このプロジェクトをおこなう理由を並べます。RubyKaigi 2013ではプロジェクトの根幹にかかわる理由を1つ、主な理由を3つ、運営チームに向けの理由を1つの計5つを「RubyKaigi 2013をやる理由」として挙げています。
 
-![](https://raw.github.com/ruby-no-kai/rubykaigi2013/master/app/assets/images/ids/01.why_are_we_here.png)
+![](https://raw.github.com/ruby-no-kai/rubykaigi2013/master/public/ids/images/01.why_are_we_here.png)
 
 * 0: The Ruby Community の年中行事としての認知を高め、定着させる!!
 * 1: 世界のRubyistに日本のRubyistのことを知ってもらう。日本のRubyistに世界のRubyistのことを知ってもらう
