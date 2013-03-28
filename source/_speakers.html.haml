@@ -1,0 +1,25 @@
+%ul.speakers
+  - speakers.each do |speaker|
+    %li<>
+      %p.name
+        = speaker.name
+      %p.avatar
+        %img{ width: avatar_size, height: avatar_size, src: "http://www.gravatar.com/avatar/#{speaker.gravatar}/?s=#{avatar_size}&d=http%3A%2F%2Frubykaigi.org%2F2013%2FcommonNoImage.png", alt: speaker.name }
+      %p.links
+        - if speaker.links.github
+          %span.btn
+            %a{ href: "https://github.com/#{speaker.links.github}", target: '_blank' }
+              %i.icon-github-alt
+        - else
+          %span.btnDisabled
+            %a
+              %i.icon-github-alt
+
+        - if speaker.links.twitter
+          %span.btn
+            %a{ href: "https://twitter.com/#{speaker.links.twitter}", target: '_blank' }
+              %i.icon-twitter
+        - else
+          %span.btnDisabled
+            %a
+              %i.icon-twitter
