@@ -1,9 +1,11 @@
 %tr
   %th{rowspan: cells.size}= slot
-  - cells.shift.each do |id|
+  - 2.times.with_object(cells.shift) do |i, line|
+    - id = line[i]
     %td= partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
 
 - cells.each do |line|
   %tr
-    - line.each do |id|
+    - 2.times do |i|
+      - id = line[i]
       %td= partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
