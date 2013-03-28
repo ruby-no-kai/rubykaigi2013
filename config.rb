@@ -20,4 +20,8 @@ helpers do
     logo = "sponsors#{sponsor.id}.png"
     link_to image_tag(logo, alt: sponsor.name, width: sponsor_weight_to_size(sponsor.weight)), sponsor.link, target: '_blank'
   end
+
+  def schedule_cell(id)
+    partial 'schedule_cell', locals: {session: data.sessions[id.to_s]}
+  end
 end
