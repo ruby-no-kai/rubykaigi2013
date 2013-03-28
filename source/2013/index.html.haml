@@ -102,63 +102,24 @@
     %section#rubySponsor
       %h1
         Ruby Sponsors
-      %ul
-        %li
-          %p.logo= link_to image_tag('sponsorsRuby01.png', alt: 'pixiv', width: '220px'), 'http://www.pixiv.net/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsRuby02.png', alt: 'COOKPAD', width: '220px'), 'http://cookpad.com/', target: '_blank'
+      = partial 'sponsors_logo', locals: {sponsors: data.sponsors.ruby_sponsors }
+
     %section#specialSponsor
       %h1
         Special Sponsors
-      %ul
-        %li
-          %p.logo= link_to image_tag('sponsorsSpecial01.png', alt: 'Windows Azure', width: '220px'), 'http://windowsazure.com/ja-jp/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSpecial02.png', alt: 'Heroku', width: '220px'), 'http://www.heroku.com', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSpecial03.png', alt: 'DeNA', width: '180px'), 'http://dena.com/', target: '_blank'
+      = partial 'sponsors_logo', locals: {sponsors: data.sponsors.special_sponsors}
+
     %section#platinumSponsor
       %h1
         Platinum Sponsors
-      %ul
-        %li
-          %p.logo= link_to image_tag('sponsorsPlatinum01.png', alt: 'Engine Yard', width: '180px'), 'http://www.engineyard.co.jp', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsPlatinum02.png', alt: 'paperboy&co., Inc.', width: '180px'), 'http://www.paperboy.co.jp', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsPlatinum03.png', alt: 'Drecom Co., Ltd.', width: '180px'), 'http://drecom.co.jp', target: '_blank'
+      = partial 'sponsors_logo', locals: {sponsors: data.sponsors.platinum_sponsors}
+
     %section#goldSponsor
       %h1
         Gold Sponsors
-      %ul
-        %li
-          %p.logo= link_to image_tag('sponsorsGold01.png', alt: 'Eiwa System Management, Inc.', width: '135px'), 'https://coderwall.com/team/eiwa-system-management', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsGold02.png', alt: 'Qiita/Kobito', width: '135px'), 'http://qiita.com/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsGold03.png', alt: 'Basho Japan KK', width: '135px'), 'http://www.basho.co.jp', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsGold04.png', alt: 'Tabelog', width: '135px'), 'http://tabelog.com/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsGold05.png', alt: 'Network Applied Communication Laboratory Ltd.', width: '135px'), 'http://www.netlab.jp/', target: '_blank'
+      = partial 'sponsors_logo', locals: {sponsors: data.sponsors.gold_sponsors}
+
     %section#silverSponsor
       %h1
         Silver Sponsors
-      %ul
-        %li
-          %p.logo= link_to image_tag('sponsorsSilver01.png', alt: 'ClearCode Inc.', width: '90px'), 'http://www.clear-code.com/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSilver02.png', alt: 'Enishi Tech Inc.', width: '90px'), 'http://www.enishi-tech.com', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSilver03.png', alt: 'EY-Office', width: '90px'), 'http://www.ey-office.com/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSilver04.png', alt: 'tmix', width: '90px'), 'http://tmix.jp/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSilver05.png', alt: 'Agileware Inc.', width: '90px'), 'http://agileware.jp/', target: '_blank'
-        -#%li
-          %p.logo= link_to image_tag('sponsorsSilverComingSoon.png', alt: 'CodeIQ', width: '90px'), 'https://codeiq.jp/', target: '_blank'
-        %li
-          %p.logo= link_to image_tag('sponsorsSilver07.png', alt: 'Everyleaf Corporation', width: '90px'), 'http://everyleaf.com/', target: '_blank'
-
-
-
+      = partial 'sponsors_logo', locals: {sponsors: data.sponsors.silver_sponsors}

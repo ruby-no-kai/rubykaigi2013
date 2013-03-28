@@ -1,0 +1,145 @@
+ruby_sponsors:
+  - name: pixiv
+    logo: sponsorsRuby01.png
+    link: 'http://www.pixiv.net/'
+    weight: 4
+    description: |-
+      Since 2007, pixiv has built an online community for creators around the mantra “It’s fun drawing”. pixiv has since used Ruby on Rails to build pixiv.com (an international-focused version of pixiv.net) and pixiv comic (a site offering free online digital comics/manga). Engineers all around the world have adopted Ruby - not just because Ruby is a superior language, but because of the immensely attractive community behind it. Just as the art on pixiv transcends language, so too does the Ruby community. We will continue to support the creators of the world, regardless of medium - code or canvas.
+
+  - name: COOKPAD
+    logo: sponsorsRuby02.png
+    link: 'http://cookpad.com/'
+    weight: 4
+    description: |-
+      COOKPAD is Japan’s top recipe site allowing visitors to upload and search through original, user-created recipes. Currently being used by almost 80-90% of all Japanese women in their 20-30s, COOKPAD has become an essential tool in enabling families to enjoy cooking across Japan.The access to the site reaches its peak around 4-5 PM when people start grocery shopping for the day’s dinner ingredients. Combined with our mobile and smartphone services which can be used on the go and in stores, COOKPAD plays a significant role in the shopping decisions that consumers make in their everyday lives.
+
+special_sponsors:
+  - name: Microsoft Japan Co., Ltd.
+    logo: sponsorsSpecial01.png
+    link: 'http://windowsazure.com/ja-jp/'
+    weight: 4
+    special: Drink Sponsor
+    description: |-
+      Microsoft is emphasizing on securing of compatibility in the various technical domains. This is including the other companies development language (including OSS) on the Windows platform development operation environment maintenance as well. Implementation of the Ruby practice environment in .NET Framework or implementation of the Ruby practice environment of latest Microsoft development base cloud service Windows Azure are the representative example. Particularly there was new evolution including the Linux OS support for Windows Azure recently. Please keep eye on it for an broader action of future Microsoft.
+
+  - name: Heroku
+    logo: sponsorsSpecial02.png
+    link: 'http://www.heroku.com'
+    weight: 4
+    special: Bento Sponsor
+    description: |-
+      Heroku’s platform as a service allows your organization to build faster, deploy instantly and scale on demand without managing servers. Gain the flexibility to deploy any language any time and to any scale. Maintain control by isolating, running and monitoring independent processes. Heroku makes it effortless. Sign up at <a href="http://www.heroku.com" target="_blank">www.heroku.com</a>.
+
+  - name: DeNA
+    logo: sponsorsSpecial03.png
+    link: 'http://dena.com/'
+    weight: 3
+    special: WiFi Sponsor
+    description: |-
+      DeNA is a global internet company with a number of game titles in Google Play’s top rankings, and we depend on Ruby for back-end development. We’re also releasing new services and contributing to the open source community, with the goal of delighting the world.
+
+platinum_sponsors:
+  - name: Engine Yard
+    logo: sponsorsPlatinum01.png
+    link: 'http://www.engineyard.co.jp'
+    weight: 3
+    description: |-
+      Engine Yard is the leading PaaS, empowering software application innovation more rapidly. With powerful infrastructure orchestration, strong support and service, Engine Yard provides a complete commercial grade PaaS that enables developers to focus on creating great applications.
+
+  - name: paperboy&co., Inc.
+    logo: sponsorsPlatinum02.png
+    link: 'http://www.paperboy.co.jp'
+    weight: 3
+    description: |-
+      paperboy&co., Inc., under the corporate mission “Making the Net a lot more fun”, is providing a variety of Web services such as <a href="http://lolipop.jp" target="_blank">lolipop</a>, <a href="http://muumuu-domain.com/" target="_blank">Muu Muu Domain</a>, and so on, and actively sponsoring development communities including Ruby.
+
+  - name: Drecom Co., Ltd.
+    logo: sponsorsPlatinum03.png
+    link: 'http://drecom.co.jp'
+    weight: 3
+    description: |-
+      We are planning and developing many types of services which are focusing on a word "communication" such as, mobile contents, internet advertising, etc. Now, our core businesses are [Social games], [Ad-solutions], and [Social learning].
+
+gold_sponsors:
+  - name: Eiwa System Management, Inc.
+    logo: sponsorsGold01.png
+    link: 'https://coderwall.com/team/eiwa-system-management'
+    weight: 2
+    description: |-
+      ESM is one of the best company building Ruby/Rails application with agile way in Japan. We are maximizing client's return on investment.
+
+  - name: Qiita/Kobito
+    logo: sponsorsGold02.png
+    link: 'http://qiita.com/'
+    weight: 2
+    description: |-
+      def <a href="http://increments.co.jp" target="_blank">increments</a>; { <a href="http://qiita.com" target="_blank">qiita</a>: "A technical knowledge sharing platform for programmers", <a href="http://kobito.qiita.com" target="_blank">kobito</a>: "A Mac application to manage markdown notes" }; end
+
+  - name: Basho Japan KK
+    logo: sponsorsGold03.png
+    link: 'http://www.basho.co.jp'
+    weight: 2
+    description: |-
+      With Riak distributed database and Riak Cloud Storage, Basho delivers extreme stability, availability and scalability to every users.
+
+  - name: Tabelog
+    logo: sponsorsGold04.png
+    link: 'http://tabelog.com/'
+    weight: 2
+    description: |-
+      Tabelog is the restaurant review site in Japan. Monthly unique users are 40 million, and 800 million PV. We've been using Ruby since 2007.
+
+  - name: Network Applied Communication Laboratory Ltd.
+    logo: sponsorsGold05.png
+    link: 'http://www.netlab.jp/'
+    weight: 2
+    description:
+
+silver_sponsors:
+  - name: ClearCode Inc.
+    logo: sponsorsSilver01.png
+    link: 'http://www.clear-code.com/'
+    weight: 1
+    description: |-
+      ClearCode runs free software business and contributes free softwares.
+
+  - name: Enishi Tech Inc.
+    logo: sponsorsSilver02.png
+    link: 'http://www.enishi-tech.com'
+    weight: 1
+    description: |-
+      We develop software in Sapporo, a beautiful provincial city in Japan.
+
+  - name: EY-Office
+    logo: sponsorsSilver03.png
+    link: 'http://www.ey-office.com/'
+    weight: 1
+    description: |-
+      EY-Office is the leading provider of on-site Ruby on Rails training.
+
+  - name: tmix
+    logo: sponsorsSilver04.png
+    link: 'http://tmix.jp/'
+    weight: 1
+    description: |-
+      We're on a mission to help people better their lives with EC.
+
+  - name: Agileware Inc.
+    logo: sponsorsSilver05.png
+    link: 'http://agileware.jp/'
+    weight: 1
+    description: |-
+      We developed a production ready system within 3 months.
+
+  - name: CodeIQ
+    logo: sponsorsSilverComingSoon.png
+    link: 'https://codeiq.jp/'
+    weight: 1
+    description:
+
+  - name: Everyleaf Corporation
+    logo: sponsorsSilver07.png
+    link: 'http://everyleaf.com/'
+    weight: 1
+    description: |-
+      We develop Rails/smartphone applications for our customers.

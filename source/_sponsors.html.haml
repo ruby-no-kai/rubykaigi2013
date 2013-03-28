@@ -1,0 +1,26 @@
+- weight_to_size = {4 => '220px', 3 => '180px', 2 => '135px', 1 => '90px'}
+%ul
+  - sponsors.each do |sponsor|
+    %li
+      - if sponsor.special
+        %h2
+          = sponsor.special
+      %p.logo
+        = link_to image_tag(sponsor.logo, alt: sponsor.name, width: weight_to_size[sponsor.weight]), sponsor.link, target: '_blank'
+      %p.name
+        = link_to sponsor.name, sponsor.link, target: '_blank'
+      %p
+        = sponsor.description || 'Coming soon...'
+
+  - if defined?(sponsors_wanted) && sponsors_wanted
+    %li
+      %p.logo= image_tag(sponsors_wanted, alt: 'SPONSORS WANTED!!', width: weight_to_size[sponsors.first.weight])
+      %p.name= 'Get this spot'
+      %p
+        Prospectus:
+        %a(href='https://dl.dropbox.com/s/3yhh9578lz72yw6/rk13-sponsors-prospectus.pdf' target='_blank')
+          http://goo.gl/UrKpm
+      %p
+        Application Form:
+        %a(href='https://docs.google.com/a/ruby-no-kai.org/spreadsheet/viewform?formkey=dGxvUkQxQm04MmVicDFEaHppb0diS3c6MQ#gid=0' target='_blank')
+          http://goo.gl/u4xc3
