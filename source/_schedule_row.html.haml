@@ -1,0 +1,9 @@
+%tr
+  %th{rowspan: cells.size}= slot
+  - cells.shift.each do |id|
+    %td= partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
+
+- cells.each do |line|
+  %tr
+    - line.each do |id|
+      %td= partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
