@@ -10,6 +10,11 @@ configure :build do
   activate :asset_hash, ignore: [%r{^2013/images/(?:banner|badge)}]
 end
 
+data.sessions.keys.each do |id|
+  proxy "/2013/session/#{id}.html", '/2013/session.html', locals: {id: id}
+end
+ignore '/2013/session.html'
+
 helpers do
   def sponsor_weight_to_size(weight)
     weight_to_size = {4 => '220', 3 => '180', 2 => '135', 1 => '90'}
