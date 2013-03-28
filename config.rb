@@ -27,6 +27,6 @@ helpers do
   end
 
   def schedule_cell(id)
-    partial 'schedule_cell', locals: {session: data.sessions[id.to_s]}
+    partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
   end
 end

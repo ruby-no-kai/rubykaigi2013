@@ -1,4 +1,4 @@
-'#{session.title}'
+= link_to "'#{session.title}'", "/2013/session/#{id}"
 %br
 
 = session.speakers.map(&:name).join(', ')
