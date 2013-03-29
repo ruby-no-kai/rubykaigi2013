@@ -1,1 +1,18 @@
-= id # TODO Fill in session info
+- session = data.sessions[id]
+
+%h1= session.title
+
+- session.speakers.each do |speaker|
+  %h2
+    by #{speaker.name}
+    - if github = speaker.links.github
+      = link_to "(@#{github})", "https://github.com/#{github}"
+
+  %p
+    %ul.speakerProfile
+      %li= speaker.job
+      %li= speaker.bio
+      %li= speaker.location
+
+%h2 Description
+= session.description
