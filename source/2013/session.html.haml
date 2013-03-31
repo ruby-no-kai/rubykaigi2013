@@ -8,6 +8,9 @@
     - if github = speaker.links.github
       = link_to "(@#{github})", "https://github.com/#{github}"
 
+      - if speaker.gravatar
+        = image_tag("http://www.gravatar.com/avatar/#{speaker.gravatar}?s=100", alt: speaker.name)
+
   %p
     %ul.speakerProfile
       %li= speaker.job
