@@ -131,7 +131,7 @@ speakers:
     gravatar: 2f6254b55c3e1693bd1e64d246cead33
     links:
       github:  deadprogrammer
-      twitter: "@deadprogram"
+      twitter: deadprogram
 
   - name: John Foley
     gravatar: 45001df0297ee307cee788f15c5a8595
@@ -287,7 +287,7 @@ speakers:
     gravatar: e1923013dacab39eb231a2fffbf7b33c
     links:
       github:  kuenishi
-      twitter: "@kuenishi"
+      twitter: kuenishi
 
   - name: Xuejie "Rafael" Xiao
     gravatar: 9c85527be213734ed23c2ff233b7b5b8
