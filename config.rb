@@ -29,4 +29,9 @@ helpers do
   def schedule_cell(id)
     partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
   end
+
+  def gravatar_tag(id, size, options = {})
+    default_image = CGI.escape('http://rubykaigi.org/2013/commonNoImage.png')
+    image_tag("http://www.gravatar.com/avatar/#{id}?s=#{size}&d=#{default_image}", {width: size, height: size}.merge(options))
+  end
 end

@@ -10,4 +10,4 @@
           %p.role
             = [*member.role].join(',<br/>')
           %p.avatar
-            %img{ width: 100, height: 100, src: "http://www.gravatar.com/avatar/#{member.gravatar}?s=100", alt: 'Avatar' }
+            = gravatar_tag(member.gravatar, 100, alt: member.name)
