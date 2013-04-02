@@ -132,10 +132,11 @@ silver_sponsors:
       We developed a production ready system within 3 months.
 
   - name: CodeIQ
-    logo: sponsorsSilverComingSoon.png
+    logo: sponsorsSilver06.png
     link: 'https://codeiq.jp/'
     weight: 1
-    description:
+    description: |-
+      CodeIQ is a coding test service. Answer questions & Get a job offer!
 
   - name: Everyleaf Corporation
     logo: sponsorsSilver07.png
