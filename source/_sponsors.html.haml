@@ -1,7 +1,7 @@
 - weight_to_size = {4 => '220px', 3 => '180px', 2 => '135px', 1 => '90px'}
 %ul
   - sponsors.each do |sponsor|
-    %li(id='#{sponsor.id}')
+    %li{id: sponsor.id}
       - if sponsor.special
         %h2
           = sponsor.special
