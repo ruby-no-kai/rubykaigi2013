@@ -95,6 +95,13 @@ gold_sponsors:
     weight: 2
     description:
 
+  - name: Treasure Data
+    logo: sponsorsGold06.png
+    link: 'http://www.treasure-data.com/'
+    weight: 2
+    description: |-
+      Our cloud-based, Hadoop-as-a-Service platform offers a simple & reliable infrastructure to help you get more value out of your data quickly.
+
 silver_sponsors:
   - name: ClearCode Inc.
     logo: sponsorsSilver01.png
