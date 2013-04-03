@@ -1,0 +1,23 @@
+---
+title: Concerning `Applications'
+description: |-
+  世の中の色んなところでRailsアプリケーションが使われるようになって早数年、アプリケーションで現実の複雑な問題を扱う用になるに従いアプリケーション自体も複雑になってきました。
+
+  その結果、Railsの「モデル」と呼ばれていた層の肥大化/複雑化が問題となり、昨今ではこのRailsのモデル肥大化問題とどう向かい合うかというのが多くのRails利用者の感心事となっています。
+
+  この問題への解決には様々なアプローチが提唱されています。そのうちの1つとして、モデルの振る舞いを「関心ごと(Concern)」単位で分割しすることで個々のクラス(のソースコードとして管理しないといけないこと)を小さく保つという手法があります。
+
+  (Rails 4では、フレームワーク標準でこの手法が使いやすくなります)
+  https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81
+
+  講演者は、Rails 3のころからこの手法をたくさんの"実務の"アプリケーションに適用して来ました。その過程でずっと、関心ごとの切り取り方やちょうどよい程度のメタプログラミング、関心ごとに対するテストの書き方などに悩みながらやって来ました。本講演では、それらのノウハウを紹介したいと思います。
+spoken_language: Japanese
+speakers:
+- name: moro, Kyosuke MOROHASHI
+  bio: Ruby/Rails Programmer. Love TDD/BDD.
+  company: EIWA System Management, Inc. Rails Programmer/Consultant
+  location: Tokyo, Japan
+  gravatar: 70e13d9877054026fda46d5a5b53a236
+  links:
+    github: moro
+    twitter: moro

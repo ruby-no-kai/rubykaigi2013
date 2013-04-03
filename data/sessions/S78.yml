@@ -1,0 +1,25 @@
+---
+title: Rails Gems realize RESTful modeling patterns
+description: |
+  Rails Gemで実現するRESTfulモデリングパターン
+
+  DeviseやKaminariのような定番のRails Gemには、実はRESTfulなリソースモデリングパターンが隠れています。
+  つまり、そのGemを使用することでよいリソース設計が実現できるのです。
+
+  Railsは2.0以来RESTfulな方向性を取り入れて進化してきました。つまりそれは、RESTfulがレールの一部になったことを意味します。routes.rbのresourcesは、基本的なリソースのパターンを提供する代表例です。しかし、応用的な場面ではRESTfulなレールはあまり用意されていないため、実際の開発ではリソース設計に迷うことも少なくありません。それを補うのがGemの存在です。
+
+  Gemに採用されている実践的で有用なパターンを見ていき、さらにミッシングピースとそれを埋める可能性のある開発中のGemについて紹介します。
+spoken_language: Japanese
+speakers:
+- name: Toru Kawamura
+  bio: |-
+    A RESTafarian
+    One of the organizers of Sendagaya.rb
+    Held the "Study meeting of the RESTful URL design on Rails"
+    (「RailsにおけるRESTfulなURL設計勉強会」)
+  company: Freelancer
+  location: Fuchu-shi Tokyo, Japan
+  gravatar: 4bc8a6fb46ecbd1a5432e58225954ea3
+  links:
+    github: tkawa
+    twitter: tkawa

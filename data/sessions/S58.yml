@@ -1,0 +1,15 @@
+---
+title: Refining refinements
+description: |
+  Refinements have been introduced in Ruby 2.0.  However, they are experimental, and some of the features have been removed from Ruby 2.0.0.  This talk explains the current features of Refinements, their limits, and how to refine Refinements themselves in Ruby 2.1.
+spoken_language: Japanese
+speakers:
+- name: Shugo Maeda
+  bio: A Ruby committer, the director of Network Applied Communication Laboratory,
+    and the secretary general of the Ruby Association
+  company: Network Applied Communication Laboratory Ltd.
+  location: Matsue, Japan
+  gravatar: 18a797893e6768e048c1d15429f96bb4
+  links:
+    github: shugo
+    twitter: shugomaeda

@@ -1,0 +1,24 @@
+---
+title: You have to test multiple versions of your gem's dependencies. You used Appraisal.
+  It's super affective!
+description: So, it seems like you've finished writing your awesome gem. However,
+  are you sure that your gem is working perfectly against multiple versions of its
+  dependency? Are you sure that you didn't break any backward compatibility? In this
+  talk, I'm going to show you the approach we have been taken to test our gems against
+  multiple versions of dependencies, such as testing against Rails 3.2 and Rails 3.1.
+  I'm also going to introduce you to our gem called "Appraisal" which helps you generating
+  Gemfiles to be used with Bundler, and also guide it to running your test suite against
+  those multiple Gemfiles. Lastly, I'm going to show you how you can config Travis
+  CI to test your gem against those multiple versions of dependencies.
+spoken_language: English
+speakers:
+- name: Sichanugrist, Prem
+  bio: Prem started using Ruby and Ruby on Rails since 2007 and fell in love with
+    it. He started contributing to Ruby on Rails and several projects around it in
+    2009 and becoming a pretty well-known open source contributor.
+  company: thoughtbot
+  location: Boston, USA
+  gravatar: f1c4a3bb1606cc4a61711e61e2fe6146
+  links:
+    github: sikachu
+    twitter: sikachu

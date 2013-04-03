@@ -1,0 +1,16 @@
+---
+title: Paired ruby
+description: Pair programming shares a similar philosophy with Ruby- the focus is
+  on  people solving problems for other people, not the machine. I want to share my
+  experiences with pair programming and how it helped me become a better engineer,
+  enjoy coding more, and maybe even grow as a person.
+spoken_language: English
+speakers:
+- name: John Foley
+  bio: John Foley is a developer at Pivotal Labs in Boulder, Colorado
+  company: Software Engineer, Pivotal Labs
+  location: Boulder, USA
+  gravatar: 
+  links:
+    github: jfoley
+    twitter: jw_foley

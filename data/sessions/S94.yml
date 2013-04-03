@@ -1,0 +1,23 @@
+---
+title: Write document to improve your library
+description: |
+  ライブラリーの開発者はより使いやすいライブラリーを開発するためにドキュメントを書くべきです。ドキュメントはユーザーのためのもので、開発者にとってはメリットが薄い面倒なものというイメージがあるでしょうが、そうではありません。開発者にとってもより使いやすいライブラリーを開発するために、ドキュメントを書くことは重要な作業です。
+
+  使いやすいライブラリーとは、必要な機能を、必要最小限の手間で、許容範囲内のリソースを使って、実現するライブラリーです。ドキュメントを書くことでこれら使いやすい基準を満たしているかを見直すことができます。
+
+  テストを書きながら開発することでもライブラリーの使い勝手に問題があるかどうかを気づくことができます。例えば、必要最小限の手間で使えなければテストが煩雑になってしまうため、ライブラリーに問題があることがわかります。しかし、テストだけでは個々の機能に着目してしまい、全体を俯瞰する視点に欠けます。例えば、名前の付け方が一貫しているか、ということはなかなか気付けません。
+
+  ドキュメントを書くことで、個々の機能が使いやすいだけでなく、全体としても使いやすいということを確認することができます。このトークでは、どうしてドキュメントを書くことでそれが実現できるのか、また、それを実現するためにはどのようにドキュメントを書いていけばよいのかを話します。
+spoken_language: Japanese
+speakers:
+- name: Kouhei Sutou
+  bio: He is a free software programmer and the president of ClearCode Inc. He is
+    also the namer of ClearCode Inc. The origin of the company name is "clear code".
+    We will be programmers that code clear code as our company name suggests. He is
+    interested in how to tell other programmers about how he codes clear code.
+  company: Clear Code Inc./President
+  location: Tokyo, Japan
+  gravatar: ee6ffca720cc428d70247dcd7377dd48
+  links:
+    github: kou
+    twitter: ktou

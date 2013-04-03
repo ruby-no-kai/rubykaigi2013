@@ -1,0 +1,36 @@
+---
+title: Continuous gem dependency updating with Jenkins and Pull Request
+description: |
+  このトークでは Jenkins と GitHub の Pull Request を活用し、ライブラリのアップデート作業を省力化する方法について解説します。
+
+  昨今の Ruby によるウェブアプリケーション開発ではライブラリの管理に Bundler が利用されます。
+  Bundler はライブラリの依存関係やバージョンを賢く管理し、更新も bundle update コマンドのみで行える便利なツールです。
+  しかし開発者は忙しいので、ライブラリのアップデート作業はしばしば忘れられたり、後回しにされます。
+  すぐ目に見える価値を産む作業ではないので、作業時間を確保するために上司の理解を得るのが難しいこともあります。
+
+  発表者もこのような状況に陥り、数カ月ぶりのアップデート作業に丸一日費やしてしまったり、
+  検証が不十分で不具合を発生させてしまった苦い経験がありました。
+
+  アップデート作業が滞る原因を分析したところ、
+
+  * 仕事の忙しさや開発者のやる気の影響を受けやすいため一定した間隔でアップデート作業を実施するのが難しい
+  * 日常のワークフローに組み込まれていない作業は面倒くさくてやらなくなってしまう
+  * メールや IRC への通知だけではプレッシャーを感じないので無視されてしまう
+
+  という問題があることがわかりました。
+
+  そこで、 Jenkins と GitHub の Pull Request を使って上に挙げた問題を解決し、アップデート作業が滞らない仕組みを作りました。
+  このトークでは、発表者がこれらの問題をどのように解決したのかを解説し、この方法が類似のものに対してどのような点で優れているか比較します。
+spoken_language: Japanese
+speakers:
+- name: Kensuke Nagae
+  bio: |
+    Kensuke Nagae is a Japanese software engineer.
+    He is a developer of 30days Album (online photo sharing service) and Sqale (cloud application platform).
+    He wants to be a cross-functional developer.
+  company: paperboy&co., Inc.
+  location: Tokyo, Japan
+  gravatar: fffd8bf62b842a46803fb07792029fa4
+  links:
+    github: kyanny
+    twitter: kyanny

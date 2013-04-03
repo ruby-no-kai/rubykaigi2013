@@ -1,0 +1,15 @@
+---
+title: 'Millions of Apps Deployed: What We''ve Learned'
+description: |
+  Heroku has deployed over a million web apps. When you've run that many applications, it's hard not to notice when frameworks and developers do things wrong, and when they do them right. We've taken a look at the most common patterns and boiled down the best of our advice in to 12 simple factors that can help you build your next app to be stable, successful, and scalable. After this talk you'll walk away with in depth knowledge of web framework design patterns and practical examples of how to improve your application code.
+spoken_language: English
+speakers:
+- name: Richard Schneeman
+  bio: |
+    Richard "[@schneems](http://twitter.com/schneems)" writes Ruby at Heroku at teaches Rails at the University of Texas. When he isn't obsessively compulsively playing Starcraft 2 he writes such gems as [Wicked](https://github.com/schneems/wicked), [Sextant](https://github.com/schneems/sextant), and [oPRO](https://github.com/opro/opro). Richard is a proud graduate of Space Camp and an advocate of home brewed beer.
+  company: Heroku
+  location: Austin
+  gravatar: 338e39cb167f4e235eddf5bc050ec4de
+  links:
+    github: schneems
+    twitter: schneems

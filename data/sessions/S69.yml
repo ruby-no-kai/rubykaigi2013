@@ -1,0 +1,18 @@
+---
+title: Ruby2.0 reference manual for Japanese.
+description: |-
+  るりまのRuby2.0対応ができているはずなので、報告を兼ねて発表します。
+  他にるりまプロジェクトの外でもるりまの成果物を使っていろいろとやってくれている人がいるみたいなので、感謝などしたいです。
+
+  これからるりまプロジェクトとしてやりたいことについても話をします。
+spoken_language: Japanese
+speakers:
+- name: okkez
+  bio: |
+    http://doc.ruby-lang.org/ja/
+  company: 
+  location: 
+  gravatar: 9673ac7770ee09f76ff5d839820db157
+  links:
+    github: okkez
+    twitter: okkez

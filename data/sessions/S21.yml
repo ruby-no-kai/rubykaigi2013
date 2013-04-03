@@ -1,0 +1,19 @@
+---
+title: 'If you do not enter the tiger''s cave, you will not catch its cub: Objects,
+  DCI, and Programming'
+description: As the responsibility of our applications grows, so too does our code.
+  We'll walk through techniques of object-oriented programming that help clarify our
+  intent and put responsibilities right where we need them.
+spoken_language: English
+speakers:
+- name: Jim Gay
+  bio: Jim is the author of Clean Ruby (http://clean-ruby.com) and has been exploring
+    object-oriented techniques in his code. His 4 children have taught him to embrace
+    chaos and attempt to make clarity. He has always wanted to go to Japan and learn
+    to speak like the locals.
+  company: Saturn Flyer / President
+  location: Arlington, VA, USA
+  gravatar: 09477c358c5897d44121a248326e16d7
+  links:
+    github: saturnflyer
+    twitter: saturnflyer
