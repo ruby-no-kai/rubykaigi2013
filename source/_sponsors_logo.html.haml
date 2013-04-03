@@ -1,6 +1,5 @@
-- weight_to_size = {4 => '220', 3 => '180', 2 => '135', 1 => '90'}
 %ul
   - sponsors.each do |sponsor|
     - unless sponsor.logo =~ /ComingSoon.png$/ # TODO To be removed when logo filled
       %li
-        %p.logo= link_to image_tag(sponsor.logo, alt:sponsor.name, width: weight_to_size[sponsor.weight]), sponsor.link, target: '_blank'
+        %p.logo= sponsor_logo_tag sponsor
