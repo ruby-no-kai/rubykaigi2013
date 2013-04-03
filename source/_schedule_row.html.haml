@@ -1,11 +1,15 @@
-%tr
-  %th{rowspan: cells.size}= slot
-  - 2.times.with_object(cells.shift) do |i, line|
-    - id = line[i]
-    %td= partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
+%ul
+  %li
+    = slot
+    - ['Kaigi Hall', 'Media Hall'].each_with_index do |hall, index|
+      - next if cells[index].blank?
 
-- cells.each do |line|
-  %tr
-    - 2.times do |i|
-      - id = line[i]
-      %td= partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
+      %ul
+        = hall
+        - cells[index].each do |id|
+          %li
+            - session = data.sessions[id.to_s]
+            - next unless session # TODO
+            = link_to "'#{session.title}'", "/2013/session/#{id}"
+            \-
+            = session.speakers.map(&:name).join(', ')
