@@ -17,6 +17,7 @@ helpers do
   end
 
   def sponsor_logo_tag(sponsor)
-    link_to image_tag(sponsor.logo, alt: sponsor.name, width: sponsor_weight_to_size(sponsor.weight)), sponsor.link, target: '_blank'
+    logo = "sponsors#{sponsor.id}.png"
+    link_to image_tag(logo, alt: sponsor.name, width: sponsor_weight_to_size(sponsor.weight)), sponsor.link, target: '_blank'
   end
 end

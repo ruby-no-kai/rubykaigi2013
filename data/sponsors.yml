@@ -1,7 +1,6 @@
 ruby_sponsors:
   - id: Ruby01
     name: pixiv
-    logo: sponsorsRuby01.png
     link: 'http://www.pixiv.net/'
     weight: 4
     description: |-
@@ -9,7 +8,6 @@ ruby_sponsors:
 
   - id: Ruby02
     name: COOKPAD
-    logo: sponsorsRuby02.png
     link: 'http://cookpad.com/'
     weight: 4
     description: |-
@@ -18,7 +16,6 @@ ruby_sponsors:
 special_sponsors:
   - id: Special01
     name: Microsoft Japan Co., Ltd.
-    logo: sponsorsSpecial01.png
     link: 'http://windowsazure.com/ja-jp/'
     weight: 4
     special: Drink Sponsor
@@ -27,7 +24,6 @@ special_sponsors:
 
   - id: Special02
     name: Heroku
-    logo: sponsorsSpecial02.png
     link: 'http://www.heroku.com'
     weight: 4
     special: Bento Sponsor
@@ -36,7 +32,6 @@ special_sponsors:
 
   - id: Special03
     name: DeNA
-    logo: sponsorsSpecial03.png
     link: 'http://dena.com/'
     weight: 3
     special: WiFi Sponsor
@@ -46,7 +41,6 @@ special_sponsors:
 platinum_sponsors:
   - id: Platinum01
     name: Engine Yard
-    logo: sponsorsPlatinum01.png
     link: 'http://www.engineyard.co.jp'
     weight: 3
     description: |-
@@ -54,7 +48,6 @@ platinum_sponsors:
 
   - id: Platinum02
     name: paperboy&co., Inc.
-    logo: sponsorsPlatinum02.png
     link: 'http://www.paperboy.co.jp'
     weight: 3
     description: |-
@@ -62,7 +55,6 @@ platinum_sponsors:
 
   - id: Platinum03
     name: Drecom Co., Ltd.
-    logo: sponsorsPlatinum03.png
     link: 'http://drecom.co.jp'
     weight: 3
     description: |-
@@ -71,7 +63,6 @@ platinum_sponsors:
 gold_sponsors:
   - id: Gold01
     name: Eiwa System Management, Inc.
-    logo: sponsorsGold01.png
     link: 'https://coderwall.com/team/eiwa-system-management'
     weight: 2
     description: |-
@@ -79,7 +70,6 @@ gold_sponsors:
 
   - id: Gold02
     name: Qiita/Kobito
-    logo: sponsorsGold02.png
     link: 'http://qiita.com/'
     weight: 2
     description: |-
@@ -87,7 +77,6 @@ gold_sponsors:
 
   - id: Gold03
     name: Basho Japan KK
-    logo: sponsorsGold03.png
     link: 'http://www.basho.co.jp'
     weight: 2
     description: |-
@@ -95,7 +84,6 @@ gold_sponsors:
 
   - id: Gold04
     name: Tabelog
-    logo: sponsorsGold04.png
     link: 'http://tabelog.com/'
     weight: 2
     description: |-
@@ -103,14 +91,12 @@ gold_sponsors:
 
   - id: Gold05
     name: Network Applied Communication Laboratory Ltd.
-    logo: sponsorsGold05.png
     link: 'http://www.netlab.jp/'
     weight: 2
     description:
 
   - id: Gold06
     name: Treasure Data
-    logo: sponsorsGold06.png
     link: 'http://www.treasure-data.com/'
     weight: 2
     description: |-
@@ -119,7 +105,6 @@ gold_sponsors:
 silver_sponsors:
   - id: Silver01
     name: ClearCode Inc.
-    logo: sponsorsSilver01.png
     link: 'http://www.clear-code.com/'
     weight: 1
     description: |-
@@ -127,7 +112,6 @@ silver_sponsors:
 
   - id: Silver02
     name: Enishi Tech Inc.
-    logo: sponsorsSilver02.png
     link: 'http://www.enishi-tech.com'
     weight: 1
     description: |-
@@ -135,7 +119,6 @@ silver_sponsors:
 
   - id: Silver03
     name: EY-Office
-    logo: sponsorsSilver03.png
     link: 'http://www.ey-office.com/'
     weight: 1
     description: |-
@@ -143,7 +126,6 @@ silver_sponsors:
 
   - id: Silver04
     name: tmix
-    logo: sponsorsSilver04.png
     link: 'http://tmix.jp/'
     weight: 1
     description: |-
@@ -151,7 +133,6 @@ silver_sponsors:
 
   - id: Silver05
     name: Agileware Inc.
-    logo: sponsorsSilver05.png
     link: 'http://agileware.jp/'
     weight: 1
     description: |-
@@ -159,7 +140,6 @@ silver_sponsors:
 
   - id: Silver06
     name: CodeIQ
-    logo: sponsorsSilver06.png
     link: 'https://codeiq.jp/'
     weight: 1
     description: |-
@@ -167,7 +147,6 @@ silver_sponsors:
 
   - id: Silver07
     name: Everyleaf Corporation
-    logo: sponsorsSilver07.png
     link: 'http://everyleaf.com/'
     weight: 1
     description: |-
@@ -175,7 +154,6 @@ silver_sponsors:
 
   - id: Silver08
     name: Rakuten, Inc
-    logo: sponsorsSilver08.png
     link: 'http://global.rakuten.com/corp'
     weight: 1
     description: |-
