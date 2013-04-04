@@ -102,6 +102,13 @@ gold_sponsors:
     description: |-
       Our cloud-based, Hadoop-as-a-Service platform offers a simple & reliable infrastructure to help you get more value out of your data quickly.
 
+  - id: Gold07
+    name: Akatsuki
+    link: 'http://aktsk.jp/'
+    weight: 2
+    description: |-
+      Akatsuki Inc. is a social gaming company that provides its engineers with a work-life balanced environment that encourages personal growth.
+
 silver_sponsors:
   - id: Silver01
     name: ClearCode Inc.
