@@ -90,13 +90,6 @@
     %p
       Feel free to contact the team via email to 2013 at rubykaigi.org
   %h2
-    Previous
-  %div#previous
-    %ol
-      - (2006..2012).to_a.reverse.each do |year|
-        %li
-          %a(href="http://rubykaigi.org/#{year}")= year
-  %h2
     Sponsors
   %div
     %section#rubySponsor
@@ -123,3 +116,10 @@
       %h1
         Silver Sponsors
       = partial 'sponsors_logo', locals: {sponsors: data.sponsors.silver_sponsors}
+  %h2
+    Past Kaigis
+  %div#previous
+    %ol
+      - (2006..2012).to_a.reverse.each do |year|
+        %li
+          %a(href="http://rubykaigi.org/#{year}")= year
