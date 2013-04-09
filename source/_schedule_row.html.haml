@@ -9,7 +9,6 @@
         - cells[index].each do |id|
           %li
             - session = data.sessions[id.to_s]
-            - next unless session # TODO
             = link_to "'#{session.title}'", "/2013/session/#{id}"
             \-
             = session.speakers.map(&:name).join(', ')
