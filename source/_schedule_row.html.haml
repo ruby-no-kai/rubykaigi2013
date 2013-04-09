@@ -22,5 +22,11 @@
               \-
               = event.organizer.map(&:name).join(', ')
 
+            - elsif type == :keynotes
+              - keynote = data.keynotes[id.to_s]
+              Keynote
+              \-
+              = keynote.speaker.name
+
             - else
               (missing id: #{type}:#{id})
