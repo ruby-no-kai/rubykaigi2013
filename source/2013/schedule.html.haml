@@ -9,9 +9,7 @@
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
-        - # TODO Add Opening
-        - # TODO Add "The History of Ruby;20th Anniversary Ed."
-        = partial 'schedule_row', locals: {slot: '10:00', cells: [[], []]}
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [['opening', '20th'], []]}
       %li
         - # TODO Add Keynote
         = partial 'schedule_row', locals: {slot: '11:00', cells: [[], []]}
@@ -22,9 +20,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '13:30', cells: [['S05', 'S22'], ['S93', 'S69']]}
       %li
-        - # TODO Add "Ruby Association / Ruby-no-Kai"
-        - # TODO Add "The Documentary of _why"
-        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S23', 'S39'], []]}
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S23', 'S39'], ['legal-bodies-about-ruby', '_why']]}
 
       %li
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
@@ -82,8 +78,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '13:30', cells: [['S94', 'S50'], ['S91', 'S42']]}
       %li
-        - # TODO Add "TRICK"
-        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S70', 'S48'], []]}
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S70', 'S48'], ['TRICK']]}
 
       %li
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
