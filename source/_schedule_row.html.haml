@@ -19,8 +19,9 @@
             - elsif type == :events
               - event = data.events[id.to_s]
               = event.title
-              \-
-              = event.organizer.map(&:name).join(', ')
+              - if event.organizer.present?
+                \-
+                = event.organizer.map(&:name).join(', ')
 
             - elsif type == :keynotes
               - keynote = data.keynotes[id.to_s]

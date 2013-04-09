@@ -29,8 +29,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '17:00', cells: [[{sessions: 'S54'}, {sessions: 'S58'}], [{sessions: 'S59'}, {sessions: 'S27'}]]}
       %li
-        - # TODO Add "Community Appeal / Ruby Kaja 2013"
-        = partial 'schedule_row', locals: {slot: '18:00', cells: [[], []]}
+        = partial 'schedule_row', locals: {slot: '18:00', cells: [[{events: 'kaja'}], []]}
 
     %h2 Day 2 - May 31
 
@@ -58,11 +57,9 @@
       %li
         = partial 'schedule_row', locals: {slot: '16:00', cells: [[{sessions: 'S49'}, {sessions: 'S79'}], [{sessions: 'S17'}, {sessions: 'S85'}]]}
       %li
-        - # TODO Add "Lightning Talks"
-        = partial 'schedule_row', locals: {slot: '17:00', cells: [[], []]}
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{events: 'lt'}], []]}
       %li
-        - # TODO Add "Ruby Committers vs. the World"
-        = partial 'schedule_row', locals: {slot: '18:00', cells: [[], []]}
+        = partial 'schedule_row', locals: {slot: '18:00', cells: [[{events: 'committers'}], []]}
 
     %h2 Day 3 - June 1
 
