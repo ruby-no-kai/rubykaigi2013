@@ -6,15 +6,21 @@
 
       %ul
         = hall
-        - cells[index].each do |id|
+        - cells[index].each do |hash|
+          - type, id = hash.first
+
           %li
-            - if id.to_s =~ /^S\d{2}$/
+            - if type == :sessions
               - session = data.sessions[id.to_s]
               = link_to "'#{session.title}'", "/2013/session/#{id}"
               \-
               = session.speakers.map(&:name).join(', ')
-            - else
+
+            - elsif type == :events
               - event = data.events[id.to_s]
               = event.title
               \-
               = event.organizer.map(&:name).join(', ')
+
+            - else
+              (missing id: #{type}:#{id})
