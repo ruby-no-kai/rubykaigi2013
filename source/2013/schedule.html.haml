@@ -2,108 +2,103 @@
   %h1
     schedule
   %div
-    - if data.sessions.empty?
-      %p.comingSoon
-        Coming soon...
+    %h2 Day 1 - May 30
 
-    - else
-      %h2 Day 1 - May 30
+    %ol
+      %li
+        = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
+      %li
 
-      %ol
-        %li
-          = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
-        %li
+      %li
+        - # TODO Add Opening
+        - # TODO Add "The History of Ruby;20th Anniversary Ed."
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [[], []]}
+      %li
+        - # TODO Add Keynote
+        = partial 'schedule_row', locals: {slot: '11:00', cells: [[], []]}
+      %li
 
-        %li
-          - # TODO Add Opening
-          - # TODO Add "The History of Ruby;20th Anniversary Ed."
-          = partial 'schedule_row', locals: {slot: '10:00', cells: [[], []]}
-        %li
-          - # TODO Add Keynote
-          = partial 'schedule_row', locals: {slot: '11:00', cells: [[], []]}
-        %li
+      %li
+        = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
+      %li
 
-        %li
-          = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
-        %li
+      %li
+        = partial 'schedule_row', locals: {slot: '13:30', cells: [['S05', 'S22'], ['S93', 'S69']]}
+      %li
+        - # TODO Add "Ruby Association / Ruby-no-Kai"
+        - # TODO Add "The Documentary of _why"
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S23', 'S39'], []]}
+      %li
 
-        %li
-          = partial 'schedule_row', locals: {slot: '13:30', cells: [['S05', 'S22'], ['S93', 'S69']]}
-        %li
-          - # TODO Add "Ruby Association / Ruby-no-Kai"
-          - # TODO Add "The Documentary of _why"
-          = partial 'schedule_row', locals: {slot: '14:30', cells: [['S23', 'S39'], []]}
-        %li
+      %li
+        = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
+      %li
 
-        %li
-          = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
-        %li
+      %li
+        = partial 'schedule_row', locals: {slot: '16:00', cells: [['S73'], ['S64', 'S55']]}
+      %li
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [['S54', 'S58'], ['S59', 'S27']]}
+      %li
+        = partial 'schedule_row', locals: {slot: '18:00', cells: [[], []]}
 
-        %li
-          = partial 'schedule_row', locals: {slot: '16:00', cells: [['S73'], ['S64', 'S55']]}
-        %li
-          = partial 'schedule_row', locals: {slot: '17:00', cells: [['S54', 'S58'], ['S59', 'S27']]}
-        %li
-          = partial 'schedule_row', locals: {slot: '18:00', cells: [[], []]}
+    %h2 Day 2 - May 31
 
-      %h2 Day 2 - May 31
+    %ol
+      %li
+        = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
-      %ol
-        %li
-          = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
+      %li
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [['S76', 'S72'], ['S29', 'S41']]}
+      %li
+        - # TODO Add @xiao
+        = partial 'schedule_row', locals: {slot: '11:00', cells: [['S43', 'S84'], ['S01']]}
 
-        %li
-          = partial 'schedule_row', locals: {slot: '10:00', cells: [['S76', 'S72'], ['S29', 'S41']]}
-        %li
-          - # TODO Add @xiao
-          = partial 'schedule_row', locals: {slot: '11:00', cells: [['S43', 'S84'], ['S01']]}
+      %li
+        = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
-        %li
-          = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
+      %li
+        - # TODO Add Keynote
+        = partial 'schedule_row', locals: {slot: '13:30', cells: [[], []]}
+      %li
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S61', 'S32'], ['S66', 'S67']]}
 
-        %li
-          - # TODO Add Keynote
-          = partial 'schedule_row', locals: {slot: '13:30', cells: [[], []]}
-        %li
-          = partial 'schedule_row', locals: {slot: '14:30', cells: [['S61', 'S32'], ['S66', 'S67']]}
+      %li
+        = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
-        %li
-          = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
+      %li
+        = partial 'schedule_row', locals: {slot: '16:00', cells: [['S49', 'S79'], ['S17', 'S85']]}
+      %li
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [[], []]}
 
-        %li
-          = partial 'schedule_row', locals: {slot: '16:00', cells: [['S49', 'S79'], ['S17', 'S85']]}
-        %li
-          = partial 'schedule_row', locals: {slot: '17:00', cells: [[], []]}
+    %h2 Day 3 - June 1
 
-      %h2 Day 3 - June 1
+    %ol
+      %li
+        = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
-      %ol
-        %li
-          = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
+      %li
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [['S30', 'S21'], ['S26']]}
+      %li
+        = partial 'schedule_row', locals: {slot: '11:00', cells: [['S06', 'S34'], ['S78', 'S24']]}
 
-        %li
-          = partial 'schedule_row', locals: {slot: '10:00', cells: [['S30', 'S21'], ['S26']]}
-        %li
-          = partial 'schedule_row', locals: {slot: '11:00', cells: [['S06', 'S34'], ['S78', 'S24']]}
+      %li
+        = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
-        %li
-          = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
+      %li
+        = partial 'schedule_row', locals: {slot: '13:30', cells: [['S94', 'S50'], ['S91', 'S42']]}
+      %li
+        - # TODO Add "TRICK"
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [['S70', 'S48'], []]}
 
-        %li
-          = partial 'schedule_row', locals: {slot: '13:30', cells: [['S94', 'S50'], ['S91', 'S42']]}
-        %li
-          - # TODO Add "TRICK"
-          = partial 'schedule_row', locals: {slot: '14:30', cells: [['S70', 'S48'], []]}
+      %li
+        = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
-        %li
-          = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
+      %li
+        - # TODO Add @shyouhei
+        = partial 'schedule_row', locals: {slot: '16:00', cells: [['S19'], ['S68', 'S09']]}
+      %li
+        - # TODO Add Keynote
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [[], []]}
 
-        %li
-          - # TODO Add @shyouhei
-          = partial 'schedule_row', locals: {slot: '16:00', cells: [['S19'], ['S68', 'S09']]}
-        %li
-          - # TODO Add Keynote
-          = partial 'schedule_row', locals: {slot: '17:00', cells: [[], []]}
-
-        %li
-          = partial 'schedule_row_break', locals: {slot: '18:00', text: 'CLOSING'}
+      %li
+        = partial 'schedule_row_break', locals: {slot: '18:00', text: 'CLOSING'}
