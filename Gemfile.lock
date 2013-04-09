@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/middleman/middleman.git
-  revision: 92954a7c9594b95d7b38c7ba41dc77f02abdd4ca
+  revision: fe6a18fbe6f206f0cc8476e326c55d0028b4ef17
   specs:
     middleman (3.1.0.alpha.1)
       middleman-core (= 3.1.0.alpha.1)
@@ -21,7 +21,7 @@ GIT
       execjs (~> 1.4.0)
       haml (>= 3.1.6)
       i18n (~> 0.6.4)
-      maruku (~> 0.6.0)
+      kramdown (~> 1.0.0)
       middleman-core (= 3.1.0.alpha.1)
       padrino-helpers (= 0.10.7)
       sass (>= 3.1.20)
@@ -40,7 +40,7 @@ GEM
     activesupport (3.2.12)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    chunky_png (1.2.7)
+    chunky_png (1.2.8)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
@@ -55,16 +55,15 @@ GEM
       multi_json (~> 1.0)
     ffi (1.6.0)
     fssm (0.2.10)
-    haml (4.0.1)
+    haml (4.0.2)
       tilt
-    hike (1.2.1)
+    hike (1.2.2)
     http_router (0.10.2)
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
     i18n (0.6.4)
+    kramdown (1.0.1)
     listen (0.7.3)
-    maruku (0.6.1)
-      syntax (>= 1.0.0)
     middleman-sprockets (3.0.10)
       middleman-more (>= 3.0.11)
       sprockets (~> 2.1, < 2.5)
@@ -100,7 +99,6 @@ GEM
     sprockets-sass (0.9.1)
       sprockets (~> 2.0)
       tilt (~> 1.1)
-    syntax (1.0.0)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
