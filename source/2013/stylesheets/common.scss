@@ -110,22 +110,6 @@ ol {
   padding: 20px;
 }
 
-dl {
-  margin-top: 10px;
-  dt {
-    white-space: nowrap;
-    float: left;
-    display: block;
-    clear: both;
-    width: 12em;
-  }
-  dd {
-    margin: 0;
-    float: left;
-    display: block;
-  }
-}
-
 strong {
   font-weight: 700;
 }
@@ -564,6 +548,26 @@ footer {
   height: 600px;
   img {
     max-width: none;
+  }
+}
+
+/*--- goodies ----------------------------------------------*/
+
+#badges {
+  dl {
+    margin-top: 10px;
+    dt {
+      white-space: nowrap;
+      float: left;
+      display: block;
+      clear: both;
+      width: 12em;
+    }
+    dd {
+      margin: 0;
+      float: left;
+      display: block;
+    }
   }
 }
 
