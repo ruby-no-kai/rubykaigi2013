@@ -153,6 +153,7 @@ th {
 .btn {
   display: inline-block;
   a {
+    @include box-sizing(content-box);
     display: block;
     border-radius: 4px;
     height: 1.5em;
@@ -500,6 +501,62 @@ footer {
   }
 }
 
+/*--- schedule ----------------------------------------------*/
+
+.scheduleList {
+  margin: 0;
+  & > li {
+    @include outer-container;
+    width: 100%;
+    list-style: none;
+    background: $white;
+    border-radius: 4px;
+    padding: 0;
+    margin-bottom: 10px;
+    h3 {
+      @include span-columns(2);
+      display: inline-block;
+      color: $brightRed;
+    }
+    h4 {
+      height: 1.5em;
+      line-height: 1.5em;
+      width: 1.5em;
+      border-radius: 4px;
+      text-align: center;
+      display: inline-block;
+    }
+    & > ul {
+      @include span-columns(5);
+      display: inline-block;
+    }
+    & > ul:nth-child(2) h4 {
+      background: $brightRed;
+    }
+    & > ul:nth-child(3) h4 {
+      background: $softPurple;
+    }
+    & > * {
+      margin: 0;
+      padding: 10px;
+      @include box-sizing(padding-box);
+    }
+  }
+  .break {
+    background: lighten($brightRed, 27%);
+    p {
+      font-weight: bold;
+      color: $brightRed;
+      text-transform: uppercase;
+    }
+  }
+  .event,
+  .keynote,
+  .sessionTitle {
+    font-weight: bold;
+  }
+}
+
 /*--- for attendees ----------------------------------------------*/
 
 #map_canvas {
@@ -515,6 +572,7 @@ footer {
 #sponsors {
   #specialSponsor {
     h2 {
+      @include box-sizing(content-box);
       display: inline-block;
       color: $white;
       height: 1em;

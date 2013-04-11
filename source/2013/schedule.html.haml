@@ -1,11 +1,10 @@
 %article#content
   %h1
     schedule
+  %h2 May 30
   %div
-    %h2 Day 1 - May 30
-
-    %ol
-      %li
+    %ol.scheduleList
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
@@ -13,7 +12,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '11:00', cells: [[{keynotes: 'matz'}], []]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
       %li
@@ -21,7 +20,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '14:30', cells: [[{sessions: 'S23'}, {sessions: 'S39'}], [{events: 'legal-bodies-about-ruby'}, {events: '_why'}]]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
       %li
@@ -31,10 +30,10 @@
       %li
         = partial 'schedule_row', locals: {slot: '18:00', cells: [[{events: 'kaja'}], []]}
 
-    %h2 Day 2 - May 31
-
-    %ol
-      %li
+  %h2 May 31
+  %div
+    %ol.scheduleList
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
@@ -43,7 +42,7 @@
         - # TODO Add @xiao
         = partial 'schedule_row', locals: {slot: '11:00', cells: [[{sessions: 'S43'}, {sessions: 'S84'}], [{sessions: 'S01'}]]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
       %li
@@ -51,7 +50,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '14:30', cells: [[{sessions: 'S61'}, {sessions: 'S32'}], [{sessions: 'S66'}, {sessions: 'S67'}]]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
       %li
@@ -61,10 +60,10 @@
       %li
         = partial 'schedule_row', locals: {slot: '18:00', cells: [[{events: 'committers'}], []]}
 
-    %h2 Day 3 - June 1
-
-    %ol
-      %li
+  %h2 June 1
+  %div
+    %ol.scheduleList
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
@@ -72,7 +71,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '11:00', cells: [[{sessions: 'S06'}, {sessions: 'S34'}], [{sessions: 'S78'}, {sessions: 'S24'}]]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
       %li
@@ -80,7 +79,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '14:30', cells: [[{sessions: 'S70'}, {sessions: 'S48'}], [{events: 'TRICK'}]]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
       %li
@@ -89,5 +88,5 @@
       %li
         = partial 'schedule_row', locals: {slot: '17:00', cells: [[{keynotes: 'akr'}], []]}
 
-      %li
+      %li.break
         = partial 'schedule_row_break', locals: {slot: '18:00', text: 'CLOSING'}
