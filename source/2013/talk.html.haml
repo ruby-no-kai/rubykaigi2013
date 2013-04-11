@@ -10,12 +10,14 @@
         %span.name
           #{speaker.name}
           - if github = speaker.links.github
-            = link_to "(@#{github})", "https://github.com/#{github}"
+            \/
+            - github.split(%r{,\s*}).each do |gh|
+              = link_to "@#{gh}", "https://github.com/#{gh}", target: '_blank'
 
         %span.links
           - if speaker.links.github
             %span.btn
-              %a{ href: "https://github.com/#{speaker.links.github}", target: '_blank' }
+              %a{ href: "https://github.com/#{speaker.links.github.partition(',').shift}", target: '_blank' }
                 %i.icon-github-alt
           - else
             %span.btnDisabled
@@ -24,7 +26,7 @@
 
           - if speaker.links.twitter
             %span.btn
-              %a{ href: "https://twitter.com/#{speaker.links.twitter}", target: '_blank' }
+              %a{ href: "https://twitter.com/#{speaker.links.twitter.partition(',').shift}", target: '_blank' }
                 %i.icon-twitter
           - else
             %span.btnDisabled
