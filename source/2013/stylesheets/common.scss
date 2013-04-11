@@ -240,6 +240,9 @@ ul.listMarkWhite {
   section {
     @include clearfix;
     margin-bottom: 20px;
+  }
+  section,
+  & > div {
     h1,
     h2 {
       color: $brightRed;
@@ -264,8 +267,9 @@ ul.listMarkWhite {
     text-transform: uppercase;
     font-size: $defaultFontSize + 10;
   }
-  h2 {
+  & > h2 {
     @extend .contentBg;
+    background: $softPurple;
     padding: 20px;
     font-size: $defaultFontSize + 6;
   }
@@ -326,13 +330,6 @@ footer {
   clear: both;
 }
 
-#content {
-  h2 {
-    background: $softPurple;
-  }
-}
-
-
 .name {
   font-size: $defaultFontSize + 4;
   color: $brightRed;
@@ -359,6 +356,10 @@ footer {
       width: 1.5em;
     }
   }
+}
+
+.backTo {
+  text-align: right;
 }
 
 /*--- home ----------------------------------------------*/
@@ -538,6 +539,58 @@ footer {
   .keynote,
   .sessionTitle {
     font-weight: bold;
+  }
+}
+
+/*--- talks ----------------------------------------------*/
+
+#detail {
+  h2,
+  h3 {
+    border-radius: 7px;
+    background: $white;
+  }
+  h2 {
+    padding: 20px 10px;
+  }
+  h3 {
+    padding: 10px;
+    margin: 40px 0 20px 0;
+    @include outer-container;
+    .name {
+      @include span-columns(9);
+      font-weight: bold;
+      margin: 5px 0;
+      height: 1.5em;
+      line-height: 1.5em;
+    }
+    .links {
+      @include span-columns(3);
+      text-align: right;
+    }
+  }
+  .speakerProfile {
+    display: table;
+    width: 100%;
+    .avatar {
+      vertical-align: top;
+      display: table-cell;
+      img {
+        margin: 0 10px 0 0;
+      }
+    }
+    dl {
+      display: table-cell;
+      width: 100%;
+    }
+    dt {
+      color: $brightRed;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    dd {
+      margin-bottom: 10px;
+    }
   }
 }
 
