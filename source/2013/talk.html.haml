@@ -1,11 +1,11 @@
-- session = data.sessions[id]
+- talk = data.talks[id]
 %article#content
   %h1 Detail
   %div#detail
-    %h2= session.title
-    %div= session.description
+    %h2= talk.title
+    %div= talk.description
 
-    - session.speakers.each do |speaker|
+    - talk.speakers.each do |speaker|
       %h3
         %span.name
           #{speaker.name}

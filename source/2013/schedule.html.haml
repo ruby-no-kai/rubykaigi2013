@@ -16,17 +16,17 @@
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '13:30', cells: [[{sessions: 'S05'}, {sessions: 'S22'}], [{sessions: 'S93'}, {sessions: 'S69'}]]}
+        = partial 'schedule_row', locals: {slot: '13:30', cells: [[{talks: 'S05'}, {talks: 'S22'}], [{talks: 'S93'}, {talks: 'S69'}]]}
       %li
-        = partial 'schedule_row', locals: {slot: '14:30', cells: [[{sessions: 'S23'}, {sessions: 'S39'}], [{events: 'legal-bodies-about-ruby'}, {events: '_why'}]]}
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [[{talks: 'S23'}, {talks: 'S39'}], [{events: 'legal-bodies-about-ruby'}, {events: '_why'}]]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '16:00', cells: [[{sessions: 'S73'}], [{sessions: 'S64'}, {sessions: 'S55'}]]}
+        = partial 'schedule_row', locals: {slot: '16:00', cells: [[{talks: 'S73'}], [{talks: 'S64'}, {talks: 'S55'}]]}
       %li
-        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{sessions: 'S54'}, {sessions: 'S58'}], [{sessions: 'S59'}, {sessions: 'S27'}]]}
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{talks: 'S54'}, {talks: 'S58'}], [{talks: 'S59'}, {talks: 'S27'}]]}
       %li
         = partial 'schedule_row', locals: {slot: '18:00', cells: [[{events: 'kaja'}], []]}
 
@@ -37,10 +37,10 @@
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '10:00', cells: [[{sessions: 'S76'}, {sessions: 'S72'}], [{sessions: 'S29'}, {sessions: 'S41'}]]}
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [[{talks: 'S76'}, {talks: 'S72'}], [{talks: 'S29'}, {talks: 'S41'}]]}
       %li
         - # TODO Add @xiao
-        = partial 'schedule_row', locals: {slot: '11:00', cells: [[{sessions: 'S43'}, {sessions: 'S84'}], [{sessions: 'S01'}]]}
+        = partial 'schedule_row', locals: {slot: '11:00', cells: [[{talks: 'S43'}, {talks: 'S84'}], [{talks: 'S01'}]]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
@@ -48,13 +48,13 @@
       %li
         = partial 'schedule_row', locals: {slot: '13:30', cells: [[{keynotes: 'josevalim'}], []]}
       %li
-        = partial 'schedule_row', locals: {slot: '14:30', cells: [[{sessions: 'S61'}, {sessions: 'S32'}], [{sessions: 'S66'}, {sessions: 'S67'}]]}
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [[{talks: 'S61'}, {talks: 'S32'}], [{talks: 'S66'}, {talks: 'S67'}]]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '16:00', cells: [[{sessions: 'S49'}, {sessions: 'S79'}], [{sessions: 'S17'}, {sessions: 'S85'}]]}
+        = partial 'schedule_row', locals: {slot: '16:00', cells: [[{talks: 'S49'}, {talks: 'S79'}], [{talks: 'S17'}, {talks: 'S85'}]]}
       %li
         = partial 'schedule_row', locals: {slot: '17:00', cells: [[{events: 'lt'}], []]}
       %li
@@ -67,24 +67,24 @@
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '10:00', cells: [[{sessions: 'S30'}, {sessions: 'S21'}], [{sessions: 'S26'}]]}
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [[{talks: 'S30'}, {talks: 'S21'}], [{talks: 'S26'}]]}
       %li
-        = partial 'schedule_row', locals: {slot: '11:00', cells: [[{sessions: 'S06'}, {sessions: 'S34'}], [{sessions: 'S78'}, {sessions: 'S24'}]]}
+        = partial 'schedule_row', locals: {slot: '11:00', cells: [[{talks: 'S06'}, {talks: 'S34'}], [{talks: 'S78'}, {talks: 'S24'}]]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '13:30', cells: [[{sessions: 'S94'}, {sessions: 'S50'}], [{sessions: 'S91'}, {sessions: 'S42'}]]}
+        = partial 'schedule_row', locals: {slot: '13:30', cells: [[{talks: 'S94'}, {talks: 'S50'}], [{talks: 'S91'}, {talks: 'S42'}]]}
       %li
-        = partial 'schedule_row', locals: {slot: '14:30', cells: [[{sessions: 'S70'}, {sessions: 'S48'}], [{events: 'TRICK'}]]}
+        = partial 'schedule_row', locals: {slot: '14:30', cells: [[{talks: 'S70'}, {talks: 'S48'}], [{events: 'TRICK'}]]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '15:30', text: 'COFFEE BREAK'}
 
       %li
         - # TODO Add @shyouhei
-        = partial 'schedule_row', locals: {slot: '16:00', cells: [[{sessions: 'S19'}], [{sessions: 'S68'}, {sessions: 'S09'}]]}
+        = partial 'schedule_row', locals: {slot: '16:00', cells: [[{talks: 'S19'}], [{talks: 'S68'}, {talks: 'S09'}]]}
       %li
         = partial 'schedule_row', locals: {slot: '17:00', cells: [[{keynotes: 'akr'}], []]}
 

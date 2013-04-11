@@ -8,11 +8,11 @@
       - type, id = hash.first
 
       %li
-        - if type == :sessions
-          - session = data.sessions[id.to_s]
-          = link_to "'#{session.title}'", "/2013/session/#{id}", class: 'sessionTitle'
+        - if type == :talks
+          - talk = data.talks[id.to_s]
+          = link_to "'#{talk.title}'", "/2013/talk/#{id}", class: 'talkTitle'
           \-
-          = session.speakers.map(&:name).join(', ')
+          = talk.speakers.map(&:name).join(', ')
 
         - elsif type == :events
           - event = data.events[id.to_s]

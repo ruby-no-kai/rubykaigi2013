@@ -10,10 +10,10 @@ configure :build do
   activate :asset_hash, ignore: [%r{^2013/images/(?:banner|badge)}]
 end
 
-data.sessions.keys.each do |id|
-  proxy "/2013/session/#{id}.html", '/2013/session.html', locals: {id: id}
+data.talks.keys.each do |id|
+  proxy "/2013/talk/#{id}.html", '/2013/talk.html', locals: {id: id}
 end
-ignore '/2013/session.html'
+ignore '/2013/talk.html'
 
 helpers do
   def sponsor_weight_to_size(weight)
@@ -27,7 +27,7 @@ helpers do
   end
 
   def schedule_cell(id)
-    partial 'schedule_cell', locals: {id: id, session: data.sessions[id.to_s]}
+    partial 'schedule_cell', locals: {id: id, talk: data.talks[id.to_s]}
   end
 
   def gravatar_tag(id, size, options = {})
