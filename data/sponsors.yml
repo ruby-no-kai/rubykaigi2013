@@ -109,6 +109,13 @@ gold_sponsors:
     description: |-
       Akatsuki Inc. is a social gaming company that provides its engineers with a work-life balanced environment that encourages personal growth.
 
+  - id: Gold08
+    name: HeartRails
+    link: 'http://heartrails.com/'
+    weight: 2
+    description: |-
+      HeartRails Inc. is the "Web Service Company" that offers a wide variety of web services to help your business.
+
 silver_sponsors:
   - id: Silver01
     name: ClearCode Inc.
