@@ -116,6 +116,13 @@ gold_sponsors:
     description: |-
       HeartRails Inc. is the "Web Service Company" that offers a wide variety of web services to help your business.
 
+  - id: Gold09
+    name: PIXTA
+    link: 'http://pixta.jp'
+    weight: 2
+    description: |-
+      PIXTA is the Japanese leading online marketplace for royalty-free stock photos,illustrations,footage. We've been using Rails since 2011.
+
 silver_sponsors:
   - id: Silver01
     name: ClearCode Inc.
