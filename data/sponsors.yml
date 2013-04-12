@@ -165,3 +165,10 @@ silver_sponsors:
     weight: 1
     description: |-
       Rakuten, Inc. is one of largest Internet service companies in Japan.
+
+  - id: Silver09
+    name: Cuon.Inc
+    link: 'http://www.cuon.co.jp/'
+    weight: 1
+    description: |-
+      People make their way in life by following their hearts.
