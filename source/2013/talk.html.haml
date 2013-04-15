@@ -38,11 +38,11 @@
           = gravatar_tag(speaker.gravatar, 200, alt: speaker.name)
         %dl
           %dt Company / Job Title
-          %dd= speaker.job ? speaker.job : '-'
+          %dd= speaker.job.presence || '-'
           %dt Bio
-          %dd= speaker.bio ? speaker.bio : '-'
+          %dd= speaker.bio.presence || '-'
           %dt Location
-          %dd= speaker.location ? speaker.location : '-'
+          %dd= speaker.location.presence || '-'
       %p.backTo
         %i.icon-arrow-right
         = link_to 'Back to SCHEDULE', '/2013/schedule/'
