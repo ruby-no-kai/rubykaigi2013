@@ -6,6 +6,7 @@ gem 'middleman', github: 'middleman/middleman' # To use 3.1.0
 
 group :development do
   gem 'rb-inotify'
+  gem 'rb-fsevent', '~> 0.9'
 end
 
 group :production do
