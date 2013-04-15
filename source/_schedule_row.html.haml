@@ -10,7 +10,9 @@
       %li
         - if type == :talks
           - talk = data.talks[id.to_s]
-          = link_to "'#{talk.title}'", "/2013/talk/#{id}", class: 'talkTitle'
+          - if talk.keynote
+            %span.keynote Keynote
+          = link_to_if talk.title, "'#{talk.title}'", "/2013/talk/#{id}", class: 'talkTitle'
           \-
           = talk.speakers.map(&:name).join(', ')
 
@@ -20,12 +22,6 @@
           - if event.organizer.present?
             \-
             = event.organizer.map(&:name).join(', ')
-
-        - elsif type == :keynotes
-          - keynote = data.keynotes[id.to_s]
-          %span.keynote Keynote
-          \-
-          = keynote.speaker.name
 
         - else
           (missing id: #{type}:#{id})

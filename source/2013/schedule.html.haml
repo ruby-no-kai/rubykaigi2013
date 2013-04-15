@@ -10,7 +10,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '10:00', cells: [[{events: 'opening'}, {events: '20th'}], []]}
       %li
-        = partial 'schedule_row', locals: {slot: '11:00', cells: [[{keynotes: 'matz'}], []]}
+        = partial 'schedule_row', locals: {slot: '11:00', cells: [[{talks: 'matz'}], []]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
@@ -46,7 +46,7 @@
         = partial 'schedule_row_break', locals: {slot: '12:30', text: 'LUNCH BREAK'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '13:30', cells: [[{keynotes: 'josevalim'}], []]}
+        = partial 'schedule_row', locals: {slot: '13:30', cells: [[{talks: 'josevalim'}], []]}
       %li
         = partial 'schedule_row', locals: {slot: '14:30', cells: [[{talks: 'T61'}, {talks: 'T32'}], [{talks: 'T66'}, {talks: 'T67'}]]}
 
@@ -86,7 +86,7 @@
         - # TODO Add @shyouhei
         = partial 'schedule_row', locals: {slot: '16:00', cells: [[{talks: 'T19'}], [{talks: 'T68'}, {talks: 'T09'}]]}
       %li
-        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{keynotes: 'akr'}], []]}
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{talks: 'akr'}], []]}
 
       %li.break
         = partial 'schedule_row_break', locals: {slot: '18:00', text: 'CLOSING'}
