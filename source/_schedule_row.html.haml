@@ -8,7 +8,8 @@
       - type, id = hash.first
 
       %li
-        - if type == :talks
+        - case type
+        - when :talks
           - talk = data.talks[id.to_s]
           - if talk.keynote
             %span.keynote Keynote
@@ -16,12 +17,15 @@
           \-
           = talk.speakers.map(&:name).join(', ')
 
-        - elsif type == :events
+        - when :events
           - event = data.events[id.to_s]
           %span.event= event.title
           - if event.organizer.present?
             \-
             = event.organizer.map(&:name).join(', ')
+
+        - when :text
+          = id
 
         - else
           (missing id: #{type}:#{id})
