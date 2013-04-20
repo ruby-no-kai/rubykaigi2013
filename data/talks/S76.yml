@@ -11,6 +11,7 @@ description: |-
   In this presentation, I'll introduce ways to make websites fast using Rails based on our experiences.
   And I'll talk about how engineers who are responsible for site's performance should work in their company.
 
+description_ja: |-
   なぜウェブサイトは日に日に遅くなってしまうのでしょうか。
   なぜ Ruby on Rails は遅いと言われてしまうのでしょうか。
   本プレゼンテーションではこれらの問題に立ち向かいます。

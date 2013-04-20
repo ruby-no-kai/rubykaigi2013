@@ -1,6 +1,8 @@
 ---
 title: Rails Gems realize RESTful modeling patterns
-description: |
+description:
+  TBA
+description_ja: |
   Rails Gemで実現するRESTfulモデリングパターン
 
   DeviseやKaminariのような定番のRails Gemには、実はRESTfulなリソースモデリングパターンが隠れています。

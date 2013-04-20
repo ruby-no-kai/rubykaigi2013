@@ -1,12 +1,11 @@
 ---
 title: The gleaning of 2.0.0 features.
 description: |-
-  (English)
   There's bunch of novel features released with Ruby 2.0.0.
   Major features - keyword argument, Module#prepend, Enumerator::Lazy, DTrace, refinement, default script encoding, String#b etc.. - may be explained  other committers or Rubyist.
   In this talk, I'll introduce minor features and changes introduced quietly with Ruby 2.0.0. These trivia make you more well-trained Rubyists.
 
-  (日本語)
+description_ja: |-
   先日リリースされた Ruby 2.0.0 にはたくさんの新機能があります。特に大きな新機能 (キーワード引数、Module#prepend、Enumerator::Lazy、DTrace、refinement、デフォルトスクリプトエンコーディングの UTF-8化と String#b の導入など)については、コミッタやその他のRubyistの皆さんが紹介してくれることと思います。
   この発表では、ひっそりと導入されてあまり紹介もされないであろうマイナーな新機能や変更点を紹介します。「こんなマイナーな機能まで知ってるんだぜ」と他のRubyistに一歩差をつける、そんなトリビアをご提供します。
 spoken_language: Japanese

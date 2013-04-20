@@ -1,6 +1,8 @@
 ---
 title: Continuous gem dependency updating with Jenkins and Pull Request
 description: |
+  TBA
+description_ja: |
   このトークでは Jenkins と GitHub の Pull Request を活用し、ライブラリのアップデート作業を省力化する方法について解説します。
 
   昨今の Ruby によるウェブアプリケーション開発ではライブラリの管理に Bundler が利用されます。
