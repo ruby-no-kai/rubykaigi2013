@@ -11,7 +11,7 @@ configure :build do
 end
 
 data.talks.keys.each do |id|
-  proxy "/2013/talk/#{id}.html", '/2013/talk.html', locals: {id: id} if data.talks[id].title
+  proxy "/2013/talk/#{id}.html", '/2013/talk.html', locals: {id: id} if data.talks[id].title && data.talks[id].description
 end
 ignore '/2013/talk.html'
 
