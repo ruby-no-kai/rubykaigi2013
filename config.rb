@@ -32,7 +32,7 @@ helpers do
 
   def gravatar_tag(id, size, options = {})
     default_image = CGI.escape('http://rubykaigi.org/2013/commonNoImage.png')
-    image_tag("http://www.gravatar.com/avatar/#{id}?s=#{size}&d=#{default_image}", {width: size, height: size}.merge(options))
+    image_tag("http://www.gravatar.com/avatar/#{id}?s=#{size}&d=#{default_image}", options)
   end
 
   def link_to_if(condition, text, href, options = {})
