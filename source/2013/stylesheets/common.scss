@@ -488,6 +488,36 @@ footer {
 
 /*--- schedule ----------------------------------------------*/
 
+.hall {
+  height: 1.5em;
+  line-height: 1.5em;
+  width: 1.5em;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  color: $white;
+  font-weight: bold;
+}
+
+.legend {
+  text-align: right;
+  dt, dd {
+    display: inline-block;
+  }
+  dt {
+    margin-left: 30px;
+  }
+  dd {
+    margin-left: 5px;
+  }
+  & > dt:nth-child(1) {
+    background: $brightRed;
+  }
+  & > dt:nth-child(3) {
+    background: $softPurple;
+  }
+}
+
 .scheduleList {
   margin: 0;
   & > li {
@@ -504,12 +534,7 @@ footer {
       color: $brightRed;
     }
     h4 {
-      height: 1.5em;
-      line-height: 1.5em;
-      width: 1.5em;
-      border-radius: 4px;
-      text-align: center;
-      display: inline-block;
+      @extend .hall
     }
     & > ul {
       @include span-columns(5);
