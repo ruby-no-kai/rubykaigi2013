@@ -11,22 +11,21 @@
           #{speaker.name}
           - if github = speaker.links.github
             \/
-            - github.split(%r{,\s*}).each do |gh|
-              = link_to "@#{gh}", "https://github.com/#{gh}", target: '_blank'
+            = link_to "@#{github}", "https://github.com/#{github}", target: '_blank'
 
         %span.links
-          - if speaker.links.github
+          - if github
             %span.btn
-              %a{ href: "https://github.com/#{speaker.links.github.partition(',').shift}", target: '_blank' }
+              %a{ href: "https://github.com/#{github}", target: '_blank' }
                 %i.icon-github-alt
           - else
             %span.btnDisabled
               %a
                 %i.icon-github-alt
 
-          - if speaker.links.twitter
+          - if twitter = speaker.links.twitter
             %span.btn
-              %a{ href: "https://twitter.com/#{speaker.links.twitter.partition(',').shift}", target: '_blank' }
+              %a{ href: "https://twitter.com/#{twitter}", target: '_blank' }
                 %i.icon-twitter
           - else
             %span.btnDisabled
@@ -43,6 +42,6 @@
           %dd= speaker.bio.presence || '-'
           %dt Location
           %dd= speaker.location.presence || '-'
-      %p.backTo
-        %i.icon-arrow-right
-        = link_to 'Back to SCHEDULE', '/2013/schedule/'
+    %p.backTo
+      %i.icon-arrow-right
+      = link_to 'Back to SCHEDULE', '/2013/schedule/'
