@@ -3,6 +3,7 @@ activate :directory_indexes
 set :css_dir,    '2013/stylesheets'
 set :js_dir,     '2013/javascripts'
 set :images_dir, '2013/images'
+set :markdown,   hard_wrap: true
 
 configure :build do
   activate :minify_css

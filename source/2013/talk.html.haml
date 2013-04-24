@@ -3,7 +3,10 @@
   %h1 Detail
   %div#detail
     %h2= talk.title
-    %div= talk.description
+
+    %div
+      :markdown
+        #{talk.description}
 
     - talk.speakers.each do |speaker|
       %h3
@@ -39,7 +42,9 @@
           %dt Company
           %dd= speaker.company.presence || '-'
           %dt Bio
-          %dd= speaker.bio.presence || '-'
+          %dd
+            :markdown
+              #{speaker.bio.presence || '-'}
           %dt Location
           %dd= speaker.location.presence || '-'
     %p.backTo
