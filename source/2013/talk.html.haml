@@ -37,7 +37,7 @@
           = gravatar_tag(speaker.gravatar, 200, alt: speaker.name)
         %dl
           %dt Company / Job Title
-          %dd= speaker.job.presence || '-'
+          %dd= speaker.company.presence || '-'
           %dt Bio
           %dd= speaker.bio.presence || '-'
           %dt Location
