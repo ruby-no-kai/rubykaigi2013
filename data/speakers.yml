@@ -42,7 +42,9 @@ committers:
 
   - name: Usaku Nakamura
     gravatar: 8cbb39dadafaf2287a83a13ee4981ec9
-    links: {}
+    links:
+      github:  unak
+      twitter: unak
 
   - name: Aaron Patterson
     gravatar: f29327647a9cff5c69618bae420792ea
