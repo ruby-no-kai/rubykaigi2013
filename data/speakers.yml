@@ -235,12 +235,6 @@ speakers:
       github:  headius
       twitter: headius
 
-  - name: Ben Orenstein
-    gravatar: e30754b725a8b734f1a507beac3063c6
-    links:
-      github:  r00k
-      twitter: r00k
-
   - name: David Padilla
     gravatar: a59cda5de705716cbd18195a4dd68a56
     links:
@@ -252,12 +246,6 @@ speakers:
     links:
       github:  sikachu
       twitter: sikachu
-
-  - name: Thomas Reynolds
-    gravatar: 291394b477c2824bf5d75b831f125304
-    links:
-      github:  tdreyno
-      twitter: tdreyno
 
   - name: Christopher Rigor
     gravatar: a68e628e19f69fd85b062b0b1b40ff41
