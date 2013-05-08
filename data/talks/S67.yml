@@ -1,0 +1,23 @@
+---
+title: How NougakuDo connect Windows Azure and Rails Application
+description: |
+  Windows Azure is a Microsoft cloud platform not only for developers with .NET/C#, but also for developers with Ruby on Rails. Ruby on Rails Application can be hosted on Windows Azure Cloud Services (PaaS) with Nougakudo.
+  In this talk, We'll introduce
+   * What is Windows Azure Cloud Service
+   * How NougakuDo connect Windows Azure and Rails Application
+   * Case Study
+
+description_ja: |
+  Windows Azure はマイクロソフトが提供するクラウドプラットフォームです。 Windows Azure は .Net/C# の開発者のためだけのプラットフォームではなく、能楽堂(NougakuDo) を利用して Ruby on Rails のアプリケーションをホストすることができます。
+  本発表では、Windows Azure の Cloud Service とはどんなサービスかを紹介し、NougakuDo がどうやって Rails アプリケーションを起動できるようにしているのかを事例紹介を交えつつ解説します。
+spoken_language: Japanese
+speakers:
+- name: Shozo Arai
+  bio: "Working in Microsoft Japan from November 2001.\nImplemented NogakuDo Companion
+    for Windows Azure & Ruby on Rails. \n"
+  company: 
+  location: 
+  gravatar: 
+  links:
+    github: 
+    twitter: 

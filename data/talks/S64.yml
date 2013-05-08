@@ -1,0 +1,30 @@
+---
+title: 'Ruby On Robots Using Artoo: A New Platform For Robotics, Physical Computing,
+  and the Real World Web'
+description: |-
+  The robotics revolution has already begun. You can buy drones and robotic devices at local retail stores. Unfortunately, it’s hard to develop code for robots, and nearly impossible to create solutions that integrate multiple different kind of devices.
+
+  Introducing Artoo, a new robotics framework written in Ruby. Artoo can communicate with many different kinds of hardware devices, and integrate them together. With surprisingly few lines of code, you can write interesting applications that tie together Arduinos, ARDrones, Spheros, and more.
+
+  Artoo is based on Celluloid, giving it the ability to support the levels of concurrency that are required for industrial-strength robotic applications. Artoo has a built in API-server. This allows your robots to be controlled by external applications, or integrated into larger, more complex solutions.
+
+  The time has come for Ruby-based robotics, and Artoo can help lead the way!
+spoken_language: English
+speakers:
+- name: Ron Evans
+  bio: Ron is a well-known software developer and blogger who has been very active
+    in the Ruby community for the last 8 years. As ringleader of The Hybrid Group,
+    he has been helping clients solve some of their most difficult problems, both
+    technical and business related. Ron has been a very active speaker, presenting
+    at industry conferences such as RubyConf, FutureRuby, Ignite, 140 THE Twitter
+    Conference, Los Angeles Ruby Conference, Conferencia Rails, and TWTRCON. He was
+    featured in Computerworld Magazine in the article "Rock Star Coders" (January
+    22, 2008) for his popular blog post "I'd Rather Be A Jazz Programmer". He has
+    also written articles for MSNBC, BYTE Magazine, and the Direct Marketing Association,
+    as well as being an active code contributor to many open source projects.
+  company: Ringleader at The Hybrid Group
+  location: Los Angeles, CA, USA
+  gravatar: 2f6254b55c3e1693bd1e64d246cead33
+  links:
+    github: deadprogrammer
+    twitter: deadprogram

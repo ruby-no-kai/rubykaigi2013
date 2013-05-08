@@ -1,0 +1,17 @@
+---
+title: Fewer Constraints, More Concurrency.
+description: Traditional data structures like stacks and queues are strict - perhaps
+  too strict. In this talk I will showcase some classical data structures and then
+  provide alternative constraints that will allow our algorithms to achieve a greater
+  level of concurrency. Examples will include a mix of Ruby and Postgres.
+spoken_language: English
+speakers:
+- name: Ryan Smith
+  bio: I spend my days solving problems in Heroku's distributed computing environment.
+    In previous days, I studied math at the university of Missouri Kansas City.
+  company: Heroku / Ace Hacker
+  location: San Francisco, CA, USA
+  gravatar: 8964943d31146bd35d3d305ff940beca
+  links:
+    github: ryandotsmith
+    twitter: ryandotsmith

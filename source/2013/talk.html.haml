@@ -1,0 +1,52 @@
+- talk = data.talks[id]
+%article#content
+  %h1 Detail
+  %div#detail
+    %h2= talk.title
+
+    %div
+      :markdown
+        #{talk.description}
+
+    - talk.speakers.each do |speaker|
+      %h3
+        %span.name
+          #{speaker.name}
+          - if github = speaker.links.github
+            \/
+            = link_to "@#{github}", "https://github.com/#{github}", target: '_blank'
+
+        %span.links
+          - if github
+            %span.btn
+              %a{ href: "https://github.com/#{github}", target: '_blank' }
+                %i.icon-github-alt
+          - else
+            %span.btnDisabled
+              %a
+                %i.icon-github-alt
+
+          - if twitter = speaker.links.twitter
+            %span.btn
+              %a{ href: "https://twitter.com/#{twitter}", target: '_blank' }
+                %i.icon-twitter
+          - else
+            %span.btnDisabled
+              %a
+                %i.icon-twitter
+
+      %div.speakerProfile
+        %p.avatar
+          = gravatar_tag(speaker.gravatar, 200, alt: speaker.name)
+        %dl
+          %dt Company
+          %dd= speaker.company.presence || '-'
+          %dt Bio
+          %dd
+            :markdown
+              #{speaker.bio.presence || '-'}
+          %dt Location
+          %dd= speaker.location.presence || '-'
+    %p.backTo
+      %i.icon-arrow-right
+      = link_to 'Back to SCHEDULE', '/2013/schedule/'

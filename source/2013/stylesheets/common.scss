@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import 'bourbon/bourbon';
+@import 'neat/neat';
 
 /*--- color ----------------------------------------------*/
 
@@ -109,22 +110,6 @@ ol {
   padding: 20px;
 }
 
-dl {
-  margin-top: 10px;
-  dt {
-    white-space: nowrap;
-    float: left;
-    display: block;
-    clear: both;
-    width: 12em;
-  }
-  dd {
-    margin: 0;
-    float: left;
-    display: block;
-  }
-}
-
 strong {
   font-weight: 700;
 }
@@ -144,6 +129,7 @@ table tr td {
 
 th {
   background: $gray;
+  color: white;
 }
 
 /*--- id, class ----------------------------------------------*/
@@ -151,6 +137,7 @@ th {
 .btn {
   display: inline-block;
   a {
+    @include box-sizing(content-box);
     display: block;
     border-radius: 4px;
     height: 1.5em;
@@ -253,6 +240,9 @@ ul.listMarkWhite {
   section {
     @include clearfix;
     margin-bottom: 20px;
+  }
+  section,
+  & > div {
     h1,
     h2 {
       color: $brightRed;
@@ -277,8 +267,9 @@ ul.listMarkWhite {
     text-transform: uppercase;
     font-size: $defaultFontSize + 10;
   }
-  h2 {
+  & > h2 {
     @extend .contentBg;
+    background: $softPurple;
     padding: 20px;
     font-size: $defaultFontSize + 6;
   }
@@ -339,13 +330,6 @@ footer {
   clear: both;
 }
 
-#content {
-  h2 {
-    background: $softPurple;
-  }
-}
-
-
 .name {
   font-size: $defaultFontSize + 4;
   color: $brightRed;
@@ -372,6 +356,10 @@ footer {
       width: 1.5em;
     }
   }
+}
+
+.backTo {
+  text-align: right;
 }
 
 /*--- home ----------------------------------------------*/
@@ -498,6 +486,140 @@ footer {
   }
 }
 
+/*--- schedule ----------------------------------------------*/
+
+.hall {
+  height: 1.5em;
+  line-height: 1.5em;
+  width: 1.5em;
+  border-radius: 4px;
+  text-align: center;
+  display: inline-block;
+  color: $white;
+  font-weight: bold;
+}
+
+.legend {
+  text-align: right;
+  dt, dd {
+    display: inline-block;
+  }
+  dt {
+    margin-left: 30px;
+  }
+  dd {
+    margin-left: 5px;
+  }
+  & > dt:nth-child(1) {
+    background: $brightRed;
+  }
+  & > dt:nth-child(3) {
+    background: $softPurple;
+  }
+}
+
+.scheduleList {
+  margin: 0;
+  & > li {
+    @include outer-container;
+    width: 100%;
+    list-style: none;
+    background: $white;
+    border-radius: 4px;
+    padding: 0;
+    margin-bottom: 10px;
+    h3 {
+      @include span-columns(2);
+      display: inline-block;
+      color: $brightRed;
+    }
+    h4 {
+      @extend .hall
+    }
+    & > ul {
+      @include span-columns(5);
+      display: inline-block;
+    }
+    & > ul:nth-child(2) h4 {
+      background: $brightRed;
+    }
+    & > ul:nth-child(3) h4 {
+      background: $softPurple;
+    }
+    & > * {
+      margin: 0;
+      padding: 10px;
+      @include box-sizing(padding-box);
+    }
+  }
+  .break {
+    background: lighten($brightRed, 27%);
+    p {
+      font-weight: bold;
+      color: $brightRed;
+      text-transform: uppercase;
+    }
+  }
+  .event,
+  .keynote,
+  .talkTitle {
+    font-weight: bold;
+  }
+}
+
+/*--- talks ----------------------------------------------*/
+
+#detail {
+  h2,
+  h3 {
+    border-radius: 7px;
+    background: $white;
+  }
+  h2 {
+    padding: 20px 10px;
+  }
+  h3 {
+    padding: 10px;
+    margin: 40px 0 20px 0;
+    @include outer-container;
+    .name {
+      @include span-columns(9);
+      font-weight: bold;
+      margin: 5px 0;
+      height: 1.5em;
+      line-height: 1.5em;
+    }
+    .links {
+      @include span-columns(3);
+      text-align: right;
+    }
+  }
+  .speakerProfile {
+    width: 100%;
+    @include outer-container;
+    .avatar {
+      @include span-columns(3);
+      vertical-align: top;
+      display: table-cell;
+      img {
+        margin: 0 20px 0 0;
+      }
+    }
+    dl {
+      display: table-cell;
+      @include span-columns(9);
+    }
+    dt {
+      color: $brightRed;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+    dd {
+      margin-bottom: 10px;
+    }
+  }
+}
+
 /*--- for attendees ----------------------------------------------*/
 
 #map_canvas {
@@ -508,11 +630,32 @@ footer {
   }
 }
 
+/*--- goodies ----------------------------------------------*/
+
+#badges {
+  dl {
+    margin-top: 10px;
+    dt {
+      white-space: nowrap;
+      float: left;
+      display: block;
+      clear: both;
+      width: 12em;
+    }
+    dd {
+      margin: 0;
+      float: left;
+      display: block;
+    }
+  }
+}
+
 /*--- sponsors ----------------------------------------------*/
 
 #sponsors {
   #specialSponsor {
     h2 {
+      @include box-sizing(content-box);
       display: inline-block;
       color: $white;
       height: 1em;

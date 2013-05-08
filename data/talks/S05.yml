@@ -1,0 +1,21 @@
+---
+title: Identical Production, Staging and Development Environments Using Chef, AWS
+  and Vagrant
+description: |-
+  Learn how Engine Yard uses Amazon Web Services and Chef to bring up any number of servers ranging from a solo instance to a cluster of instances with multiple app instances, database instances and utility instances for memcached, resque, sphinx, and everything your app needs.
+
+  Snapshots are used to create a clone of your production environment where you can test all the changes before making them in production.
+
+  Vagrant and VirtualBox are used to provide a development environment with the same OS you use in production. Chef is used to install the same packages. In fact you use the same chef recipes everywhere.
+spoken_language: English
+speakers:
+- name: Christopher Rigor
+  bio: Christopher Rigor works at Engine Yard. He is the team lead of the Asia-Pacific
+    team that supports the Engine Yard Cloud, a platform that automates the configuration
+    of servers for different applications.
+  company: Engine Yard / Support Team Lead, Asia-Pacific
+  location: Manila, Philippines
+  gravatar: 
+  links:
+    github: crigor
+    twitter: crigor

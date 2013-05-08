@@ -42,9 +42,7 @@ committers:
 
   - name: Usaku Nakamura
     gravatar: 8cbb39dadafaf2287a83a13ee4981ec9
-    links:
-      github:  unak
-      twitter: unak
+    links: {}
 
   - name: Aaron Patterson
     gravatar: f29327647a9cff5c69618bae420792ea
@@ -249,7 +247,7 @@ speakers:
       github:  dabit
       twitter: dabit
 
-  - name: Prem Sichanugrist
+  - name: Sichanugrist, Prem
     gravatar: f1c4a3bb1606cc4a61711e61e2fe6146
     links:
       github:  sikachu

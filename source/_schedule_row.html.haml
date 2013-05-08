@@ -1,0 +1,31 @@
+%h3<>= slot
+- ['A', 'B'].each_with_index do |hall, index|
+  - next if cells[index].blank?
+
+  %ul<>
+    %h4= hall
+    - cells[index].each do |hash|
+      - type, id = hash.first
+
+      %li
+        - case type
+        - when :talks
+          - talk = data.talks[id.to_s]
+          - if talk.keynote
+            %span.keynote Keynote
+          = link_to_if talk.title && talk.description, talk.title ? "'#{talk.title}'" : '(TBA)', "/2013/talk/#{id}", class: 'talkTitle'
+          \-
+          = talk.speakers.map(&:name).join(', ')
+
+        - when :events
+          - event = data.events[id.to_s]
+          %span.event= event.title
+          - if event.organizer.present?
+            \-
+            = event.organizer.map(&:name).join(', ')
+
+        - when :text
+          = id
+
+        - else
+          (missing id: #{type}:#{id})

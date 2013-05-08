@@ -1,0 +1,17 @@
+---
+title: Toward efficient Ruby 2.1
+description: "In this presentation, I will show the ways to achieve more efficient
+  \nRuby 2.1 interpreter, the next release of CRuby/MRI. My talk will \ninclude VM/compilier
+  optimizations, memory/object management and runtime \nlibraries modification. Most
+  of techniques and implementations may be \nwork in progress.\n"
+spoken_language: Japanese
+speakers:
+- name: Koichi Sasada
+  bio: |
+    Koichi Sasada is a member of Matz's team in Heroku, Inc. He concentrates on Ruby development, especially virtual machine development for next release.
+  company: Heroku, Inc.
+  location: Tokyo, Japan
+  gravatar: 
+  links:
+    github: ko1
+    twitter: koichisasada

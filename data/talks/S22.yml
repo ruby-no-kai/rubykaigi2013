@@ -1,0 +1,32 @@
+---
+title: Inside RubyMotion
+description: This talk will describe the internals of RubyMotion, a Ruby toolchain
+  for iOS development. RubyMotion is different from CRuby in many ways and this session
+  will focus on the technical differences and explain what makes RubyMotion unique.
+spoken_language: Both English and Japanese
+speakers:
+- name: Laurent Sansonetti
+  bio: |-
+    Laurent is the founder of HipByte and lead developer of RubyMotion. He worked
+    at Apple for 7 years as a senior software engineer, on both iLife and OS X. A
+    long time rubyist, he created and still maintains the MacRuby project. In a previous
+    life, he worked on IDA Pro and was an active contributor to RubyCocoa and GNOME.
+
+  company: HipByte
+  location: Belgium
+  gravatar:
+  links:
+    github:  lrz
+    twitter: lrz
+- name: Shizuo Fujita
+  bio: |-
+    Shizuo, better known as Watson, is a software developer from Tokyo, Japan.
+    Watson joined the MacRuby project in 2010 and quickly became its most active contributor.
+    He works on the RubyMotion toolchain and is also involved in RubyMotionJP, an
+    effort to promote the project in Japan.
+  company:
+  location: Japan
+  gravatar:
+  links:
+    github:  watson1978
+    twitter: watson1978

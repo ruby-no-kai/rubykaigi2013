@@ -1,0 +1,19 @@
+---
+title: Heroku Add-ons For Fun and Profit
+description: For building today's web applications, our job is less about doing it
+  all ourself, and often more about integrating the right services. This is how engineers
+  build on Heroku, using any of the broad range of add-ons available to them. It's
+  easy to build add-ons for this marketplace and provide the components for applications
+  of the future. I'll show you how!
+spoken_language: English
+speakers:
+- name: Matthew Conway
+  bio: A Gentleman, Rubyist and Go enthusiast. Formerly a Rails consultant at Hashrocket,
+    Matthew is now an Engineer in Add-ons at Heroku. Co-host of the bi-weekly Ruby
+    podcast Ruby5, and new RailsGirls coach.
+  company: Engineer, Heroku
+  location: San Francisco, CA, United States
+  gravatar: 0b30c6aa6b9027d124ca028325b80b15
+  links:
+    github: mattonrails
+    twitter: mattonrails

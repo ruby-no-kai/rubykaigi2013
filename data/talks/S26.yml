@@ -1,0 +1,24 @@
+---
+title: From Rails to the web server to the browser
+description: |-
+  Most of us know how to build beautiful web applications with Rails. With the help of templating tools like ERB and HAML our web apps create HTML documents, but, do you know exactly how those HTML documents end up in a browser?
+
+  During this talk I will show you the bits that make it all happen. We will dissect the relevant code within Rails, Rack and the thin web server to discover exactly how the web server starts and listens to a TCP port, communicates with Rails and returns the HTML document that your browser parses.
+
+  Why? Because we're curious about it, that's why.
+spoken_language: English
+speakers:
+- name: David Padilla
+  bio: |+
+    David Padilla is CEO at Crowd Interactive, a leader Ruby on Rails consultancy based in Mexico.
+
+    He's usually trying out all the new technologies that come out everyday, and, sometimes, just knowing how to use them is not enough, so, he spends a lot of his free time reading other people's code.
+
+    Through his career, he has been devoted to promoting the Ruby on Rails community in Mexico through rails.mx and the organization of the only Ruby conference in the area: Magma Conf.
+
+  company: Crowd Interactive / CEO
+  location: Colima, Mexico
+  gravatar: a59cda5de705716cbd18195a4dd68a56
+  links:
+    github: dabit
+    twitter: dabit

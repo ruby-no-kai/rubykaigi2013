@@ -1,0 +1,13 @@
+---
+title: Ruby on Your Rails
+description: My Rails are not like yours. I'm gonna tell you why and how.
+spoken_language: English
+speakers:
+- name: Akira Matsuda
+  bio: Rails committer, Ruby core, Asakusa.rb
+  company: Asakusa.rb
+  location: Tokyo
+  gravatar: 76a777ff80f30bd3b390e275cce625bc
+  links:
+    github: amatsuda
+    twitter: a_matsuda

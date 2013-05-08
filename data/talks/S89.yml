@@ -1,0 +1,20 @@
+---
+title: There and Back Again
+description: |-
+  How I Set out to Benchmark an Algorithm and Ended Up Fixing Ruby...
+
+  Come hear a tale of how one programmer wanted to write a delegation library. Knowing that the wise elders have always stated "it's not true until you measure it", the programmer decided to benchmark the alternatives. But this was no ordinary benchmark. Down paths winding and mysterious, the programmer wielded his trusty "gdb" and became proficient with the weapon they call "libgmalloc". Finally, this sinister benchmark led the programmer straight into the dark heart of the Ruby Garbage Collector! But fear not! This tale has a happy ending.
+spoken_language: English
+speakers:
+- name: Joshua Ballanco
+  bio: Joshua Ballanco has worked for Apple, AOL, and even found time to finish his
+    Ph.D. in Computational Biochemistry along the way. He's been using Ruby since
+    2004, but started programming back in 1991 on an Apple IIe. Currently, he is the
+    Chief Scientist at Burnside Digital, where he helps a team of amazing developers
+    stay on the cutting edge of Ruby.
+  company: Chief Scientist
+  location: Ankara, Turkey
+  gravatar: da7e5a2c5b1bd8139704db94b37e068d
+  links:
+    github: jballanc
+    twitter: manhattanmetric

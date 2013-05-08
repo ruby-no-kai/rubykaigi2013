@@ -1,0 +1,23 @@
+---
+title: '`bundle install` Y U SO SLOW: Server Edition'
+description: |-
+  If you've ever done anything in ruby, you've probably used rubygems.org to search or install your favorite gem. On October 17, 2012, rubygems.org went down. A Dependency API was built to be used by Bundler 1.1+ to speed up bundle install. Unfortunately, it was a bit too popular and the service caused too much load on the current infrastructure. In order to get rubygems.org back up the API had to be disabled.
+
+  This talk will cover how we built a compatible API running on Heroku working with the rubygems.org team. We'll cover both how the API works and how Bundler uses it. Since this is a separate service, we had to start work towards a federated rubygems.org by building out a syncing service initially using just the rubygems indexes to keep our local cache up to date. We'll go over the sync code and how we've minimized the time between when you push a gem and it's available via the API.
+
+  In order to keep the service up, we've taken productization steps like setting up on call rotations and instrumentation. We'll go over the tools and how we run the a volunteer OSS project.
+
+  We've prototyped a replay service, to replay production traffic to different Heroku apps. With this and our instrumentation we were able to compare performance impact of different changes. We've used this data to guide our decision to change web servers from thin to unicorn. We're also keeping tabs on various setups including MRI 2 and JRuby under real production code and load. We'll go over how we've set this up and how it works on Heroku.
+spoken_language: English
+speakers:
+- name: Terence Lee
+  bio: |-
+    Terence works at Heroku maintaining the Ruby stack and a slew of OSS projects such as Bundler and Resque, as well as helping with the Rails Girls movement. When he's not going to an awesome Heroku or Ruby event, he lives in Austin, TX, the taco capital of America.
+
+    (Terence loves Friday hugs, EVERY DAY OF THE WEEK! Give him a big one when you see him!)
+  company: Heroku / Señor Ruby Engineer
+  location: Austin, TX, USA
+  gravatar: ac7f7f050ade421ee11b467c8570a3cd
+  links:
+    github: hone
+    twitter: hone02
