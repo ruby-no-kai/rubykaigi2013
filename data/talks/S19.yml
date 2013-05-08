@@ -1,0 +1,31 @@
+---
+title: Unfactoring
+description: |-
+  Ruby is famous for a technique called metaprogramming.  This technique can be
+  used for good, or for eval.  In this talk, we'll explore ways to leverage
+  metaprogramming, as well as how to deal with code that is out of control.
+  We'll use examples of Metaprogramming Gone Bad to study techniques for dealing
+  with legacy code, and discovering the most effective way to harness the power
+  of code generation without the maintenance nightmare
+spoken_language: English
+speakers:
+- name: Aaron Patterson
+  bio: |-
+    Aaron was born and raised on the mean streets of Salt Lake City.  His only hope
+    for survival was to join the local gang of undercover street ballet performers
+    known as the Tender Tights.  As a Tender Tights member, Aaron learned to
+    perfect the technique of self-defense pirouettes so that nobody, not even the
+    Parkour Posse could catch him.  Between vicious street dance-offs, Aaron taught
+    himself to program.  He learned to combine the art of street ballet with the
+    craft of software engineering.  Using these unique skills, he was able to leave
+    his life on the streets and become a professional software engineer.  He is
+    currently Pirouetting through Processes, and Couruing through code for AT&T.
+    Sometimes he thinks back fondly on his life in the Tender Tights, but then he
+    remembers that it is better to have Tender Loved and Lost than to never have
+    Tender Taught at all.
+  company: 
+  location: Seattle, WA
+  gravatar: f29327647a9cff5c69618bae420792ea
+  links:
+    github: tenderlove
+    twitter: tenderlove

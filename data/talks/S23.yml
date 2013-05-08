@@ -1,0 +1,19 @@
+---
+title: 'Torquebox: When Java Became Cool Again'
+description: |-
+  An introduction to Torquebox (http://torquebox.org/), a JRuby Application Server, which bridges between Ruby's clean DSLs and Java's robust libraries to provide high-speed and reliable caching, messaging, background tasks and more in a single deployment.
+
+  If you're tired of installing a bunch of projects (web server, memcache, redis, messaging, etc) just to run a single app, Torquebox is for you.
+spoken_language: English
+speakers:
+- name: Thomas Reynolds
+  bio: While I work primarily as a frontend developer these days, my heart has always
+    been with Ruby. I created and run Middleman, a popular ruby-based static website
+    generator and use Ruby for all my personal project. You can catch me complaining
+    about Javascript on twitter, most days.
+  company: Technical Lead at Instrument
+  location: Portland, USA
+  gravatar: 291394b477c2824bf5d75b831f125304
+  links:
+    github: tdreyno
+    twitter: tdreyno

@@ -1,0 +1,26 @@
+---
+title: Casual Log Collection and Querying with fluent-plugin-riak
+description: |-
+  Introduction to Riak as log storage and querying logs.
+  Fluentd is casual, easy daemon to collect and aggregate logs from many servers,
+  many daemons. In popular use cases, fluentd outputs collected log to HDFS, S3 or MongoDB.
+  Riak is scalable and casual distributed key value store with rich query interface,
+  and easy to operate, scale, manage and query.
+  Useful logging patters and query tools in Ruby-ish way will also be introduced.
+spoken_language: I can speak either. Just prefer Japanese.
+speakers:
+- name: Kota Uenishi
+  bio: |
+    Working on distributed systems for 5 years, including C, C++, Erlang and Ruby.
+    Had been wasted his life for memory management, multi-threading, native code compilation
+    and segmentation fault. Erlang and LL is best combination for his life -
+    solid but hard language for backend middleware, like Erlang
+    and flexible and comprehensive language for frontend, like Ruby or Python.
+    In Japan it is not so popular, but Basho is heavy user of Ruby,
+    and thus HE IS trying to be Rubyist.
+  company: Basho Japan KK / Senior Software Engineer
+  location: Tokyo, Japan
+  gravatar: e1923013dacab39eb231a2fffbf7b33c
+  links:
+    github: kuenishi
+    twitter: kuenishi

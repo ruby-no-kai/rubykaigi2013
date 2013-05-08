@@ -1,0 +1,26 @@
+---
+title: |
+  Async programming is all about programming synchronously.
+description: |-
+  TBA
+description_ja: |-
+  「非同期プログラミングとは同期をプログラミングすることである。」
+
+  この発表では、非同期プログラミングでよくあるパターンを紹介し、非同期プログラミングのテーマが「同期」をプログラミングすることであることを示します。
+
+  おもに、Node.jsやX11、dRubyなど、selectとTCPを使ったヌルめの多元待ちのプログラミングの経験のある中級者から上級者、およびLinda、アクターなどに反応するマニアを対象にしています。こういったテーマで苦労したことがあれば、一緒に悩んでもらえると思います。
+
+  GUIとネットワーク、複数のハードウェアの制御、ツール間の協調のプログラミングなど、dRuby以前（Before dRuby)における開発と、最初のdRuby本（2001年アスキー）からThe dRuby Bookに至る一連の著作の執筆、競合ライブラリ（？）からの辛辣なdisりなどの経験を基に、非同期プログラミングの哀愁を伝えます。
+
+  Rubyでの非同期呼び出し、dRubyの設計の指針と応用例、Dripが解決したかったことなど、具体的な解決例についても言及します。
+spoken_language: Japanese
+speakers:
+- name: Masatoshi SEKI
+  bio: Masatoshi SEKI, a programmer. Author of ERB, dRuby, Rinda, Drip and The dRuby
+    Book.
+  company: programmer
+  location: Nasushiobara, Tochigi, Japan
+  gravatar: 
+  links:
+    github: seki
+    twitter: m_seki

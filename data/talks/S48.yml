@@ -1,0 +1,21 @@
+---
+title: Complex Event Processing on Ruby and Fluentd
+description: |-
+  TBA
+description_ja: |-
+  CEP(ストリームとして流れてくるイベントデータに対する処理)をFluentd上でRubyのコードによって実現する話、またそれがどのように使われどのように強力で便利な機能を提供するかについて話をします。
+  大量のイベントデータ(アクセスログやアプリケーションログ、センサデータなど)に対する処理の話はビッグデータ関連の流行にともなってよく聞くようになりましたが、バッチ処理ではカバーできない領域も多く、ストリームに対してリアルタイムで処理できる領域を増やすのは重要です。ただしこの分野は高価なアプライアンス製品ばかりで、オープンソースで使える強力なプロダクトはほとんどありませんでした。
+  そこでイベントデータの収集・配送について強力な機能をもつFluentdの上でCEPを実現し、それがRubyのコードとしてどのように実現されるか、現場でどのような効果を発揮するかについて紹介をできればと思います。
+spoken_language: Japanese
+speakers:
+- name: tagomoris
+  bio: |+
+    Software engineer in NHN Japan, working for backend software (like web servers and databases, os, etc) and log data analysis (Hadoop, fluentd).
+    One of committer of fluentd (http://fluentd.org/) and developer of many fluentd plugins.
+
+  company: NHNJapan (will be changed...)
+  location: Tokyo, Japan
+  gravatar: 002525eada5741b7954ce22c1a066d32
+  links:
+    github: tagomoris
+    twitter: tagomoris

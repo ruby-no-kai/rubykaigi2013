@@ -1,0 +1,22 @@
+---
+title: Code Reading - Learning More about Ruby by Reading Ruby Source Code
+description: Learn more about Ruby internal by reading Ruby source code, which may
+  or may not be revealed on textbook.
+spoken_language: English
+speakers:
+- name: Eddie Kao
+  bio: |-
+    - Coding Nerd
+    - Mac/FreeBSD/Vim user, Ruby lover
+    - Ruby/Flash/AS3 Certified Developer Developer
+    - iOS App Developer
+    - WebConf Taiwan Co-founder (http://www.webconf.tw/)
+    - Kaos' Digital Network founder (http://www.digik.com.tw/)
+
+    blog: http://blog.eddie.com.tw/
+  company: WebConf Taiwan Co-Founder
+  location: Taipei, Taiwan
+  gravatar: f2dcf6633971844e19ca96ea294ba976
+  links:
+    github: kaochenlong
+    twitter: eddiekao

@@ -1,0 +1,27 @@
+---
+title: How to fail at Background Jobs
+description: |
+  From DRB, XMPP, AMQP to Resque and Rails 4. Running a background worker process is a tool I've reached for often. And while the underlying tools may change, the same problems seem to crop up in every one.
+
+  A failed request serves your fancy custom 500 error page, but what about a failed job?
+
+  Is there such a thing as a "reliable" queuing system that will never lose OR double process any jobs?
+
+  Are we talking about "simple" asynchronous method calls on models or should we build "pure" workers with only the knowledge of a single task?
+
+  What does "idempotent" mean again?
+
+  Please allow me to enliven the debates.
+spoken_language: English
+speakers:
+- name: Jacob Burkhart
+  bio: 'Jacob is the world''s foremost expert on Background Jobs (within the subset
+    of people who: work in Ruby for a living, surf the Pacific regularly, and brew
+    sour beers). He does all these things in San Francisco California, while working
+    at Engine Yard.'
+  company: Engine yard
+  location: San Francisco, CA, USA
+  gravatar: 409e4d0bf136e5197eb8ecb8375be8ad
+  links:
+    github: jacobo
+    twitter: beanstalksurf

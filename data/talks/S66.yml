@@ -1,0 +1,20 @@
+---
+title: Ruby on Windows, past, now, future
+description: |-
+  TBA
+description_ja: |
+  Windows プラットフォームでのRuby対応についてこれまでの取り組みと今後の方向性をご紹介します。また、今現在、実際にWindows上でRubyがどう使えるのか、あまり知られていないその真相を紹介します。
+spoken_language: Japanese
+speakers:
+- name: Usaku Nakamura
+  bio: "Joined Ruby development community from the end of the 1990s \nInaugurated
+    as the 7th Ruby committor in 2000.\n5% of commitment for Ruby contribution as
+    of October 2011.\n\nThe main charge in Ruby development is Ruby on Windows. \nEspecially
+    development corresponding to 64bit Windows was mainly implemented. \nThe name
+    on a Ruby repository is \"usa.\"\n"
+  company: 
+  location: 
+  gravatar: 
+  links:
+    github: 
+    twitter: 
