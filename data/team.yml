@@ -38,6 +38,10 @@
   role: [kaigifreaks, networking honcho]
   gravatar: 256838377ddbe600e85d8f446aae224d
 
+- name: Ippei Ogiwara
+  role: kaigifreaks
+  gravatar: 111c7cc8b41b3153858a9c145cec2686
+
 - name: Mayuko Sekiya
   role: designer
   gravatar: 00575484b5d4489619bfc52e9775ee3b
@@ -49,3 +53,4 @@
 - name: Ryunosuke Sato
   role: rubykaigi.org
   gravatar: dc03a27ae31ba428c560c00c9128cd75
+
