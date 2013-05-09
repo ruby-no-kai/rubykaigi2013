@@ -42,4 +42,11 @@ helpers do
       text
     end
   end
+
+  def normalize_spoken_language(talk)
+    label = []
+    label << '[EN]' if /English/.match(talk.spoken_language)
+    label << '[JA]' if /Japanese/.match(talk.spoken_language)
+    label.join
+  end
 end
