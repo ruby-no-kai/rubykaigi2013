@@ -2,6 +2,25 @@
   %h1
     goodies
   %h2
+    Official Images
+  %div#imageData
+    %section
+      %h1
+        500x500
+      %p= image_tag('image500x500.svg', width: '100', height: '100', alt: '')
+      %p
+        = link_to('500x500(SVG)', image_path('image500x500.svg'), target: '_blank')
+        ,&nbsp;
+        = link_to('500x500(PNG)', image_path('image500x500.png'), target: '_blank')
+      %h1
+        1280x780
+      %p= image_tag('image1280x720.svg', width: '128', height: '78', alt: '')
+      %p
+        = link_to('1280x780(SVG)', image_path('image1280x720.svg'), target: '_blank')
+        ,&nbsp;
+        = link_to('1280x780(PNG)', image_path('image1280x720.png'), target: '_blank')
+
+  %h2
     Badges and Banners
   %div#badges
     %section
