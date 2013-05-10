@@ -506,14 +506,15 @@ footer {
   }
   dt {
     margin-left: 30px;
+    margin-bottom: 10px;
   }
   dd {
     margin-left: 5px;
   }
-  & > dt:nth-child(1) {
+  dt:nth-child(1).hall {
     background: $brightRed;
   }
-  & > dt:nth-child(3) {
+  dt:nth-child(3).hall {
     background: $softPurple;
   }
 }
