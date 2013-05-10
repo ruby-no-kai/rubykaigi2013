@@ -15,7 +15,7 @@
             = normalize_spoken_language(talk)
           - if talk.keynote
             %span.keynote Keynote
-          = link_to_if talk.title && talk.description, talk.title ? "'#{talk.title}'" : '(TBA)', "/2013/talk/#{id}", class: 'talkTitle'
+          = link_to_if talk.title && talk.description, talk.title ? "'#{talk.title}'" : '', "/2013/talk/#{id}", class: 'talkTitle'
           \-
           = talk.speakers.map(&:name).join(', ')
 
