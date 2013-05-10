@@ -49,4 +49,13 @@ helpers do
     label << '[JA]' if /Japanese/.match(talk.spoken_language)
     label.join
   end
+
+  def link_to_if_github(account)
+    return '' unless account
+
+    icon = tag(:i, class: 'icon-github-alt')
+    link = link_to icon, "https://github.com/#{account}", target: '_blank'
+
+    content_tag(:span, link, class: 'btn')
+  end
 end

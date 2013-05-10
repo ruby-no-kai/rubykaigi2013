@@ -573,7 +573,7 @@ footer {
 
 /*--- talks ----------------------------------------------*/
 
-#talk {
+#talk, #lt {
   h2,
   h3 {
     border-radius: 7px;
@@ -639,6 +639,21 @@ footer {
   height: 600px;
   img {
     max-width: none;
+  }
+}
+
+/*--- LT ----------------------------------------------*/
+#lt {
+  .notice {
+    color: $softPurple;
+    font-size: $defaultFontSize + 6;
+    padding: 10px 0px 10px 40px;
+  }
+  li {
+    margin-bottom: 30px;
+  }
+  .description {
+    margin: 0px 20px 20px 20px;
   }
 }
 

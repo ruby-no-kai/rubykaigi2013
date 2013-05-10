@@ -1,7 +1,56 @@
 %article#content
   %h1 Lightning Talks
 
-  %ul
-    - data.LT.each do |talk|
-      %li
-        = talk.title
+  #lt
+    %strong.notice
+      \!!
+      Order is tentative
+      \!!
+
+    %ul
+      - data.LT.each do |talk|
+        %li
+          %h2
+            :markdown
+              #{talk.title}
+
+          .description
+            :markdown
+              #{talk.description}
+
+          %div
+            - talk.speakers.each do |speaker|
+
+              .speakerProfile
+                %p.avatar
+                  = gravatar_tag(speaker.gravatar, 200, alt: speaker.name)
+
+                %span.name
+                  = speaker.name
+
+                %span.links
+                  - if github = speaker.links.github
+                    %span.btn
+                      %a{ href: "https://github.com/#{github}", target: '_blank' }
+                        %i.icon-github-alt
+                  - else
+                    %span.btnDisabled
+                      %a
+                        %i.icon-github-alt
+
+                  - if twitter = speaker.links.twitter
+                    %span.btn
+                      %a{ href: "https://twitter.com/#{twitter}", target: '_blank' }
+                        %i.icon-twitter
+                  - else
+                    %span.btnDisabled
+                      %a
+                        %i.icon-twitter
+
+                %dl
+                  %dt Company
+                  %dd= speaker.company.presence || '-'
+                  %dt Bio
+                  %dd
+                    :markdown
+                      #{speaker.bio.presence || '-'}
