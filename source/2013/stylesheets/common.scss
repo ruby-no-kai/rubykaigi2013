@@ -551,6 +551,9 @@ footer {
       padding: 10px;
       @include box-sizing(padding-box);
     }
+    .language {
+      color: $softPurple;
+    }
   }
   .break {
     background: lighten($brightRed, 27%);
