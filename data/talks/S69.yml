@@ -11,7 +11,7 @@ spoken_language: Japanese
 speakers:
 - name: okkez
   bio: |
-    http://doc.ruby-lang.org/ja/
+    [http://doc.ruby-lang.org/ja/](http://doc.ruby-lang.org/ja/)
   company: 
   location: 
   gravatar: 9673ac7770ee09f76ff5d839820db157

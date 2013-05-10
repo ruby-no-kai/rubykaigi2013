@@ -11,7 +11,7 @@ speakers:
 - name: tagomoris
   bio: |+
     Software engineer in NHN Japan, working for backend software (like web servers and databases, os, etc) and log data analysis (Hadoop, fluentd).
-    One of committer of fluentd (http://fluentd.org/) and developer of many fluentd plugins.
+    One of committer of fluentd ([http://fluentd.org/](http://fluentd.org/)) and developer of many fluentd plugins.
 
   company: NHNJapan (will be changed...)
   location: Tokyo, Japan
