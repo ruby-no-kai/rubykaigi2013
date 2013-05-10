@@ -1,8 +1,13 @@
 - talk = data.talks[id]
 %article#content
   %h1 Detail
-  %div#detail
-    %h2= talk.title
+
+  #talk
+    %h2
+      %span.language
+        = normalize_spoken_language(talk)
+
+      = talk.title
 
     %div
       :markdown
