@@ -59,7 +59,7 @@
       %li
         = partial 'schedule_row', locals: {slot: '16:00', cells: [[{talks: 'S49'}, {talks: 'S79'}], [{talks: 'S17'}, {talks: 'S85'}]]}
       %li
-        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{events: 'lt'}], []]}
+        = partial 'schedule_row', locals: {slot: '17:00', cells: [[{text: link_to('Lightning Talks', '/2013/lightning_talks')}], []]}
       %li
         = partial 'schedule_row', locals: {slot: '18:00', cells: [[{talks: 'S56'}], []]}
 

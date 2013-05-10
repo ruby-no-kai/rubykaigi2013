@@ -1,0 +1,7 @@
+%article#content
+  %h1 Lightning Talks
+
+  %ul
+    - data.LT.each do |talk|
+      %li
+        = talk.title
