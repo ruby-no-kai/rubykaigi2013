@@ -8,7 +8,7 @@ root_path = File.expand_path('../build', __FILE__)
 # XXX
 use Rack::StaticCache,
   root: root_path,
-  urls: %w(banner badge).map {|path| "/2013/images/#{path}" },
+  urls: %w(banner badge image).map {|path| "/2013/images/#{path}" },
   duration: 1.0 / 365 / 24 / 2, # 30 min
   versioning: false
 
