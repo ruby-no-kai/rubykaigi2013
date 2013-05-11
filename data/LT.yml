@@ -1,4 +1,25 @@
 ---
+- title: Show Your Opensource Activities w/ ScreenX TV
+  description: |-
+    Knowing WHAT you code is easy; just check your GitHub account, but
+    knowing HOW you code is still difficult. So, we made ScreenX TV, an opensource
+    terminal broadcasting tool, which lets you easily broadcast your terminal to the
+    world.
+
+    In this lightning talk, I'll show you how to broadcast, how it works
+    on Rails+Node.js, and how it's used by terminal broadcasters.
+  spoken_language: English
+  speakers:
+  - name: YASUKAWA, Yohei
+    bio: Founder of Okinawa.rb, organizer of CoderDojo Tokyo/Okinawa, and contributor
+      of OpenSource Cafe. Founded YasuLab, a small distributed company, and moving
+      between Okinawa, Tokyo, and Silicon Valley.
+    company: YasuLab / Engineer
+    gravatar: f9e2dfe1e5e7b40cfe5bafa0c730293d
+    links:
+      twitter: yasulab
+      github: yasulab
+
 - title: Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster
   description: "In this session, I present the log utilization strategy at DeNA, and
     introduce a tool named Haikanko.\n\nHaikanko is an application to manage fluentd
