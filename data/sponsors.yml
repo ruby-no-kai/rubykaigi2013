@@ -193,3 +193,10 @@ silver_sponsors:
     link: 'http://www.r-learning.co.jp/'
     weight: 1
     description:
+
+  - id: Silver11
+    name: Tatsu-zine Publishing Inc.
+    link: 'http://tatsu-zine.com/'
+    weight: 1
+    description: |-
+      "The most famous ebook publisher for software developers in Japan"
