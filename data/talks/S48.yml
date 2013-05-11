@@ -1,7 +1,9 @@
 ---
 title: Complex Event Processing on Ruby and Fluentd
 description: |-
-  TBA
+  My talk is about CEP (Complex Event Processing: processing for event data as stream) on Fluentd and some ruby/jruby code, and also is about what features and power CEP and Fluentd provides to us.
+  Processing of large amount of data, like access logs, application logs and sensor data becomes now more and more important, but almost all of CEP products are proprietary and too expensive. We doesn't have open source tools and frameworks as simple/powerful as we want.
+  So we are developing open source CEP tool with Fluentd, that have great features for event data collection and delivery. I want to tell you implementation details and practical usages.
 description_ja: |-
   CEP(ストリームとして流れてくるイベントデータに対する処理)をFluentd上でRubyのコードによって実現する話、またそれがどのように使われどのように強力で便利な機能を提供するかについて話をします。
   大量のイベントデータ(アクセスログやアプリケーションログ、センサデータなど)に対する処理の話はビッグデータ関連の流行にともなってよく聞くようになりましたが、バッチ処理ではカバーできない領域も多く、ストリームに対してリアルタイムで処理できる領域を増やすのは重要です。ただしこの分野は高価なアプライアンス製品ばかりで、オープンソースで使える強力なプロダクトはほとんどありませんでした。
@@ -10,10 +12,10 @@ spoken_language: Japanese
 speakers:
 - name: tagomoris
   bio: |+
-    Software engineer in NHN Japan, working for backend software (like web servers and databases, os, etc) and log data analysis (Hadoop, fluentd).
-    One of committer of fluentd ([http://fluentd.org/](http://fluentd.org/)) and developer of many fluentd plugins.
+    Software engineer in LINE Corporation, working for backend software (like web servers and databases, os, etc) and log data analysis (Hadoop, fluentd).
+    One of committers of Fluentd ([http://fluentd.org/](http://fluentd.org/)) and developer of many fluentd plugins.
 
-  company: NHNJapan (will be changed...)
+  company: LINE Corporation
   location: Tokyo, Japan
   gravatar: 002525eada5741b7954ce22c1a066d32
   links:
