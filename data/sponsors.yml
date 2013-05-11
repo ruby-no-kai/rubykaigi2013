@@ -187,3 +187,9 @@ silver_sponsors:
     weight: 1
     description: |-
       People make their way in life by following their hearts.
+
+  - id: Silver10
+    name: R-learning
+    link: 'http://www.r-learning.co.jp/'
+    weight: 1
+    description:
