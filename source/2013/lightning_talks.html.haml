@@ -14,7 +14,8 @@
 
     %ul
       - data.LT.each do |talk|
-        %li
+        -# LT talks has only one speaker.
+        %li{id: talk.speakers.first.links.github}
           %h2
             :markdown
               #{talk.title}
