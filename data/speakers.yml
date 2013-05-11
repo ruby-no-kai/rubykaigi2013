@@ -92,6 +92,12 @@ committers:
       github:  okkez
       twitter: okkez
 
+  - name: SHIBATA Hiroshi
+    gravatar: eabad423977cfc6873b8f5df62b848a6
+    links:
+      github:  hsbt
+      twitter: hsbt
+
 speakers:
   - name: Shozo Arai
     gravatar: 2ace97e3d45d19b4e6aadf89a497f2c9
