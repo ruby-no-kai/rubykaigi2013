@@ -97,6 +97,12 @@ committers:
     links:
       github:  hsbt
       twitter: hsbt
+      
+  - name: Zachary Scott
+    gravatar: 7fe945668a4fc098e886e20dea71d2ee
+    links:
+      github:   zzak
+      twitter:  _zzak
 
 speakers:
   - name: Shozo Arai
