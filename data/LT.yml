@@ -1,2 +1,77 @@
 ---
-[]
+- title: Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster
+  description: "In this session, I present the log utilization strategy at DeNA, and
+    introduce a tool named Haikanko.\n\nHaikanko is an application to manage fluentd
+    cluster easily. It enables to generate fluentd configuration files automatically,
+    and deploy them onto lots of fluentd nodes by one click.  \n\nHaikanko is written
+    with ruby / sinatra / erb / mina (yet another capistrano)."
+  spoken_language: English
+  speakers:
+  - name: Naotoshi Seo
+    bio: After graduating the University of Maryland, USA, Naotoshi Seo started to
+      work at a manufacturer company as an application software engineer, and then
+      joined to DeNA as an infrastructure engineer. His main mission is to develop
+      software and automate tasks to assist daily server operations.
+    company: DeNA / Infrastructure Application Engineer
+    gravatar: aef92c3acc29ad8543e04135687fc4f1
+    links:
+      twitter: sonots
+      github: sonots
+
+- title: a test code generator for RSpec users
+  description: "rspec-kickstarter is a test code generator for RSpec users. \n\n[https://github.com/seratch/rspec-kickstarter](https://github.com/seratch/rspec-kickstarter)\n\nTDD
+    is a very useful approach but actually many projects are not fully TDD-based and
+    we sometimes need to face apps that don't have enough coverage. In such a situation,
+    I believe that this tool is especially useful.\n\nIt's easy to say \"You should
+    write tests for the legacy code before modifying it\" but it's not always easy
+    to keep the motivation to do the right thing because developers have many things
+    to do before they start writing essential parts of test. It's messy to create
+    a new file or figure out the existing spec file, find out what the lacking test
+    cases are and write routine stuff which starts with 'describe'.\n\nrspec-kickstarteer
+    enables developers writing test immediately. If the spec is absent, it generates
+    a new spec template file. Furthermore, it appends lacking test cases (with TODO
+    comments) to existing the spec file if they're found. \n\nI know that testing
+    for methods is not perfect but it's pretty important to reduce the psychological
+    barrier. \n\nI'll show some examples about rspec-kickstarter in this talk."
+  spoken_language: English
+  speakers:
+  - name: Kazuhiro Sera
+    bio: A programmer, a newbie dad, living with a rabbit and a chinchilla lanigera.
+    company: Application Developer at M3, Inc.
+    gravatar: 132fe0f031849e12eea7ce74f99b90f0
+    links:
+      twitter: seratch
+      github: seratch
+
+- title: Introduction of ‘3dcg-arts.net’
+  description: "I would like to talk about the use of rspec and CI (Jenkins) to improve
+    reliability of 3D computer graphics models conversion software. \nI'll introduce
+    '3dcg-arts.net', which provides sharing (publish, browse, evaluate, etc) 3D computer
+    graphics works on web browsers. \nIn this service, we developed a software to
+    convert 3D models to a common format for convenient view on web browsers and use
+    rspec and CI for reliability check."
+  spoken_language: English
+  speakers:
+  - name: Hiroyuki Inoue
+    bio: A member of 3dcg-arts dev team and a graduate school student at university
+      of Tsukuba.
+    company:
+    gravatar: 464f7715290af1c0cd41e6bf9d1ee8cc
+    links:
+      twitter: inohiro
+      github: inohiro
+
+- title: Challenges building a call center with 3rd party APIs
+  description: |-
+    Even with the help of third party APIs (Twilio, Tropo, Adhersion, etc.) that provide telephony functionality, there are mayor design decisions involved when building a call center.
+
+    But thanks to the ruby community and the availability of incredible gems and libraries this task is now simple enough that just a few developers can build and replicate full feature telephony systems.
+  spoken_language: English
+  speakers:
+  - name: Christian Sousa
+    bio:
+    company: Software Engineer
+    gravatar:
+    links:
+      twitter: neocsr
+      github: neocsr
