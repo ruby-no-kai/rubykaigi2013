@@ -93,7 +93,8 @@ gold_sponsors:
     name: Network Applied Communication Laboratory Ltd.
     link: 'http://www.netlab.jp/'
     weight: 2
-    description:
+    description: |-
+      Network Applied Communication Laboratory (NaCl) drives the Ruby programming language with Ruby creator and NaCl fellow, Yukihiro "Matz" Matsumoto.
 
   - id: Gold06
     name: Treasure Data
