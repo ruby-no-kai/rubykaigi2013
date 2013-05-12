@@ -1,7 +1,23 @@
 ---
 title: Be a library developer!
 description: |
-  TBA
+  Is there a gem author around you? Did you meet any author of the gems
+  used? Did you contact with any author of the gems used on the
+  Internet?
+
+  Do you think that "the author is cool!", "the author is awesome!" or
+  "I respect the author!"? Do you want to be a gem author?
+
+  This talk doesn't describe about how to create a gem because it is
+  easy. "gem" is a package of Ruby library (, tool and so on) for easy
+  to install. This talk describes about developing a library that is gem
+  content.
+
+  This talk is based on my experience as a library developer. This talk
+  describes about how to write codes, how to write documents, release,
+  support and mental set for a better "library developer". I hope that
+  this talk is a trigger for increasing the number of better "library
+  developers".
 spoken_language: Japanese
 speakers:
 - name: Kouhei Sutou
