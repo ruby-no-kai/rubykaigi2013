@@ -20,6 +20,42 @@
       twitter: yasulab
       github: yasulab
 
+- title: 'Ruby Taiwan Community: We share, we promote, we code.'
+  description: Introduce the history, activities and achievements of Ruby Taiwan Community
+    and talk about what I have learned from the community.
+  spoken_language: English
+  speakers:
+  - name: Mu-Fan Teng
+    bio: 鄧慕凡(a.k.a Ryudo) is the senior backend engineer at Resume Companion. He has
+      worked with Ruby, Rails and Sinatra since 2007. Also he is the organizer of
+      RubyTaiwan Community([http://ruby.tw](http://ruby.tw)) and RubyConf Taiwan([http://rubyconf.tw](http://rubyconf.tw))
+      and co-founder of Taiwan’s biggest forum service provider FREEBBS.TW. He currently
+      lives in Taipei, blogs at ryudo.tw and tweets as @ryudoawaru.
+    company: ResumeCompanion.com / Senior Backend Engineer
+    gravatar: c7c4962ce9539d003fd7f0f06539e9d3
+    links:
+      twitter: ryudoawaru
+      github: ryudoawaru
+
+- title: Using flash cards to know Ruby better
+  description: When it comes to memorizing the innards of a programming language in
+    order to understand it better, nothing beats flash cards with spaced repetition
+    in my experience. This presentation will show you how you can apply the same technique
+    to make sure you remember everything you want to remember about Ruby (or anything
+    else for that matter).
+  spoken_language: English
+  speakers:
+  - name: Peter Evjan
+    bio: |-
+      A programmer from Sweden, who lives in Melbourne, Australia after a brief stint in Ghana.
+
+      I like Ruby, heavy guitars, martial arts and animals.
+    company: Developer at Cogent
+    gravatar: bd36ec7f184adfb371f9738da5b53e6d
+    links:
+      twitter: peterevjan
+      github: evjan
+
 - title: Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster
   description: "In this session, I present the log utilization strategy at DeNA, and
     introduce a tool named Haikanko.\n\nHaikanko is an application to manage fluentd
@@ -63,6 +99,25 @@
     links:
       twitter: seratch
       github: seratch
+
+- title: The Pragmatic Glitch
+  description: |-
+    The meaning of glitch is originally unexpected results by malfunctions originally. By extension, it stands for phenomena (or arts using them) that are caused by errors in various media.
+    In this presentation, I'll show some image glitch ways that beginners can try easily using Ruby.
+  description_ja: |-
+    グリッチとは、電子回路の接触不良などによる誤作動のことであり、転じて、様々な媒体でエラーが生じることによって引き起こされる現象やそれを用いた藝術作品のことを指します。
+    この発表では、主に画像グリッチについて、グリッチ初心者が Ruby を使って簡易に試すことができる方法を紹介します。
+  spoken_language: English
+  speakers:
+  - name: Shimpei Makimoto
+    bio: |-
+      Shimpei Makimoto is a software engineer living in Tokyo.
+      He is interested in search technologies, cooking, and glitch.
+    company: Software Engineer, COOKPAD Inc.
+    gravatar: 3e809b3e856f5eed33e279cf93657d3c
+    links:
+      twitter: makimoto
+      github: makimoto
 
 - title: Introduction of ‘3dcg-arts.net’
   description: "I would like to talk about the use of rspec and CI (Jenkins) to improve
