@@ -1,7 +1,8 @@
 ---
 title: Ruby's GC 2.0
 description: |-
-  TBA
+  I will talk about some improvements of GC in Ruby 2.0.0.
+  For instance, I will introduce about implementations of Bitmap Marking GC and so on, and show results of benchmarks after these are implemented.
 description_ja: |-
   Ruby 2.0.0 におけるGCの改善点について話します。
   具体的には「Bitmap Marking GC」と「Non-recursive Marking」の改善について、実装で苦労した点や、実装後のベンチマーク結果などを紹介します。
