@@ -80,6 +80,10 @@ header nav ul li a {
   width: 80%;
 }
 
+.scheduleList .scheduleRow {
+  width: 100%;
+}
+
 /* タブレットレイアウト : 481 px ～ 768 px。モバイルレイアウトからスタイルを継承。 */
 /*------------------------------------------------------------------------------------------------------------------【２】*/
 
@@ -204,6 +208,10 @@ header nav ul li a {
 
 .photos img {
   width: auto;
+}
+
+.scheduleList .scheduleRow {
+  width: 40.2%;
 }
 
 }
