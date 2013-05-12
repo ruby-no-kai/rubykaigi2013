@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 img, object, embed, video {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .ie6 img {
-	width:100%;
+  width:100%;
 }
 
 /* モバイルレイアウト : 480 px およびそれ以下. */
@@ -53,15 +53,15 @@ header nav ul li a {
 }
 
 .gridContainer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 87.36%;
-	padding-left: 1.82%;
-	padding-right: 1.82%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 87.36%;
+  padding-left: 1.82%;
+  padding-right: 1.82%;
 }
 
 .wrapper {
-	padding: 4.1666%;
+  padding: 4.1666%;
 }
 
 #summary .btn {
@@ -114,17 +114,17 @@ header nav ul li {
 }
 
 .gridContainer {
-	width: 90.675%;
-	padding-left: 1.1625%;
-	padding-right: 1.1625%;
+  width: 90.675%;
+  padding-left: 1.1625%;
+  padding-right: 1.1625%;
 }
 
 .wrapper {
-	padding: 2.5641%;
+  padding: 2.5641%;
 }
 
 footer aside {
-	float: right;
+  float: right;
 }
 
 #summary .btn {
@@ -162,15 +162,15 @@ header nav ul li a {
 }
 
 .gridContainer {
-	width: 88.2%;
-	max-width: 1232px;
-	padding-left: 0.9%;
-	padding-right: 0.9%;
-	margin: auto;
+  width: 88.2%;
+  max-width: 1232px;
+  padding-left: 0.9%;
+  padding-right: 0.9%;
+  margin: auto;
 }
 
 .wrapper {
-	padding: 0;
+  padding: 0;
 }
 
 .feature p strong {
