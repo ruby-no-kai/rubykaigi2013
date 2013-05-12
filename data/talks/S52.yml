@@ -1,5 +1,21 @@
 ---
 title: The Legal Bodies about Ruby and its projects
+description:
+spoken_language:
 speakers:
 - name: Ruby Association
+  bio:
+  company:
+  location:
+  gravatar:
+  links:
+    github:
+    twitter:
 - name: Ruby-no-Kai
+  bio:
+  company:
+  location:
+  gravatar:
+  links:
+    github:
+    twitter:

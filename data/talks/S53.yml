@@ -1,9 +1,21 @@
 ---
 title: "TRICK (Transcendental Ruby Imbroglio Contest for rubyKaigi)"
+description:
+spoken_language:
 speakers:
 - name: Yusuke Endoh
+  bio:
+  company:
+  location:
   gravatar: d41d8cd98f00b204e9800998ecf8427e
   links:
     github:  mame
     twitter: mametter
 - name: shinh
+  bio:
+  company:
+  location:
+  gravatar:
+  links:
+    github:
+    twitter:

@@ -1,3 +1,15 @@
 ---
 title: Ruby Committers vs. the World (TBA)
+description:
+spoken_language:
 speakers: []
+### Expected format:
+# speakers:
+# - name:
+#   bio:
+#   company:
+#   location:
+#   gravatar:
+#   links:
+#     github:
+#     twitter:
