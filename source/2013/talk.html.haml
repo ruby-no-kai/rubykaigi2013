@@ -4,8 +4,9 @@
 
   #talk
     %h2
-      %span.language
-        = normalize_spoken_language(talk)
+      - if talk.spoken_language
+        %span.language
+          = normalize_spoken_language(talk)
 
       = talk.title
 
