@@ -151,3 +151,55 @@
     links:
       twitter: neocsr
       github: neocsr
+
+- title: Image resizing and cache Engine by Sinatra
+  description: To Be Announced
+  description_ja: |-
+    [demo:](demo:) [http://thunder-image.kibitan.com/](http://thunder-image.kibitan.com/)
+    id/[pass:](pass:) rubykaigi/2013
+
+    GETパラメータで画像をリサイズ・同時にキャッシュする画像エンジン。Sinatra使用。
+    [http://thunder-image.kibitan.com/(width)x(height)/(ImageURL)](http://thunder-image.kibitan.com/(width)x(height)/(ImageURL))
+
+    例：[http://thunder-image.kibitan.com/300x100.fit/http://www.ruby-lang.org/images/logo.gif](http://thunder-image.kibitan.com/300x100.fit/http://www.ruby-lang.org/images/logo.gif)
+
+    用途：中規模・大規模webサービスのサムネイル画像サーバー・スマホビュー用リサイズサーバー
+  spoken_language: English
+  speakers:
+  - name: chikahiro tokoro @kibitan
+    bio: |-
+      here is my profile!
+      [http://kibitan.com/](http://kibitan.com/)   (only japanese)
+
+      I am Ruby Engineer, and I am Tabla player (Indian classical drum), and I am ... Traveler of the earth!
+    company: |-
+      2011-2013 ZIGExN / Engineer (Rails)
+      2010-2011 WorksApplications / Engineer (Java)
+      (InternShip)
+      2006-2007 Drecom / Engineer(Rails)
+      2005-2006 PrimeStyle / Sales
+
+      Now Jobless! :)
+    gravatar: 70d31d2a58c69153b84b7a0f5d648ea7
+    links:
+      twitter: kibitan
+      github: kibitan
+
+- title: A case study on exporting local culture with Rails application
+  description: |-
+    Rails helps people understand new idea, we know.
+
+    There are many interesting local cultures in the world, but it is difficult to introduce such cultures to other people. Rails application can reduce such difficulty using some tips.
+
+    Our experience is introduction of Japanese 'Kukai' to French students. Kukai is a game to enjoy Haiku, short Japanese poetry. In Kukai, attendees score each Haikus and comments by each other. We developed a Kukai Rails application and this system used by a lecture at a French school. The lecture was well-received. To develop our Kukai system, Internationalisation (i18n) is easy to support using Rails framework.
+
+    In this talk, we show our experience and key points of transferring one local culture to other cultures using Rails web application.
+  spoken_language: English
+  speakers:
+  - name: Yuki Torii
+    bio: Rails developer, the one of the RailsGirls Tokyo 2nd organizers.
+    company: Everyleaf Corporation /  developper
+    gravatar: c67596c92e9d161d314f69de3f05f00c
+    links:
+      twitter: yotii23
+      github: yakitorii
