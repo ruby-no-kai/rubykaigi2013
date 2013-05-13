@@ -1,3 +1,24 @@
+---
 keynote: true
+title: Fight with Diversity
+description: |-
+  Diversity is awesome if we can choose good one and ignore others.
+  But diversity is a nightmare if we need to support all of them.
+  Ruby implementation has such nightmare.
+  For example, there are many OS and libraries.
+  I'll talk about such nightmare in my experience.
+spoken_language: # TODO
 speakers:
 - name: Akira “akr” Tanaka
+  bio: |-
+    A Ruby committer.
+    I developed or maintained (part of) several libraries such as
+    pathname, resolv, open-uri, pp, securerandom, tsort, time, socket, io,
+    process, encoding, transcode, etc.
+  company: |-
+    National Institute of Advanced Industrial Science and Technology (AIST) /
+    Free Software Initiative of Japan (FSIJ)
+  gravatar: b11f10c4cd9d53970e7be20caa43f940
+  links:
+    github: akr
+    twitter: tanaka_akr
