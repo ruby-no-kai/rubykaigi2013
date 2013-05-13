@@ -2,7 +2,7 @@
 - ['A', 'B'].each_with_index do |hall, index|
   - next if cells[index].blank?
 
-  %ul<>
+  %ul.scheduleRow<>
     %h4= hall
     - cells[index].each do |hash|
       - type, id = hash.first
