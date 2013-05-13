@@ -136,6 +136,13 @@ footer aside {
   width: 50%;
 }
 
+#talk .speakerProfile .avatar img {
+  max-width: none;
+}
+
+#lt .speakerProfile .avatar img {
+}
+
 .photos img {
   margin: 20px;
   width: 70%;
@@ -200,6 +207,10 @@ header nav ul li a {
 
 .speakers li {
   width: 20%;
+}
+#talk .speakerProfile dl,
+#lt .speakerProfile .info {
+  display: table-cell;
 }
 
 .photos img {
