@@ -19,13 +19,6 @@
           \-
           = talk.speakers.map(&:name).join(', ')
 
-        - when :events
-          - event = data.events[id.to_s]
-          %span.event= event.title
-          - if event.organizer.present?
-            \-
-            = event.organizer.map(&:name).join(', ')
-
         - when :text
           = id
 
