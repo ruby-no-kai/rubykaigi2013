@@ -1,7 +1,7 @@
 ---
 title: Continuous gem dependency updating with Jenkins and Pull Request
 description: |
-  TBA
+  To Be Announced
 description_ja: |
   このトークでは Jenkins と GitHub の Pull Request を活用し、ライブラリのアップデート作業を省力化する方法について解説します。
 
