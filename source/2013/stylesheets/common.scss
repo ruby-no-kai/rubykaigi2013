@@ -531,21 +531,12 @@ footer {
     margin-bottom: 10px;
     h3 {
       @include span-columns(2);
+      min-width: 60px;
       display: inline-block;
       color: $brightRed;
     }
     h4 {
       @extend .hall
-    }
-    & > ul {
-      @include span-columns(5);
-      display: inline-block;
-    }
-    & > ul:nth-child(2) h4 {
-      background: $brightRed;
-    }
-    & > ul:nth-child(3) h4 {
-      background: $softPurple;
     }
     & > * {
       margin: 0;
@@ -568,6 +559,19 @@ footer {
   .keynote,
   .talkTitle {
     font-weight: bold;
+  }
+
+  .scheduleRow {
+    @include span-columns(5);
+    display: inline-block;
+
+    &:nth-child(2) h4 {
+      background: $brightRed;
+    }
+
+    &:nth-child(3) h4 {
+      background: $softPurple;
+    }
   }
 }
 
