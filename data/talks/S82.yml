@@ -7,7 +7,7 @@ description: |-
   Ruby implementation has such nightmare.
   For example, there are many OS and libraries.
   I'll talk about such nightmare in my experience.
-spoken_language: # TODO
+spoken_language: Japanese
 speakers:
 - name: Akira “akr” Tanaka
   bio: |-
