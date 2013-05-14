@@ -15,14 +15,14 @@
     %section#platinumSponsor
       %h1
         Platinum Sponsors
-      = partial 'sponsors', locals: {sponsors: data.sponsors.platinum_sponsors, sponsors_wanted: 'sponsorsPlatinumWanted.png'}
+      = partial 'sponsors', locals: {sponsors: data.sponsors.platinum_sponsors}
 
     %section#goldSponsor
       %h1
         Gold Sponsors
-      = partial 'sponsors', locals: {sponsors: data.sponsors.gold_sponsors, sponsors_wanted: 'sponsorsGoldWanted.png'}
+      = partial 'sponsors', locals: {sponsors: data.sponsors.gold_sponsors}
 
     %section#silverSponsor
       %h1
         Silver Sponsors
-      = partial 'sponsors', locals: {sponsors: data.sponsors.silver_sponsors, sponsors_wanted: 'sponsorsSilverWanted.png'}
+      = partial 'sponsors', locals: {sponsors: data.sponsors.silver_sponsors}
