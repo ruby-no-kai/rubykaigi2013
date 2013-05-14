@@ -283,6 +283,10 @@ ul.listMarkWhite {
       margin: 0 0 30px 0;
     }
   }
+  .platinumSponsorType {
+    @extend .contentBg;
+    background: $softPurple;
+  }
   h3 {
     font-size: $defaultFontSize + 4;
   }

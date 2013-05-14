@@ -2,7 +2,7 @@
   - sponsors.each do |sponsor|
     %li{id: sponsor.id}
       - if sponsor.special
-        %h2
+        %h2.platinumSponsorType
           = sponsor.special
       %p.logo
         = sponsor_logo_tag sponsor
