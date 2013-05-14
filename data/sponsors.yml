@@ -192,7 +192,8 @@ silver_sponsors:
     name: R-learning
     link: 'http://www.r-learning.co.jp/'
     weight: 1
-    description:
+    description: |-
+      R-Learning develops Web Systems by Ruby on Rails along with YOU !
 
   - id: Silver11
     name: Tatsu-zine Publishing Inc.
