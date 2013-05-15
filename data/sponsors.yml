@@ -132,6 +132,13 @@ gold_sponsors:
     description: |-
       PIXTA is the Japanese leading online marketplace for royalty-free stock photos,illustrations,footage. We've been using Rails since 2011.
 
+  - id: Gold10
+    name: Internet Initiative Japan Inc.
+    link: 'http://www.iij.ad.jp/'
+    weight: 2
+    description: |-
+      IIJ provides cloud service, "IIJ GIO" globally and develops "MOGOK" as a developer service (PaaS) using Ruby.
+
 silver_sponsors:
   - id: Silver01
     name: ClearCode Inc.
