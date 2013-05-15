@@ -6,14 +6,14 @@
     terminal broadcasting tool, which lets you easily broadcast your terminal to the
     world.
 
-    In this lightning talk, I'll show you how to broadcast, how it works
-    on Rails+Node.js, and how it's used by terminal broadcasters.
+    In this lightning talk, you'll learn how to broadcast, how it works,
+    and how it's used by terminal broadcasters. ScreenX TV http://screenx.tv/
   spoken_language: English
   speakers:
   - name: YASUKAWA, Yohei
     bio: Founder of Okinawa.rb, organizer of CoderDojo Tokyo/Okinawa, and contributor
-      of OpenSource Cafe. Founded YasuLab, a small distributed company, and moving
-      between Okinawa, Tokyo, and Silicon Valley.
+      of OpenSource Cafe. Running YasuLab, a small distributed company, and moving
+      between Okinawa, Tokyo, and Silicon Valley. YasuLab http://yasulab.jp/
     company: YasuLab / Engineer
     gravatar: f9e2dfe1e5e7b40cfe5bafa0c730293d
     links:
