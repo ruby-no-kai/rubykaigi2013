@@ -171,33 +171,29 @@
       github: ginriki
 
 - title: Image resizing and cache Engine by Sinatra
-  description: To Be Announced
+  description: |-
+    Realtime resizing and caching images engine with GET Parameters made by Sinatra.
+    
+    It's useful to use as The Image Server with big web service using many images.  
+    
+    And also useful to fit the image size to smartphone or mobile views without time and effort.
   description_ja: |-
-    [demo:](demo:) [http://thunder-image.kibitan.com/](http://thunder-image.kibitan.com/)
-    id/[pass:](pass:) rubykaigi/2013
-
-    GETパラメータで画像をリサイズ・同時にキャッシュする画像エンジン。Sinatra使用。
-    [http://thunder-image.kibitan.com/(width)x(height)/(ImageURL)](http://thunder-image.kibitan.com/(width)x(height)/(ImageURL))
-
-    例：[http://thunder-image.kibitan.com/300x100.fit/http://www.ruby-lang.org/images/logo.gif](http://thunder-image.kibitan.com/300x100.fit/http://www.ruby-lang.org/images/logo.gif)
-
-    用途：中規模・大規模webサービスのサムネイル画像サーバー・スマホビュー用リサイズサーバー
+    GETパラメータでリアルタイムに画像をリサイズ・同時にキャッシュする画像エンジン。Sinatra使用。
+    用途：中規模・大規模webサービスの画像サーバー、スマホ・モバイルビュー用画像サーバー
   spoken_language: English
   speakers:
   - name: chikahiro tokoro @kibitan
     bio: |-
       here is my profile!
       [http://kibitan.com/](http://kibitan.com/)   (only japanese)
-
-      I am Ruby Engineer, and I am Tabla player (Indian classical drum), and I am ... Traveler of the earth!
+      
+      I am Web Engineer, and I am Tabla player (Indian classical drum), and I am ... Traveler of the earth!
     company: |-
-      2011-2013 ZIGExN / Engineer (Rails)
-      2010-2011 WorksApplications / Engineer (Java)
-      (InternShip)
-      2006-2007 Drecom / Engineer(Rails)
-      2005-2006 PrimeStyle / Sales
-
-      Now Jobless! :)
+      2011-2013 ZIGExN as Engineer (Rails) / 
+      2010-2011 WorksApplications as Engineer (Java) / 
+      2006-2007 Drecom as Engineer InternShip(Rails) /
+      2005-2006 PrimeStyle as Sales InternShip / 
+      I'm Jobless Now :)
     gravatar: 70d31d2a58c69153b84b7a0f5d648ea7
     links:
       twitter: kibitan
