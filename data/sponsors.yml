@@ -216,3 +216,9 @@ silver_sponsors:
     weight: 1
     description: |-
       The most famous ebook publisher for software developers in Japan
+
+  - id: Silver12
+    name: Allied Telesis K.K.
+    link: 'http://www.allied-telesis.co.jp/'
+    weight: 1
+    description: |-
