@@ -139,15 +139,21 @@
 
 - title: Challenges building a call center with 3rd party APIs
   description: |-
-    Even with the help of third party APIs (Twilio, Tropo, Adhersion, etc.) that provide telephony functionality, there are mayor design decisions involved when building a call center.
+    Even with the help of third party APIs (Twilio, Tropo, Adhersion, etc.) that provide
+    telephony functionality, there are mayor design challenges involved when building a
+    call center.
 
-    But thanks to the ruby community and the availability of incredible gems and libraries this task is now simple enough that just a few developers can build and replicate full feature telephony systems.
+    But thanks to the ruby community and the availability of incredible gems and libraries
+    this task is now simple enough that just a few developers can build and replicate
+    full feature telephony systems.
   spoken_language: English
   speakers:
   - name: Christian Sousa
-    bio:
-    company: Software Engineer
-    gravatar:
+    bio: |-
+      Born in the highlands of Peru, moved to Honjo in Saitama, lost in the coast of
+      Oami in Chiba and found in the shore of California.
+    company: Software Engineer at YP (former AT&T Interactive)
+    gravatar: 9702d5802302c61b996d905ac59b7c00
     links:
       twitter: neocsr
       github: neocsr
