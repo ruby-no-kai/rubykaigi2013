@@ -38,6 +38,14 @@ special_sponsors:
     description: |-
       DeNA is a global internet company with a number of game titles in Google Play’s top rankings, and we depend on Ruby for back-end development. We’re also releasing new services and contributing to the open source community, with the goal of delighting the world.
 
+  - id: Special04
+    name: Ricoh Company, Ltd.
+    link: 'http://www.ricoh.com'
+    weight: 3
+    special: Signage Sponsor
+    description: |-
+      Ricoh is a global technology company specializing in office imaging equipment, production print solutions, document management systems and IT services. Headquartered in Tokyo, Ricoh Group operates in more than 200 countries and regions.
+
 platinum_sponsors:
   - id: Platinum01
     name: Engine Yard
