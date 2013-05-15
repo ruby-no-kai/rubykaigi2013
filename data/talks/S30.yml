@@ -2,7 +2,15 @@
 title: |
   Async programming is all about programming synchronously.
 description: |-
-  To Be Announced
+  In this talk I'll introduce some common asynchronous programming patterns and show how common themes in asynchronous programming are actually all about programming synchronously.
+
+  The talk will be aimed at people with intermediate to advanced-level programming experience with weakly multiplexing systems that use select and TCP, such as Node.js, X11 and dRuby, and at enthusiasts of Linda languages, actors and other such models. Anyone who had struggled with these types of systems, please join us and share your experiences.
+
+  I will attempt to convey the pathos of asynchronous programming through my experience first programming before dRuby,
+  writing code to manage the coordination of different tools -- GUIS and networks, control of multiple hardware devices -- then through my experience writing a series of books from my first dRuby book in 2001 to The dRuby Book, and finally through my experience of the fierce criticism from competing libraries (?).
+
+  I will also mention some examples of concrete solutions through a discussion of asynchronous function calls in Ruby, the design philosophy and applications of dRuby, and what Drip was aimed to solve.
+
 description_ja: |-
   「非同期プログラミングとは同期をプログラミングすることである。」
 
