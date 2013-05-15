@@ -20,122 +20,24 @@
       twitter: yasulab
       github: yasulab
 
-- title: 'Ruby Taiwan Community: We share, we promote, we code.'
-  description: Introduce the history, activities and achievements of Ruby Taiwan Community
-    and talk about what I have learned from the community.
-  spoken_language: English
-  speakers:
-  - name: Mu-Fan Teng
-    bio: 鄧慕凡(a.k.a Ryudo) is the senior backend engineer at Resume Companion. He has
-      worked with Ruby, Rails and Sinatra since 2007. Also he is the organizer of
-      RubyTaiwan Community([http://ruby.tw](http://ruby.tw)) and RubyConf Taiwan([http://rubyconf.tw](http://rubyconf.tw))
-      and co-founder of Taiwan’s biggest forum service provider FREEBBS.TW. He currently
-      lives in Taipei, blogs at ryudo.tw and tweets as @ryudoawaru.
-    company: ResumeCompanion.com / Senior Backend Engineer
-    gravatar: c7c4962ce9539d003fd7f0f06539e9d3
-    links:
-      twitter: ryudoawaru
-      github: ryudoawaru
-
-- title: Using flash cards to know Ruby better
-  description: When it comes to memorizing the innards of a programming language in
-    order to understand it better, nothing beats flash cards with spaced repetition
-    in my experience. This presentation will show you how you can apply the same technique
-    to make sure you remember everything you want to remember about Ruby (or anything
-    else for that matter).
-  spoken_language: English
-  speakers:
-  - name: Peter Evjan
-    bio: |-
-      A programmer from Sweden, who lives in Melbourne, Australia after a brief stint in Ghana.
-
-      I like Ruby, heavy guitars, martial arts and animals.
-    company: Developer at Cogent
-    gravatar: bd36ec7f184adfb371f9738da5b53e6d
-    links:
-      twitter: peterevjan
-      github: evjan
-
-- title: Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster
-  description: "In this session, I present the log utilization strategy at DeNA, and
-    introduce a tool named Haikanko.\n\nHaikanko is an application to manage fluentd
-    cluster easily. It enables to generate fluentd configuration files automatically,
-    and deploy them onto lots of fluentd nodes by one click.  \n\nHaikanko is written
-    with ruby / sinatra / erb / mina (yet another capistrano)."
-  spoken_language: English
-  speakers:
-  - name: Naotoshi Seo
-    bio: After graduating the University of Maryland, USA, Naotoshi Seo started to
-      work at a manufacturer company as an application software engineer, and then
-      joined to DeNA as an infrastructure engineer. His main mission is to develop
-      software and automate tasks to assist daily server operations.
-    company: DeNA / Infrastructure Application Engineer
-    gravatar: aef92c3acc29ad8543e04135687fc4f1
-    links:
-      twitter: sonots
-      github: sonots
-
-- title: a test code generator for RSpec users
-  description: "rspec-kickstarter is a test code generator for RSpec users. \n\n[https://github.com/seratch/rspec-kickstarter](https://github.com/seratch/rspec-kickstarter)\n\nTDD
-    is a very useful approach but actually many projects are not fully TDD-based and
-    we sometimes need to face apps that don't have enough coverage. In such a situation,
-    I believe that this tool is especially useful.\n\nIt's easy to say \"You should
-    write tests for the legacy code before modifying it\" but it's not always easy
-    to keep the motivation to do the right thing because developers have many things
-    to do before they start writing essential parts of test. It's messy to create
-    a new file or figure out the existing spec file, find out what the lacking test
-    cases are and write routine stuff which starts with 'describe'.\n\nrspec-kickstarteer
-    enables developers writing test immediately. If the spec is absent, it generates
-    a new spec template file. Furthermore, it appends lacking test cases (with TODO
-    comments) to existing the spec file if they're found. \n\nI know that testing
-    for methods is not perfect but it's pretty important to reduce the psychological
-    barrier. \n\nI'll show some examples about rspec-kickstarter in this talk."
-  spoken_language: English
-  speakers:
-  - name: Kazuhiro Sera
-    bio: A programmer, a newbie dad, living with a rabbit and a chinchilla lanigera.
-    company: Application Developer at M3, Inc.
-    gravatar: 132fe0f031849e12eea7ce74f99b90f0
-    links:
-      twitter: seratch
-      github: seratch
-
-- title: The Pragmatic Glitch
+- title: A case study on exporting local culture with Rails application
   description: |-
-    The meaning of glitch is originally unexpected results by malfunctions. By extension, it stands for phenomena (or arts using them) that are caused by errors in various media.
-    In this presentation, I'll show some image glitch ways that beginners can try easily using Ruby.
-  description_ja: |-
-    グリッチとは、電子回路の接触不良などによる誤作動のことであり、転じて、様々な媒体でエラーが生じることによって引き起こされる現象やそれを用いた藝術作品のことを指します。
-    この発表では、主に画像グリッチについて、グリッチ初心者が Ruby を使って簡易に試すことができる方法を紹介します。
-  spoken_language: English
-  speakers:
-  - name: Shimpei Makimoto
-    bio: |-
-      Shimpei Makimoto is a software engineer living in Tokyo.
-      He is interested in search technologies, cooking, and glitch.
-    company: Software Engineer, COOKPAD Inc.
-    gravatar: 3e809b3e856f5eed33e279cf93657d3c
-    links:
-      twitter: makimoto
-      github: makimoto
+    Rails helps people understand new idea, we know.
 
-- title: Introduction of ‘3dcg-arts.net’
-  description: "I would like to talk about the use of rspec and CI (Jenkins) to improve
-    reliability of 3D computer graphics models conversion software. \nI'll introduce
-    '3dcg-arts.net', which provides sharing (publish, browse, evaluate, etc) 3D computer
-    graphics works on web browsers. \nIn this service, we developed a software to
-    convert 3D models to a common format for convenient view on web browsers and use
-    rspec and CI for reliability check."
+    There are many interesting local cultures in the world, but it is difficult to introduce such cultures to other people. Rails application can reduce such difficulty using some tips.
+
+    Our experience is introduction of Japanese 'Kukai' to French students. Kukai is a game to enjoy Haiku, short Japanese poetry. In Kukai, attendees score each Haikus and comments by each other. We developed a Kukai Rails application and this system used by a lecture at a French school. The lecture was well-received. To develop our Kukai system, Internationalisation (i18n) is easy to support using Rails framework.
+
+    In this talk, we show our experience and key points of transferring one local culture to other cultures using Rails web application.
   spoken_language: English
   speakers:
-  - name: Hiroyuki Inoue
-    bio: A member of 3dcg-arts dev team and a graduate school student at university
-      of Tsukuba.
-    company:
-    gravatar: 464f7715290af1c0cd41e6bf9d1ee8cc
+  - name: Yuki Torii
+    bio: Rails developer, the one of the RailsGirls Tokyo 2nd organizers.
+    company: Everyleaf Corporation /  developer
+    gravatar: c67596c92e9d161d314f69de3f05f00c
     links:
-      twitter: inohiro
-      github: inohiro
+      twitter: yotii23
+      github: yakitorii
 
 - title: Challenges building a call center with 3rd party APIs
   description: |-
@@ -176,6 +78,61 @@
       twitter: twginriki
       github: ginriki
 
+- title: Log Strategy at DeNA with Haikanko - a management tool of fluentd cluster
+  description: "In this session, I present the log utilization strategy at DeNA, and
+    introduce a tool named Haikanko.\n\nHaikanko is an application to manage fluentd
+    cluster easily. It enables to generate fluentd configuration files automatically,
+    and deploy them onto lots of fluentd nodes by one click.  \n\nHaikanko is written
+    with ruby / sinatra / erb / mina (yet another capistrano)."
+  spoken_language: English
+  speakers:
+  - name: Naotoshi Seo
+    bio: After graduating the University of Maryland, USA, Naotoshi Seo started to
+      work at a manufacturer company as an application software engineer, and then
+      joined to DeNA as an infrastructure engineer. His main mission is to develop
+      software and automate tasks to assist daily server operations.
+    company: DeNA / Infrastructure Application Engineer
+    gravatar: aef92c3acc29ad8543e04135687fc4f1
+    links:
+      twitter: sonots
+      github: sonots
+
+- title: The Pragmatic Glitch
+  description: |-
+    The meaning of glitch is originally unexpected results by malfunctions. By extension, it stands for phenomena (or arts using them) that are caused by errors in various media.
+    In this presentation, I'll show some image glitch ways that beginners can try easily using Ruby.
+  description_ja: |-
+    グリッチとは、電子回路の接触不良などによる誤作動のことであり、転じて、様々な媒体でエラーが生じることによって引き起こされる現象やそれを用いた藝術作品のことを指します。
+    この発表では、主に画像グリッチについて、グリッチ初心者が Ruby を使って簡易に試すことができる方法を紹介します。
+  spoken_language: English
+  speakers:
+  - name: Shimpei Makimoto
+    bio: |-
+      Shimpei Makimoto is a software engineer living in Tokyo.
+      He is interested in search technologies, cooking, and glitch.
+    company: Software Engineer, COOKPAD Inc.
+    gravatar: 3e809b3e856f5eed33e279cf93657d3c
+    links:
+      twitter: makimoto
+      github: makimoto
+
+- title: 'Ruby Taiwan Community: We share, we promote, we code.'
+  description: Introduce the history, activities and achievements of Ruby Taiwan Community
+    and talk about what I have learned from the community.
+  spoken_language: English
+  speakers:
+  - name: Mu-Fan Teng
+    bio: 鄧慕凡(a.k.a Ryudo) is the senior backend engineer at Resume Companion. He has
+      worked with Ruby, Rails and Sinatra since 2007. Also he is the organizer of
+      RubyTaiwan Community([http://ruby.tw](http://ruby.tw)) and RubyConf Taiwan([http://rubyconf.tw](http://rubyconf.tw))
+      and co-founder of Taiwan’s biggest forum service provider FREEBBS.TW. He currently
+      lives in Taipei, blogs at ryudo.tw and tweets as @ryudoawaru.
+    company: ResumeCompanion.com / Senior Backend Engineer
+    gravatar: c7c4962ce9539d003fd7f0f06539e9d3
+    links:
+      twitter: ryudoawaru
+      github: ryudoawaru
+
 - title: Image resizing and cache Engine by Sinatra
   description: |-
     Realtime resizing and caching images engine with GET Parameters made by Sinatra.
@@ -205,21 +162,64 @@
       twitter: kibitan
       github: kibitan
 
-- title: A case study on exporting local culture with Rails application
-  description: |-
-    Rails helps people understand new idea, we know.
-
-    There are many interesting local cultures in the world, but it is difficult to introduce such cultures to other people. Rails application can reduce such difficulty using some tips.
-
-    Our experience is introduction of Japanese 'Kukai' to French students. Kukai is a game to enjoy Haiku, short Japanese poetry. In Kukai, attendees score each Haikus and comments by each other. We developed a Kukai Rails application and this system used by a lecture at a French school. The lecture was well-received. To develop our Kukai system, Internationalisation (i18n) is easy to support using Rails framework.
-
-    In this talk, we show our experience and key points of transferring one local culture to other cultures using Rails web application.
+- title: a test code generator for RSpec users
+  description: "rspec-kickstarter is a test code generator for RSpec users. \n\n[https://github.com/seratch/rspec-kickstarter](https://github.com/seratch/rspec-kickstarter)\n\nTDD
+    is a very useful approach but actually many projects are not fully TDD-based and
+    we sometimes need to face apps that don't have enough coverage. In such a situation,
+    I believe that this tool is especially useful.\n\nIt's easy to say \"You should
+    write tests for the legacy code before modifying it\" but it's not always easy
+    to keep the motivation to do the right thing because developers have many things
+    to do before they start writing essential parts of test. It's messy to create
+    a new file or figure out the existing spec file, find out what the lacking test
+    cases are and write routine stuff which starts with 'describe'.\n\nrspec-kickstarteer
+    enables developers writing test immediately. If the spec is absent, it generates
+    a new spec template file. Furthermore, it appends lacking test cases (with TODO
+    comments) to existing the spec file if they're found. \n\nI know that testing
+    for methods is not perfect but it's pretty important to reduce the psychological
+    barrier. \n\nI'll show some examples about rspec-kickstarter in this talk."
   spoken_language: English
   speakers:
-  - name: Yuki Torii
-    bio: Rails developer, the one of the RailsGirls Tokyo 2nd organizers.
-    company: Everyleaf Corporation /  developer
-    gravatar: c67596c92e9d161d314f69de3f05f00c
+  - name: Kazuhiro Sera
+    bio: A programmer, a newbie dad, living with a rabbit and a chinchilla lanigera.
+    company: Application Developer at M3, Inc.
+    gravatar: 132fe0f031849e12eea7ce74f99b90f0
     links:
-      twitter: yotii23
-      github: yakitorii
+      twitter: seratch
+      github: seratch
+
+- title: Using flash cards to know Ruby better
+  description: When it comes to memorizing the innards of a programming language in
+    order to understand it better, nothing beats flash cards with spaced repetition
+    in my experience. This presentation will show you how you can apply the same technique
+    to make sure you remember everything you want to remember about Ruby (or anything
+    else for that matter).
+  spoken_language: English
+  speakers:
+  - name: Peter Evjan
+    bio: |-
+      A programmer from Sweden, who lives in Melbourne, Australia after a brief stint in Ghana.
+
+      I like Ruby, heavy guitars, martial arts and animals.
+    company: Developer at Cogent
+    gravatar: bd36ec7f184adfb371f9738da5b53e6d
+    links:
+      twitter: peterevjan
+      github: evjan
+
+- title: Introduction of ‘3dcg-arts.net’
+  description: "I would like to talk about the use of rspec and CI (Jenkins) to improve
+    reliability of 3D computer graphics models conversion software. \nI'll introduce
+    '3dcg-arts.net', which provides sharing (publish, browse, evaluate, etc) 3D computer
+    graphics works on web browsers. \nIn this service, we developed a software to
+    convert 3D models to a common format for convenient view on web browsers and use
+    rspec and CI for reliability check."
+  spoken_language: English
+  speakers:
+  - name: Hiroyuki Inoue
+    bio: A member of 3dcg-arts dev team and a graduate school student at university
+      of Tsukuba.
+    company:
+    gravatar: 464f7715290af1c0cd41e6bf9d1ee8cc
+    links:
+      twitter: inohiro
+      github: inohiro
