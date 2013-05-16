@@ -222,3 +222,10 @@ silver_sponsors:
     link: 'http://www.allied-telesis.co.jp/'
     weight: 1
     description: |-
+
+  - id: Silver13
+    name: YAMAHA CORPORATION
+    link: 'http://jp.yamaha.com/products/network/'
+    weight: 1
+    description: |-
+      Yamaha, the finest in Music & Audio also manufactures Network devices.
