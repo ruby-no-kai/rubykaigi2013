@@ -11,7 +11,7 @@ description: |-
   I will also touch on asynchronous function calls in Ruby, the design philosophy of dRuby, and what Drip was aimed to solve.
 
   Target audiences:
-  * people with intermediate to advanced-level programming experience with high-level asynchronous languages that use select and TCP, such as Node.js, X11 and dRuby
+  * people with intermediate to advanced-level programming experience with high-level multiplexing languages that use select and TCP, such as Node.js, X11 and dRuby
   * enthusiasts of Linda languages and actor-based models
 description_ja: |-
   「非同期プログラミングとは同期をプログラミングすることじゃん。」
