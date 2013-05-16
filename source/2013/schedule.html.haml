@@ -72,7 +72,7 @@
         = partial 'schedule_row_break', locals: {slot: '9:30', text: 'Door Open'}
 
       %li
-        = partial 'schedule_row', locals: {slot: '10:00', cells: [[{talks: 'S30'}, {talks: 'S21'}], [{text: '-'}, {talks: 'S26'}]]}
+        = partial 'schedule_row', locals: {slot: '10:00', cells: [[{talks: 'S30'}, {talks: 'S21'}], [{text: content_tag('i', '(Hall B will start at 10:30am today)')}, {talks: 'S26'}]]}
       %li
         = partial 'schedule_row', locals: {slot: '11:00', cells: [[{talks: 'S06'}, {talks: 'S34'}], [{talks: 'S78'}, {talks: 'S24'}]]}
 
