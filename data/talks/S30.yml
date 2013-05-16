@@ -1,26 +1,30 @@
 ---
 title: |
-  Async programming is all about programming synchronously.
+  Async programming is all about programming synchronously
 description: |-
-  In this talk I'll introduce some common asynchronous programming patterns and show how common themes in asynchronous programming are actually all about programming synchronously.
+  "dRuby is a failure."
 
-  The talk will be aimed at people with intermediate to advanced-level programming experience with weakly multiplexing systems that use select and TCP, such as Node.js, X11 and dRuby, and at enthusiasts of Linda languages, actors and other such models. Anyone who had struggled with these types of systems, please join us and share your experiences.
+  I resolved to give this talk after hearing these words from the authors of other libraries.
 
-  I will attempt to convey the pathos of asynchronous programming through my experience first programming before dRuby,
-  writing code to manage the coordination of different tools -- GUIS and networks, control of multiple hardware devices -- then through my experience writing a series of books from my first dRuby book in 2001 to The dRuby Book, and finally through my experience of the fierce criticism from competing libraries (?).
+  In the talk I'll introduce some common asynchronous programming patterns and show how common themes in asynchronous programming are actually all about programming synchronously.
 
   I will also mention some examples of concrete solutions through a discussion of asynchronous function calls in Ruby, the design philosophy and applications of dRuby, and what Drip was aimed to solve.
 
+  Target audiences:
+  * intermediate to advanced-level programming experience with weakly multiplexing systems that use select and TCP, such as Node.js, X11 and dRuby
+  * enthusiasts of Linda languages and actor-based models
 description_ja: |-
-  「非同期プログラミングとは同期をプログラミングすることである。」
+  「非同期プログラミングとは同期をプログラミングすることじゃん。」
+
+  「dRubyは失敗作である」。他のライブラリの作者からの言葉から発表を決心しました。
 
   この発表では、非同期プログラミングでよくあるパターンを紹介し、非同期プログラミングのテーマが「同期」をプログラミングすることであることを示します。
 
-  おもに、Node.jsやX11、dRubyなど、selectとTCPを使ったヌルめの多元待ちのプログラミングの経験のある中級者から上級者、およびLinda、アクターなどに反応するマニアを対象にしています。こういったテーマで苦労したことがあれば、一緒に悩んでもらえると思います。
+  Rubyでの非同期呼び出し、dRubyの設計指針、Dripが解決したかったことなどについても言及します。
 
-  GUIとネットワーク、複数のハードウェアの制御、ツール間の協調のプログラミングなど、dRuby以前（Before dRuby)における開発と、最初のdRuby本（2001年アスキー）からThe dRuby Bookに至る一連の著作の執筆、競合ライブラリ（？）からの辛辣なdisりなどの経験を基に、非同期プログラミングの哀愁を伝えます。
-
-  Rubyでの非同期呼び出し、dRubyの設計の指針と応用例、Dripが解決したかったことなど、具体的な解決例についても言及します。
+  対象者:
+  * Node.jsやX11, dRubyなどのようなselectとTCPを利用した高水準の多元待ちのプログラミング経験のある中上級者
+  * Lindaやアクターモデルなどに反応するマニア
 spoken_language: Japanese
 speakers:
 - name: Masatoshi SEKI
