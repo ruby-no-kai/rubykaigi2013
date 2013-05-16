@@ -8,10 +8,10 @@ description: |-
 
   In the talk I'll introduce some common asynchronous programming patterns and show how common themes in asynchronous programming are actually all about programming synchronously.
 
-  I will also mention some examples of concrete solutions through a discussion of asynchronous function calls in Ruby, the design philosophy and applications of dRuby, and what Drip was aimed to solve.
+  I will also touch on asynchronous function calls in Ruby, the design philosophy of dRuby, and what Drip was aimed to solve.
 
   Target audiences:
-  * intermediate to advanced-level programming experience with weakly multiplexing systems that use select and TCP, such as Node.js, X11 and dRuby
+  * people with intermediate to advanced-level programming experience with high-level multiplexing systems that use select and TCP, such as Node.js, X11 and dRuby
   * enthusiasts of Linda languages and actor-based models
 description_ja: |-
   「非同期プログラミングとは同期をプログラミングすることじゃん。」
