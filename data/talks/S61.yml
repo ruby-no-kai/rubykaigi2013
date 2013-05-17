@@ -1,7 +1,11 @@
 ---
 title: Concerning `Applications'
 description: |-
-  To Be Announced
+  In recent years, as Rails has been used in more and more contexts and applied to increasingly complex real-life problems, Rails applications themselves have become more complex. As a result, the so-called Rails "model" has become bloated and complex. The question of how to deal with this bloat currently occupies the mind of many Rails users.
+
+  A variety of approaches have been proposed as solutions to this problem. One of these is a technique by which model behavior is divided into small units called "Concerns", such that the size of individual classes (whose source code we have to maintain) can be minimized. (In Rails 4, the framework conventions [make this easier to do](https://github.com/rails/rails/commit/f6bbc3f582bfc16da3acc152c702b04102fcab81).)
+
+  Starting with Rails 3, I have applied this technique to a number of practical applications. In the process, I have struggled and learned many lessons about how to extract code into concerns, how to test such concerns, and what level of metaprogramming to use. In this talk I'd like to share some of these lessons with you.                                       
 description_ja: |-
   世の中の色んなところでRailsアプリケーションが使われるようになって早数年、アプリケーションで現実の複雑な問題を扱う用になるに従いアプリケーション自体も複雑になってきました。
 
