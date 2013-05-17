@@ -12,10 +12,10 @@ speakers:
     github: KevinTriplett
     twitter: kevintriplett
 - name: Shintaro Kakutani
-  bio:
-  company:
-  location:
-  gravatar:
+  bio: 'Rubyist-ist, RubyKaigi organizer, Uncle Jimu(事務) for RailsGirls in Japan. He translated some English tech-book into Japanese: "Working with Unix Processes"[NEW!], "The Agile Samurai", "Agile Estimating and Planning", "Practices of an Agile Developer"and "From Japan to Ruby"'
+  company: Nihon Ruby-no-Kai(Japan Ruby Group), Eiwa System Management, Inc.
+  location: Tokyo, Japan
+  gravatar: 63a6bff89d692e21de20868202bc8dde
   links:
-    github:
-    twitter:
+    github: kakutani
+    twitter: kakutani
