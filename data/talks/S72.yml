@@ -1,7 +1,25 @@
 ---
 title: Continuous gem dependency updating with Jenkins and Pull Request
 description: |
-  To Be Announced
+  In this talk, I will talk about the technique of saving labor of gem dependency updating by Jenkins CI and GitHub's pull request.
+
+  Bundler will be used to manage the library in the web application development with Ruby these days.
+  Bundler is a useful tool to intelligently manage the version and dependencies of the library.
+  However, developers are so busy that they often forget or postpone the updating work.
+  Moreover, sometimes developers might be not permitted to spend their time for these work by their boss.
+
+  Presenter also fall into this situation, and experienced some troubles in the updating work for the first time in a long time.
+
+  Analysis of the cause of the update work disruptions,
+
+  * Good habit which rely on the motivation of developers is easy to be damaged
+  * Work that has not been incorporated into the daily workflow would be forgotten
+  * Since the notification from email or IRC has not enough pressure, it is difficult to feel a sense of duty
+
+  I've found that there is a problem.
+
+  Therefore, to solve the problem I made a mechanism to make the updating work smoothly by Jenkins CI and GitHub's pull request.
+  In this talk, I will talk about how I solved this problem, and compare this method to the similar ways.
 description_ja: |
   このトークでは Jenkins と GitHub の Pull Request を活用し、ライブラリのアップデート作業を省力化する方法について解説します。
 
