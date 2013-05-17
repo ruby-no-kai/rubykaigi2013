@@ -1,7 +1,17 @@
 ---
 title: "TRICK (Transcendental Ruby Imbroglio Contest for rubyKaigi)"
 description: |-
+  The result presentation of TRICK 2013, an esoteric Ruby programming
+  contest, will take plce.
+
+  You can (perhaps) enjoy some winning entries of unearthly Ruby code
+  selected by esoteric judges.
+
   See more information: [https://sites.google.com/site/trickcontest2013/](https://sites.google.com/site/trickcontest2013/)
+description_ja: |-
+  Ruby による変態プログラミングコンテスト TRICK 2013 の結果発表です。
+  変態審査員が選ぶ、あるまじき Ruby コードたちをお楽しみ頂ける予定です。
+  詳細はこちら: [https://sites.google.com/site/trickcontest2013/](https://sites.google.com/site/trickcontest2013/)
 spoken_language: Japanese
 speakers:
 - name: Yusuke Endoh
