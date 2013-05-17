@@ -1,7 +1,11 @@
 ---
 title: Rails Gems realize RESTful modeling patterns
-description:
-  To Be Announced
+description: |
+  Although it is not widely known, classic Rails gems such as Devise and Kaminari hide within them the RESTful resource modeling pattern. Using these gems encourages good resource design.
+
+  Since 2.0, Rails has moved toward incorporating RESTful resource design. The RESTful architecture has become a part of Rails. One of the best examples of this are the resources in routes.rb, which provide the basic resource pattern for Rails applications. However, the world of practical applications is not ready for this RESTful side of Rails, and so when people actually develop applications, they hesitate about this aspect of RESTful resource design. It is here that these gems fill an essential gap.
+
+  In this talk I will look at useful practical patterns adopted in such gems, and also introduce a gem currently under development which has the potential to play the role of a key missing piece.
 description_ja: |
   Rails Gemで実現するRESTfulモデリングパターン
 
