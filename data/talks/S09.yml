@@ -3,7 +3,7 @@ title: Contributing to Ruby
 description: |-
   Newcomer or seasoned veteran looking to get involved with Ruby documentation?
 
-  The path to eternal gratification can seem like a scary one, but we'll show you it's alot easier than you thought.  Writing documentation is a great way to give back to the open source community and build your Ruby skills and fundamentals.
+  The path to eternal gratification can seem like a scary one, but we'll show you it's a lot easier than you thought.  Writing documentation is a great way to give back to the open source community and build your Ruby skills and fundamentals.
 
   This talk will teach you the value of open-source, the benefits of contributing, and a little bit about how ruby-core works. You will learn what to look for when spotting documentation bugs in the MRI source code. We will cover the guidelines to writing MRI documentation, and how to submit a patch.
 
