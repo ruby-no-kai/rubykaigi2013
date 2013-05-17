@@ -1,21 +1,37 @@
 ---
 title: The Legal Bodies about Ruby and its projects
-description:
+description: (To Be Announced)
 spoken_language: Japanese
 speakers:
-- name: Ruby Association
+- name: Kazuyoshi Fukuda
   bio:
-  company:
+  company: Ruby Association
   location:
-  gravatar:
+  gravatar: 42ebafce7cc89f79b0910b53609ce99b
   links:
     github:
-    twitter:
-- name: Ruby-no-Kai
+    twitter: KazuyoshiFukuda
+- name: Kenji Sugihara
   bio:
-  company:
+  company: Ruby Association
   location:
-  gravatar:
+  gravatar: 22d17209eab280d1e1af349d4f9e4300
   links:
     github:
-    twitter:
+    twitter: tobaken
+- name: Masayoshi Takahashi
+  bio:
+  company: Nihon Ruby-no-Kai(Japan Ruby Group)
+  location:
+  gravatar: 21a4b941766d805333e11c5766be43b4
+  links:
+    github: takahashim
+    twitter: takahashim
+- name: Shintaro Kakutani
+  bio: 'Rubyist-ist, RubyKaigi organizer, Uncle Jimu(事務) for RailsGirls in Japan. He translated some English tech-book into Japanese: "Working with Unix Processes"[NEW!], "The Agile Samurai", "Agile Estimating and Planning", "Practices of an Agile Developer"and "From Japan to Ruby"'
+  company: Nihon Ruby-no-Kai(Japan Ruby Group), Eiwa System Management, Inc.
+  location: Tokyo, Japan
+  gravatar: 63a6bff89d692e21de20868202bc8dde
+  links:
+    github: kakutani
+    twitter: kakutani
