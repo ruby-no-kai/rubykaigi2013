@@ -1,5 +1,5 @@
 ---
-title: Technologies that support development of CRuby.
+title: Technologies that support development of CRuby
 description: |-
   There's bunch of novel features released with Ruby 2.0.0.
   Major features - keyword argument, Module#prepend, Enumerator::Lazy, DTrace, refinement, default script encoding, String#b etc.. - may be explained  other committers or Rubyist.
