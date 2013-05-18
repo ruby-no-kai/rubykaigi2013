@@ -26,6 +26,7 @@ speakers:
   company: 
   location: Seattle, WA
   gravatar: f29327647a9cff5c69618bae420792ea
+  committer: true
   links:
     github: tenderlove
     twitter: tenderlove

@@ -28,6 +28,7 @@ speakers:
   company: Clear Code Inc./President
   location: Tokyo, Japan
   gravatar: ee6ffca720cc428d70247dcd7377dd48
+  committer: true
   links:
     github: kou
     twitter: ktou

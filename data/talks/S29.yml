@@ -40,6 +40,7 @@ speakers:
   company: Freelancer
   location: Saarbruecken, Germany
   gravatar: 1ecef11b3cc6abfda85798858745ef72
+  committer: true
   links:
     github: emboss
     twitter: _emboss_

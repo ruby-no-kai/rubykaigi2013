@@ -15,6 +15,7 @@ speakers:
   company: "TOUA CORPORATION / Synergy Box Inc."
   location: Japan
   gravatar: 
+  committer: true
   links:
     github: unak
     twitter: unak

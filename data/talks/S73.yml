@@ -12,6 +12,7 @@ speakers:
   company: Heroku, Inc.
   location: Tokyo, Japan
   gravatar: 
+  committer: true
   links:
     github: ko1
     twitter: koichisasada

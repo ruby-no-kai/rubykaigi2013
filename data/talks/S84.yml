@@ -8,6 +8,7 @@ speakers:
   company: Asakusa.rb
   location: Tokyo
   gravatar: 76a777ff80f30bd3b390e275cce625bc
+  committer: true
   links:
     github: amatsuda
     twitter: a_matsuda

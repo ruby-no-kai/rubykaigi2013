@@ -13,6 +13,7 @@ speakers:
   company: Network Applied Communication Laboratory/A programmer
   location: Matsue-shi, Japan
   gravatar: 9f859654c118bcd2f67cc763baf0de7a
+  committer: true
   links:
     github: authorNari
     twitter: nari3
