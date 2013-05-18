@@ -1,16 +1,16 @@
 %h1#mainImg
   = image_tag 'homeMain.svg', alt: 'RubyKaigi 2013 MAY 30 - JUNE 1 at Tokyo International Exchange Center Tokyo, Japan'
 
-%div.feature
-  %div.ribbon
-    %div.ribbon-content
+.feature
+  .ribbon
+    .ribbon-content
       %p
         RubyKaigi 2013 is a 3 day, multi-track conference for Rubyists held in Tokyo, Japan, the country Ruby was born in.
       %p
         %strong
           Let's celebrate Ruby 2.0's release by rebooting RubyKaigi this year!
 
-%div#summary
+#summary
   %p
     %strong
       In RubyKaigi 2013, you'll get:
@@ -21,7 +21,7 @@
       the most awesome keynote talks on this planet, given by @yukihiro_matz, @tanaka_akr and @josevalim!
     %li
       the opportunity to understand what Japanese Rubyist are saying in their presentations! There will be JA -> EN interpreters available during RubyKaigi this time! We will provide a great environment for Rubyists from around the world.
-  %div.details
+  .details
     %p
       %i.icon-time<>
       &nbsp;
@@ -43,7 +43,7 @@
         &nbsp;
         Buy Tickets
 
-%div#information
+#information
   %h2
     We are skeeing for volunteers &lt;3
   %div
@@ -51,6 +51,7 @@
       The RubyKaigi 2013 Team is recruiting volunteer staff. Because RubyKaigi is organized in Japanese, an understanding of Japanese is required, but we welcome non-native speakers to help out too. Check out the
       %a{href:'/2013/volunteers'}volunteer page
       for details.
+
   %h2
     CFP-Submitters Discount!
   %div
@@ -71,6 +72,7 @@
       %a(href="http://twitter.com/rubykaigi" target="_blank")
         @rubykaigi
       \.
+
   %h2
     Tags
   %div
@@ -80,11 +82,13 @@
         \#rubykaigi
     %p
       For Blogs, Flickr: rubykaigi2013
+
   %h2
     Contact
   %div
     %p
       Feel free to contact the team via email to 2013 at rubykaigi.org
+
   %h2
     Sponsors
   %div
@@ -112,9 +116,10 @@
       %h1
         Silver Sponsors
       = partial 'sponsors_logo', locals: {sponsors: data.sponsors.silver_sponsors}
+
   %h2
     Past Kaigis
-  %div#previous
+  #previous
     %ol
       - (2006..2012).to_a.reverse.each do |year|
         %li
