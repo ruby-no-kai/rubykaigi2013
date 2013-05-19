@@ -14,7 +14,8 @@ description_ja: |-
   詳細はこちら: [https://sites.google.com/site/trickcontest2013/](https://sites.google.com/site/trickcontest2013/)
 spoken_language: Japanese
 speakers:
-- name: Yusuke Endoh
+- &organizer
+  name: Yusuke Endoh
   bio: Ruby committer.  Ruby 2.0.0 release manager.  Kawasaki.rb.
   company:
   location: Kawasaki, Japan
@@ -63,3 +64,5 @@ speakers:
   links:
     github: eban
     twitter: eban
+organizers:
+- *organizer
