@@ -2,7 +2,7 @@
 title: "TRICK (Transcendental Ruby Imbroglio Contest for rubyKaigi)"
 description: |-
   The result presentation of TRICK 2013, an esoteric Ruby programming
-  contest, will take plce.
+  contest, will take place.
 
   You can (perhaps) enjoy some winning entries of unearthly Ruby code
   selected by esoteric judges.
@@ -15,10 +15,51 @@ description_ja: |-
 spoken_language: Japanese
 speakers:
 - name: Yusuke Endoh
-  bio:
+  bio: Ruby committer.  Ruby 2.0.0 release manager.  Kawasaki.rb.
   company:
-  location:
+  location: Kawasaki, Japan
   gravatar: f24ff61beb80aa5f13371aa22a35619c
   links:
     github:  mame
     twitter: mametter
+- name: Koichiro Eto
+  bio: |-
+    Graduated from Graduate School of Information Science and Technology, the University of Tokyo in 2010. Ph.D. (Information Science and Technology). Won the Honorary Mention of Prix Ars Electronica in 2013 (as NicoNicoGakkai Beta). Interested in social media and collaborative intelligence. Published books, "Patterns, Wiki, and XP: The Timeless Way of Creation", "I studied NicoNicoGakkai Beta", "Evolving Academia".
+  company: Media Artist / Senior Researcher at the National Institute of Advanced Industrial Science and Technology (AIST) / Chairman of the NicoNicoGakkai Beta Executive Committee
+  location: Tsukuba, Ibaraki
+  gravatar: ee67564a1a0e290cccf3c4a415e51c48
+  links:
+    github: eto
+    twitter: eto
+- name: Shinichiro Hamaji
+  bio: A golf course owner
+  company: Google
+  location: Tokyo
+  gravatar:
+  links:
+    github: shinh
+    twitter: shinh
+- name: Yutaka Hara
+  bio: Rubyist since Ruby 1.4.6 / Author of the world's first (and only?) book about Esoteric Languages.
+  company: Network Applied Communication Laboratory Ltd.
+  location: Matsue, Japan
+  gravatar: 2138d86b0e501db78d41d71b2c24382e
+  links:
+    github: yhara
+    twitter: yhara
+- name: Yukihiro "Matz" Matsumoto
+  bio: The Creator of Ruby
+  company: Ruby Association / Network Applied Communication Laboratory / Rakuten / Heroku
+  location: Matsue, Japan
+  gravatar: 0ec4920185b657a03edf01fff96b4e9b
+  links:
+    github: matz
+    twitter: yukihiro_matz
+- name: eban
+  bio: Ruby porter
+  company: Sony corp
+  location: Saitama
+  gravatar:
+  links:
+    github: eban
+    twitter: eban
