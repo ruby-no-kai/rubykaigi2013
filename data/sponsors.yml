@@ -3,6 +3,7 @@ ruby_sponsors:
     name: pixiv
     link: 'http://www.pixiv.net/'
     weight: 4
+    appeal_talk_id: S81
     description: |-
       Since 2007, pixiv has built an online community for creators around the mantra “It’s fun drawing”. pixiv has since used Ruby on Rails to build pixiv.com (an international-focused version of pixiv.net) and pixiv comic (a site offering free online digital comics/manga). Engineers all around the world have adopted Ruby - not just because Ruby is a superior language, but because of the immensely attractive community behind it. Just as the art on pixiv transcends language, so too does the Ruby community. We will continue to support the creators of the world, regardless of medium - code or canvas.
 
@@ -10,6 +11,7 @@ ruby_sponsors:
     name: COOKPAD
     link: 'http://cookpad.com/'
     weight: 4
+    appeal_talk_id: S80
     description: |-
       COOKPAD is Japan’s top recipe site allowing visitors to upload and search through original, user-created recipes. Currently being used by almost 80-90% of all Japanese women in their 20-30s, COOKPAD has become an essential tool in enabling families to enjoy cooking across Japan.The access to the site reaches its peak around 4-5 PM when people start grocery shopping for the day’s dinner ingredients. Combined with our mobile and smartphone services which can be used on the go and in stores, COOKPAD plays a significant role in the shopping decisions that consumers make in their everyday lives.
 

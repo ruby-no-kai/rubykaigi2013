@@ -10,6 +10,12 @@
       %li
         - case type
         - when :talks
+          - if appeal_sponsor(id)
+            .sponsorAppeal
+              %b
+                Sponsor appeal
+              \-
+              = appeal_sponsor(id).name
           - talk = data.talks[id.to_s]
           %span.language
             = normalize_spoken_language(talk)

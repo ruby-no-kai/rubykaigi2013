@@ -49,6 +49,10 @@ helpers do
     end
   end
 
+  def appeal_sponsor(talk_id)
+    data.sponsors.values.flatten.find {|sponsor| sponsor.appeal_talk_id == talk_id.to_s }
+  end
+
   def normalize_spoken_language(talk)
     label = []
     label << '[EN]' if /English/.match(talk.spoken_language)
