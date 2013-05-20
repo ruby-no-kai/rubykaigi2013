@@ -15,6 +15,7 @@ speakers:
   company: MRI Committer
   location:
   gravatar: 7fe945668a4fc098e886e20dea71d2ee
+  committer: true
   links:
     github: zzak
     twitter: _zzak

@@ -16,6 +16,7 @@ speakers:
   company: 
   location: Fukuoka, Japan
   gravatar: 5cf8f058a4c094bb708174fb43e7a387
+  committer: true
   links:
     github: nagachika
     twitter: nagachika

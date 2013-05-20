@@ -8,6 +8,7 @@ speakers:
   company:
   location:
   gravatar: 9d2f78236e45a335301ba1195026105d
+  committer: true
   links:
     github: shyouhei
     twitter: shyouhei

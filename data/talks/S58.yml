@@ -10,6 +10,7 @@ speakers:
   company: Network Applied Communication Laboratory Ltd.
   location: Matsue, Japan
   gravatar: 18a797893e6768e048c1d15429f96bb4
+  committer: true
   links:
     github: shugo
     twitter: shugomaeda
