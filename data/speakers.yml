@@ -1,308 +1,297 @@
+---
 keynote_speakers:
-  - name: Yukihiro "Matz" Matsumoto
-    gravatar: 0ec4920185b657a03edf01fff96b4e9b
-    links:
-      github:  matz
-      twitter: yukihiro_matz
-
-  - name: José Valim
-    gravatar: e837f6b7fd146ab16ed3d663476c063e
-    links:
-      github:  josevalim
-      twitter: josevalim
-
-  - name: Tanaka "akr" Akira
-    gravatar: b11f10c4cd9d53970e7be20caa43f940
-    links:
-      github:  akr
-      twitter: tanaka_akr
-
+- name: Yukihiro "Matz" Matsumoto
+  links:
+    github: matz
+    twitter: yukihiro_matz
+  gravatar: 0ec4920185b657a03edf01fff96b4e9b
+- name: José Valim
+  links:
+    twitter: josevalim
+    github: josevalim
+  gravatar: e837f6b7fd146ab16ed3d663476c063e
+- name: Akira “akr” Tanaka
+  links:
+    github: akr
+    twitter: tanaka_akr
+  gravatar: b11f10c4cd9d53970e7be20caa43f940
 committers:
-  - name: Martin Bosslet
-    gravatar: 1ecef11b3cc6abfda85798858745ef72
-    links:
-      github:  emboss
-      twitter: _emboss_
-
-  - name: Keiju Ishitsuka
-    gravatar: 97f338629741aa42d6717bfba0c2830f
-    links: {}
-
-  - name: Shugo Maeda
-    gravatar: 18a797893e6768e048c1d15429f96bb4
-    links:
-      github:  shugo
-      twitter: shugomaeda
-
-  - name: Akira Matsuda
-    gravatar: 76a777ff80f30bd3b390e275cce625bc
-    links:
-      github:  amatsuda
-      twitter: a_matsuda
-
-  - name: Usaku Nakamura
-    gravatar: 8cbb39dadafaf2287a83a13ee4981ec9
-    links: {}
-
-  - name: Aaron Patterson
-    gravatar: f29327647a9cff5c69618bae420792ea
-    links:
-      github:  tenderlove
-      twitter: tenderlove
-
-  - name: Masatoshi SEKI
-    gravatar: 40f4d1f2e77078955bd01e9fb4a503ba
-    links:
-      github:  seki
-      twitter: m_seki
-
-  - name: Koichi Sasada
-    gravatar: 308cbef6e86dfc49cce3b2d4cf42aedc
-    links:
-      github:  ko1
-      twitter: koichisasada
-
-  - name: Kouhei Sutou
-    gravatar: ee6ffca720cc428d70247dcd7377dd48
-    links:
-      github:  kou
-      twitter: ktou
-
-  - name: Urabe, Shyouhei
-    gravatar: 9d2f78236e45a335301ba1195026105d
-    links:
-      github:  shyouhei
-      twitter: shyouhei
-
-  - name: Tomoyuki,Chikanaga
-    gravatar: 5cf8f058a4c094bb708174fb43e7a387
-    links:
-      github:  nagachika
-      twitter: nagachika
-
-  - name: nari
-    gravatar: 9f859654c118bcd2f67cc763baf0de7a
-    links:
-      github:  authorNari
-      twitter: nari3
-
-  - name: okkez
-    gravatar: 9673ac7770ee09f76ff5d839820db157
-    links:
-      github:  okkez
-      twitter: okkez
-
-  - name: SHIBATA Hiroshi
-    gravatar: eabad423977cfc6873b8f5df62b848a6
-    links:
-      github:  hsbt
-      twitter: hsbt
-      
-  - name: Zachary Scott
-    gravatar: 7fe945668a4fc098e886e20dea71d2ee
-    links:
-      github:   zzak
-      twitter:  _zzak
-
+- name: Martin Bosslet
+  links:
+    github: emboss
+    twitter: _emboss_
+  gravatar: 1ecef11b3cc6abfda85798858745ef72
+- name: Keiju Ishitsuka
+  links:
+    github: 
+    twitter: 
+  gravatar: 
+- name: Shugo Maeda
+  links:
+    github: shugo
+    twitter: shugomaeda
+  gravatar: 18a797893e6768e048c1d15429f96bb4
+- name: Akira Matsuda
+  links:
+    github: amatsuda
+    twitter: a_matsuda
+  gravatar: 76a777ff80f30bd3b390e275cce625bc
+- name: Usaku NAKAMURA
+  links:
+    github: unak
+    twitter: unak
+  gravatar: 8cbb39dadafaf2287a83a13ee4981ec9
+- name: Aaron Patterson
+  links:
+    github: tenderlove
+    twitter: tenderlove
+  gravatar: f29327647a9cff5c69618bae420792ea
+- name: Masatoshi SEKI
+  links:
+    github: seki
+    twitter: m_seki
+  gravatar: 40f4d1f2e77078955bd01e9fb4a503ba
+- name: Koichi Sasada
+  links:
+    github: ko1
+    twitter: koichisasada
+  gravatar: 
+- name: Kouhei Sutou
+  links:
+    github: kou
+    twitter: ktou
+  gravatar: ee6ffca720cc428d70247dcd7377dd48
+- name: Shyouhei Urabe
+  links:
+    github: shyouhei
+    twitter: shyouhei
+  gravatar: 9d2f78236e45a335301ba1195026105d
+- name: Tomoyuki,Chikanaga
+  links:
+    github: nagachika
+    twitter: nagachika
+  gravatar: 5cf8f058a4c094bb708174fb43e7a387
+- name: nari
+  links:
+    github: authorNari
+    twitter: nari3
+  gravatar: 9f859654c118bcd2f67cc763baf0de7a
+- name: okkez
+  links:
+    github: okkez
+    twitter: okkez
+  gravatar: 9673ac7770ee09f76ff5d839820db157
+- name: SHIBATA Hiroshi
+  links:
+    github: hsbt
+    twitter: hsbt
+  gravatar: eabad423977cfc6873b8f5df62b848a6
+- name: Zachary Scott
+  links:
+    github: zzak
+    twitter: _zzak
+  gravatar: 7fe945668a4fc098e886e20dea71d2ee
+- name: Yusuke Endoh
+  links:
+    github: mame
+    twitter: mametter
+  gravatar: f24ff61beb80aa5f13371aa22a35619c
 speakers:
-  - name: Shozo Arai
-    gravatar: 2ace97e3d45d19b4e6aadf89a497f2c9
-    links: {}
-
-  - name: André Arko
-    gravatar: 91eeff0aae76794bad5d0eb72d577386
-    links:
-      github:  indirect
-      twitter: indirect
-
-  - name: Daniel Bovensiepen
-    gravatar: 49d6f762505615af259534deed94bc54
-    links:
-      github:  bovi
-      twitter: bovensiepen
-
-  - name: Sebastian Burkhard
-    gravatar: 5a3cdca851be0f6fea2a746b78afa0b8
-    links:
-      github:  hasclass
-      twitter: hasclass
-
-  - name: Jacob Burkhart
-    gravatar: 409e4d0bf136e5197eb8ecb8375be8ad
-    links:
-      github:  jacobo
-      twitter: beanstalksurf
-
-  - name: Matthew Conway
-    gravatar: 0b30c6aa6b9027d124ca028325b80b15
-    links:
-      github:  mattonrails
-      twitter: mattonrails
-
-  - name: Ron Evans
-    gravatar: 2f6254b55c3e1693bd1e64d246cead33
-    links:
-      github:  deadprogrammer
-      twitter: deadprogram
-
-  - name: John Foley
-    gravatar: 45001df0297ee307cee788f15c5a8595
-    links:
-      github:  jfoley
-      twitter: jw_foley
-
-  - name: Laurent Sansonetti
-    gravatar: 08eb285fc24c487c7838a6164b845364
-    links:
-      github:  lrz
-      twitter: lrz
-
-  - name: Shizuo Fujita
-    gravatar: 6e8aca910e7ee095397d3b90acb25f6c
-    links:
-      github:  watson1978
-      twitter: watson1978
-
-  - name: Jim Gay
-    gravatar: 09477c358c5897d44121a248326e16d7
-    links:
-      github:  saturnflyer
-      twitter: saturnflyer
-
-  - name: Max Gorin
-    gravatar: b472b6e2dfd982ec3995cf4471b4c1e4
-    links:
-      github:  nomadcoder
-      twitter: nomadcoder
-
-  - name: Konstantin Haase
-    gravatar: dddf1d0b08d492bbf18d7b865db098d8
-    links:
-      github:  rkh
-      twitter: konstantinhaase
-
-  - name: Bryan Helmkamp
-    gravatar: b67ae70db4351816ffeaef4f49005667
-    links:
-      github:  brynary
-      twitter: brynary
-
-  - name: Eddie Kao
-    gravatar: f2dcf6633971844e19ca96ea294ba976
-    links:
-      github:  kaochenlong
-      twitter: eddiekao
-
-  - name: Toru Kawamura
-    gravatar: 4bc8a6fb46ecbd1a5432e58225954ea3
-    links:
-      github:  tkawa
-      twitter: tkawa
-
-  - name: Danish Khan
-    gravatar: b801a36049da233e6266a0275568a7cf
-    links:
-      github:  danishkhan
-      twitter: danishkhan
-
-  - name: Terence Lee
-    gravatar: ac7f7f050ade421ee11b467c8570a3cd
-    links:
-      github:  hone
-      twitter: hone02
-
-  - name: moro, Kyosuke MOROHASHI
-    gravatar: 70e13d9877054026fda46d5a5b53a236
-    links:
-      github:  moro
-      twitter: moro
-
-  - name: Matthew Mongeau
-    gravatar: b066cb3c505933f832faa83238489a89
-    links:
-      github:  halogenandtoast
-      twitter: halogenandtoast
-
-  - name: Kensuke Nagae
-    gravatar: fffd8bf62b842a46803fb07792029fa4
-    links:
-      github:  kyanny
-      twitter: kyanny
-
-  - name: Issei Naruta
-    gravatar: 8ed4c28c6567ee259571ab7178159607
-    links:
-      github:  mirakui
-      twitter: mirakui
-
-  - name: Thomas E. Enebo
-    gravatar: 13313ac2ec7ba7c43b1b952db034ff3b
-    links:
-      github:  enebo
-      twitter: tom_enebo
-
-  - name: Charles O. Nutter
-    gravatar: f1d37642fdaa1662ff46e4c65731e9ab
-    links:
-      github:  headius
-      twitter: headius
-
-  - name: David Padilla
-    gravatar: a59cda5de705716cbd18195a4dd68a56
-    links:
-      github:  dabit
-      twitter: dabit
-
-  - name: Sichanugrist, Prem
-    gravatar: f1c4a3bb1606cc4a61711e61e2fe6146
-    links:
-      github:  sikachu
-      twitter: sikachu
-
-  - name: Christopher Rigor
-    gravatar: a68e628e19f69fd85b062b0b1b40ff41
-    links:
-      github:  crigor
-      twitter: crigor
-
-  - name: Richard Schneeman
-    gravatar: db953d125f5cc49756edb6149f1b813e
-    links:
-      github:  schneems
-      twitter: schneems
-
-  - name: Ryan Smith
-    gravatar: 8964943d31146bd35d3d305ff940beca
-    links:
-      github:  ryandotsmith
-      twitter: ryandotsmith
-
-  - name: Masayoshi Takahashi
-    gravatar: 21a4b941766d805333e11c5766be43b4
-    links:
-      github:  takahashim
-      twitter: takahashim
-
-  - name: Kota Uenishi
-    gravatar: e1923013dacab39eb231a2fffbf7b33c
-    links:
-      github:  kuenishi
-      twitter: kuenishi
-
-  - name: Xuejie "Rafael" Xiao
-    gravatar: 9c85527be213734ed23c2ff233b7b5b8
-    links:
-      github:  xxuejie
-      twitter: defmacro
-
-  - name: Hiroki Yoshioka
-    gravatar: f8fbcb02824678dbc843748e8da20d24
-    links:
-      github:  irohiroki
-      twitter: irohiroki
-
-  - name: tagomoris
-    gravatar: 002525eada5741b7954ce22c1a066d32
-    links:
-      github:  tagomoris
-      twitter: tagomoris
+- name: Shozo Arai
+  links: {}
+  gravatar: 2ace97e3d45d19b4e6aadf89a497f2c9
+- name: André Arko
+  links:
+    github: indirect
+    twitter: indirect
+  gravatar: 91eeff0aae76794bad5d0eb72d577386
+- name: Daniel Bovensiepen
+  links:
+    github: bovi
+    twitter: bovensiepen
+  gravatar: 49d6f762505615af259534deed94bc54
+- name: Sebastian Burkhard
+  links:
+    github: hasclass
+    twitter: hasclass
+  gravatar: 5a3cdca851be0f6fea2a746b78afa0b8
+- name: Jacob Burkhart
+  links:
+    github: jacobo
+    twitter: beanstalksurf
+  gravatar: 409e4d0bf136e5197eb8ecb8375be8ad
+- name: Matthew Conway
+  links:
+    github: mattonrails
+    twitter: mattonrails
+  gravatar: 0b30c6aa6b9027d124ca028325b80b15
+- name: Ron Evans
+  links:
+    github: deadprogrammer
+    twitter: deadprogram
+  gravatar: 2f6254b55c3e1693bd1e64d246cead33
+- name: John Foley
+  links:
+    github: jfoley
+    twitter: jw_foley
+  gravatar: 45001df0297ee307cee788f15c5a8595
+- name: Laurent Sansonetti
+  links:
+    github: lrz
+    twitter: lrz
+  gravatar: 08eb285fc24c487c7838a6164b845364
+- name: Shizuo Fujita
+  links:
+    github: watson1978
+    twitter: watson1978
+  gravatar: 6e8aca910e7ee095397d3b90acb25f6c
+- name: Jim Gay
+  links:
+    github: saturnflyer
+    twitter: saturnflyer
+  gravatar: 09477c358c5897d44121a248326e16d7
+- name: Max Gorin
+  links:
+    github: nomadcoder
+    twitter: nomadcoder
+  gravatar: b472b6e2dfd982ec3995cf4471b4c1e4
+- name: Konstantin Haase
+  links:
+    github: rkh
+    twitter: konstantinhaase
+  gravatar: dddf1d0b08d492bbf18d7b865db098d8
+- name: Bryan Helmkamp
+  links:
+    github: brynary
+    twitter: brynary
+  gravatar: b67ae70db4351816ffeaef4f49005667
+- name: Eddie Kao
+  links:
+    github: kaochenlong
+    twitter: eddiekao
+  gravatar: f2dcf6633971844e19ca96ea294ba976
+- name: Toru Kawamura
+  links:
+    github: tkawa
+    twitter: tkawa
+  gravatar: 4bc8a6fb46ecbd1a5432e58225954ea3
+- name: Danish Khan
+  links:
+    github: danishkhan
+    twitter: danishkhan
+  gravatar: b801a36049da233e6266a0275568a7cf
+- name: Terence Lee
+  links:
+    github: hone
+    twitter: hone02
+  gravatar: ac7f7f050ade421ee11b467c8570a3cd
+- name: moro, Kyosuke MOROHASHI
+  links:
+    github: moro
+    twitter: moro
+  gravatar: 70e13d9877054026fda46d5a5b53a236
+- name: Matthew Mongeau
+  links:
+    github: halogenandtoast
+    twitter: halogenandtoast
+  gravatar: b066cb3c505933f832faa83238489a89
+- name: Kensuke Nagae
+  links:
+    github: kyanny
+    twitter: kyanny
+  gravatar: fffd8bf62b842a46803fb07792029fa4
+- name: Issei Naruta
+  links:
+    github: mirakui
+    twitter: mirakui
+  gravatar: 8ed4c28c6567ee259571ab7178159607
+- name: Thomas E. Enebo
+  links:
+    github: enebo
+    twitter: tom_enebo
+  gravatar: 13313ac2ec7ba7c43b1b952db034ff3b
+- name: Charles O. Nutter
+  links:
+    github: headius
+    twitter: headius
+  gravatar: f1d37642fdaa1662ff46e4c65731e9ab
+- name: David Padilla
+  links:
+    github: dabit
+    twitter: dabit
+  gravatar: a59cda5de705716cbd18195a4dd68a56
+- name: Prem Sichanugrist
+  links:
+    github: sikachu
+    twitter: sikachu
+  gravatar: f1c4a3bb1606cc4a61711e61e2fe6146
+- name: Christopher Rigor
+  links:
+    github: crigor
+    twitter: crigor
+  gravatar: 
+- name: Richard Schneeman
+  links:
+    github: schneems
+    twitter: schneems
+  gravatar: db953d125f5cc49756edb6149f1b813e
+- name: Ryan Smith
+  links:
+    github: ryandotsmith
+    twitter: ryandotsmith
+  gravatar: 8964943d31146bd35d3d305ff940beca
+- name: Masayoshi Takahashi
+  links:
+    github: takahashim
+    twitter: takahashim
+  gravatar: 21a4b941766d805333e11c5766be43b4
+- name: Kota Uenishi
+  links:
+    github: kuenishi
+    twitter: kuenishi
+  gravatar: e1923013dacab39eb231a2fffbf7b33c
+- name: Xuejie "Rafael" Xiao
+  links:
+    github: xxuejie
+    twitter: defmacro
+  gravatar: 9c85527be213734ed23c2ff233b7b5b8
+- name: Hiroki Yoshioka
+  links:
+    github: irohiroki
+    twitter: irohiroki
+  gravatar: f8fbcb02824678dbc843748e8da20d24
+- name: tagomoris
+  links:
+    github: tagomoris
+    twitter: tagomoris
+  gravatar: 002525eada5741b7954ce22c1a066d32
+- name: Kevin Triplett
+  links:
+    github: KevinTriplett
+    twitter: kevintriplett
+  gravatar: 2b64274a52355e39ff9fe937cb117a64
+- name: Shintaro Kakutani
+  links:
+    github: kakutani
+    twitter: kakutani
+  gravatar: 63a6bff89d692e21de20868202bc8dde
+- name: Kazuyoshi Fukuda
+  links:
+    github: 
+    twitter: KazuyoshiFukuda
+  gravatar: 42ebafce7cc89f79b0910b53609ce99b
+- name: Kenji Sugihara
+  links:
+    github: 
+    twitter: tobaken
+  gravatar: 22d17209eab280d1e1af349d4f9e4300
+- name: Daisuke Inoue
+  links:
+    github: daisukei
+    twitter: daisukei777
+  gravatar: 
+- name: Joshua Ballanco
+  links:
+    github: jballanc
+    twitter: manhattanmetric
+  gravatar: da7e5a2c5b1bd8139704db94b37e068d
