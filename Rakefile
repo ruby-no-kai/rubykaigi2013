@@ -17,7 +17,9 @@ class Speaker
 
     def dump(speakers)
       all_speakers = speakers.group_by(&:type).each.with_object({}) {|(type, speakers), memo|
-        memo[type] = speakers.map(&:attributes)
+        memo[type] = speakers.map {|speaker|
+          speaker.attributes.except('type')
+        }
       }
 
       write_yaml all_speakers

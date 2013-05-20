@@ -21,6 +21,7 @@ speakers:
   company:
   location: Kawasaki, Japan
   gravatar: f24ff61beb80aa5f13371aa22a35619c
+  committer: true
   links:
     github:  mame
     twitter: mametter
@@ -54,6 +55,7 @@ speakers:
   company: Ruby Association / Network Applied Communication Laboratory / Rakuten / Heroku
   location: Matsue, Japan
   gravatar: 0ec4920185b657a03edf01fff96b4e9b
+  committer: true
   links:
     github: matz
     twitter: yukihiro_matz
@@ -62,6 +64,7 @@ speakers:
   company: Sony corp
   location: Saitama
   gravatar:
+  committer: true
   links:
     github: eban
     twitter: eban

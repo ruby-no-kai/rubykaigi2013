@@ -12,6 +12,7 @@ speakers:
   company: 
   location: 
   gravatar: 
+  committer: true
   links:
     github: 
     twitter: 

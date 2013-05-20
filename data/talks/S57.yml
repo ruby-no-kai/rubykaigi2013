@@ -5,9 +5,9 @@ spoken_language: Japanese
 speakers:
 - name: Masayoshi Takahashi
   bio:
-  company:
+  company: Ruby-no-Kai(Japan Ruby Group)
   location:
-  gravatar:
+  gravatar: 21a4b941766d805333e11c5766be43b4
   links:
-    github:
-    twitter:
+    github: takahashim
+    twitter: takahashim
