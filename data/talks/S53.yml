@@ -13,9 +13,10 @@ description_ja: |-
   変態審査員が選ぶ、あるまじき Ruby コードたちをお楽しみ頂ける予定です。
   詳細はこちら: [https://sites.google.com/site/trickcontest2013/](https://sites.google.com/site/trickcontest2013/)
 spoken_language: Japanese
+organizers:
+- name: Yusuke Endoh & the judges
 speakers:
-- &organizer
-  name: Yusuke Endoh
+- name: Yusuke Endoh
   bio: Ruby committer.  Ruby 2.0.0 release manager.  Kawasaki.rb.
   company:
   location: Kawasaki, Japan
@@ -64,5 +65,3 @@ speakers:
   links:
     github: eban
     twitter: eban
-organizers:
-- *organizer
