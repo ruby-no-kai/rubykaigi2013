@@ -1,4 +1,11 @@
 keynote: true
 spoken_language: Japanese
 speakers:
-- name: Yukihiro “Matz” Matsumoto
+- name: Yukihiro "Matz" Matsumoto
+  bio: The Creator of Ruby
+  company: Ruby Association / Network Applied Communication Laboratory / Rakuten / Heroku
+  location: Matsue, Japan
+  gravatar: 0ec4920185b657a03edf01fff96b4e9b
+  links:
+    github: matz
+    twitter: yukihiro_matz
