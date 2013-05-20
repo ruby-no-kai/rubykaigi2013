@@ -54,10 +54,14 @@ end
 
 namespace :speakers do
   task :update do
+    excepts = %w(S62.yml S56.yml S53.yml)
+
     talks_dir         = File.join(__dir__, 'data/talks')
     Speaker.yaml_file = File.join(__dir__, 'data/speakers.yml')
 
     source_speakers = Dir.glob("#{talks_dir}/S*.yml").each.with_object([]) {|path, memo|
+      next if excepts.include?(File.basename(path))
+
       talk = YAML.load_file(path)
 
       talk['speakers'].each do |speaker|
@@ -78,7 +82,7 @@ namespace :speakers do
 
     speakers = Speaker.load
     source_speakers.each do |src|
-      if speaker = speakers.find {|s| s.gravatar == src.gravatar || s.name == src.name }
+      if speaker = speakers.find {|s| (src.gravatar.present? && s.gravatar == src.gravatar) || s.name == src.name }
         speaker.attributes = src.attributes
       else
         speakers << src
