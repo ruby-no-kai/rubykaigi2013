@@ -53,6 +53,7 @@ class Speaker
 end
 
 namespace :speakers do
+  desc 'Update speakers.yml based on talks/*.yml'
   task :update do
     excepts = %w(S62.yml S56.yml S53.yml)
 
