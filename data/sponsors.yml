@@ -229,3 +229,10 @@ silver_sponsors:
     weight: 1
     description: |-
       Yamaha, the finest in Music & Audio also manufactures Network devices.
+
+  - id: Silver14
+    name: KY TRADE CO.,LTD.
+    link: 'http://www.kytrade.co.jp/english/index.php'
+    weight: 1
+    description: |-
+      The unchallenged leader in interpretation service for the IT industry.
