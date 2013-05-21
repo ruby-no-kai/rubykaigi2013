@@ -1,5 +1,4 @@
 %ul
   - sponsors.each do |sponsor|
-    - unless sponsor.logo =~ /ComingSoon.png$/ # TODO To be removed when logo filled
-      %li
-        %p.logo= sponsor_logo_tag sponsor
+    %li
+      %p.logo= sponsor_logo_tag sponsor
