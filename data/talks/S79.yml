@@ -9,7 +9,7 @@ description_ja: |-
 spoken_language: Japanese
 speakers:
 - name: Tomoyuki,Chikanaga
-  bio: CRuby committer. Ruby 2.0.0 branch maintainer. Writing ruby-trunk-changes (explains every commit to ruby repository in Japanese).
+  bio: CRuby committer. Ruby 2.0.0 branch maintainer. Editor of ruby-trunk-changes (explains every commit to ruby repository in Japanese).
   company: Groovenauts, Inc.
   location: Fukuoka, Japan
   gravatar: 5cf8f058a4c094bb708174fb43e7a387
