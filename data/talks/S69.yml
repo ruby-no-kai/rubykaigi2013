@@ -1,7 +1,7 @@
 ---
 title: Ruby2.0 reference manual for Japanese
 description: |-
-  The work updating the Ruby Reference Manual (ru-ri-ma) for Ruby 2.0 is done, so I'll report on that in my talk.
+  The work updating the Ruby Reference Manual (RuReMa) for Ruby 2.0 is done, so I'll report on that in my talk.
   In addition, there are a lot of people outside the project using the manual to do a variety of things, and I'd like to take this opportunity to thank them.
   I'll also talk about where we'd like to go in the future with the project.
 description_ja: |-
