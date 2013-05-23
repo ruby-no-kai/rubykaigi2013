@@ -1,14 +1,17 @@
 ---
 title: Ruby 'root'
 description: |-
-  Ruby 'root' has all of permission in ruby development resources. root is working for migrate and upgrade some resources.
-  I'm going to introduce root of Ruby and announce some big news.
-spoken_language: English
+  Ruby 'root' has all of permission in ruby development resources such as ruby-lang.org.
+  I'll describe and introduce my work between Feb and Jun. and I'll announce some big news in RubyKaigi.
+description_ja: |-
+  *.ruby-lang.org の root 権限を持つ hsbt が2月から6月の間に Ruby について手を動かした結果についてご紹介します。
+spoken_language: Japanese
 speakers:
 - name: SHIBATA Hiroshi
-  bio: Ruby commiter, member of asakusa.rb and one of organizer of RailsGirls in Japan.
-  company: Advanced senior engineer in paperboy&co., Inc.
-  location:
+  bio: |-
+    CRuby commiter, member of asakusa.rb and one of organizer of RailsGirls in Japan. Advanced senior engineer in paperboy&co., Inc. He interested in migrate edge from legacy.
+  company: paperboy&co., Inc.
+  location: Tokyo, Japan
   gravatar: eabad423977cfc6873b8f5df62b848a6
   committer: true
   links:
