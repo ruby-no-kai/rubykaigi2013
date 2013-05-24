@@ -238,3 +238,11 @@ silver_sponsors:
     weight: 1
     description: |-
       The unchallenged leader in interpretation service for the IT industry.
+
+ticketing_sponsors:
+  - id: Ticketing01
+    name: Doorkeeper
+    link: 'http://www.doorkeeperhq.com/'
+    weight: 1
+    description: |-
+      Discover more great <a href="http://www.doorkeeper.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/ruby">Ruby events</a>!
