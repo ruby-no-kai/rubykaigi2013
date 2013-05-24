@@ -1,21 +1,41 @@
 ---
-title: Community Appeal / Ruby Kaja 2013
-description:
+title: Ruby Kaja 2013 / Community Appeal
+description: |-
+  RubyKaja is Award of Rubyist for "shy" Japanese Rubyist. For the purpose of making a chance to praise each other, We have regional Rubyist communities elect active but "not famous" Rubyist, and We all honor them. In this talk, We announce and honor the Rubyists as RubyKaja 2013 and, introduce Rubyist communities which nominated for election RubyKaja
+
+  Community appeals
+  Asakusa.rb
+  Hiroshima.rb
+  Kanazawa.rb
+  Okinawa.rb
+  Rails Girls Tokyo
+  Rails勉強会@東京
+  Ruby札幌
+  Shibuya.rb
+  Shinjuku.rb
+  Yokohama.rb
+  guRuby
+  toRuby
+  るびま編集コミュニティ
+  西脇.rb & 東灘.rb
+
+  Whats's Kaja? 冠者 (Kaja) is Japanese traditional word. Kaja means hopeful youngster. We use the word as newcomer hopeful rubyist
+
 spoken_language: Japanese
 speakers:
-- name: "@tyabe"
-  bio:
+- name: "Takeshi Yabe / @tyabe"
+  bio: RubyKaja 2013 Coordinator (Shibuya.rb, Yokohama.rb)
   company:
   location:
-  gravatar:
+  gravatar: https://secure.gravatar.com/avatar/2c246b10eca87568dda9f431c1134cb3
   links:
-    github:
-    twitter:
-- name: "@bash0C7"
-  bio:
+    github: https://github.com/tyabe
+    twitter: https://twitter.com/tyabe
+- name: "Toshiaki Koshiba / @bash0C7"
+  bio: RubyKaja Coordinator (Shibuya.rb)
   company:
   location:
-  gravatar:
+    gravatar: https://secure.gravatar.com/avatar/9d2d4c8b739b1b4d7882ba49dcf1d276
   links:
-    github:
-    twitter:
+    github: https://github.com/bash0C7
+    twitter: https://twitter.com/bash0C7
