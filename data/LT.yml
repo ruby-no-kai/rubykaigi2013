@@ -65,7 +65,7 @@
     I will introduce my static analysis tool called FlawDetector.
     It analyzes RubyVM bytecode and detects some "flaws" in ruby code.
     "flaws" means some bugs and redundant code,  which is similer to  bug pattern of FindBugs - a statyc anlaysis tool of java bytecode.
-    I with you use FlawDetector and improve it with me.
+    I wish you use FlawDetector and improve it with me.
   spoken_language: English
   speakers:
   - name: Rikiya Ayukawa
