@@ -6,7 +6,7 @@ description: |-
   local retail stores. Unfortunately, it’s hard to develop code for robots, and nearly 
   impossible to create solutions that integrate multiple different kind of devices.
 
-  Introducing Artoo (http://artoo.io), a new robotics framework written in Ruby. 
+  Introducing [Artoo](http://artoo.io), a new robotics framework written in Ruby. 
   Artoo can communicate with many different kinds of hardware devices, and integrate 
   them together. With surprisingly few lines of code, you can write interesting 
   applications that tie together Arduinos, ARDrones, Spheros, and more.
