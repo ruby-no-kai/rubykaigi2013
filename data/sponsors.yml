@@ -239,8 +239,8 @@ silver_sponsors:
     description: |-
       The unchallenged leader in interpretation service for the IT industry.
 
-ticketing_sponsors:
-  - id: Ticketing01
+additional_sponsors:
+  - id: Additional01
     name: Doorkeeper
     link: 'http://www.doorkeeperhq.com/'
     weight: 1
