@@ -246,3 +246,10 @@ additional_sponsors:
     weight: 1
     description: |-
       Discover more great <a href="http://www.doorkeeper.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/ruby">Ruby events</a>!
+
+  - id: Additional02
+    name: Misoca
+    link: 'http://www.misoca.jp/'
+    weight: 1
+    description: |-
+      Cloud invoice management system that lets users create and send snail mail from within the browser.
