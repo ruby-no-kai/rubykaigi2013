@@ -20,16 +20,17 @@ description: |-
 spoken_language: English
 speakers:
 - name: Ron Evans
-  bio: Ron Evans is a well-known software developer who has been very active in the free 
-  and open source community for over 20 years. As ringleader of The Hybrid Group, he has 
-  been helping clients solve some of their most difficult technical and business problems. 
-  Ron has been a very active speaker, presenting at conferences such as RubyConf, FutureRuby, 
-  Ignite, Golden Gate Ruby Conference, Los Angeles Ruby Conference, Conferencia Rails, 
-  and MagmaConf. He was featured in Computerworld Magazine in the article "Rock Star Coders" 
-  for his popular blog post "I'd Rather Be A Jazz Programmer", as well as having written 
-  articles for MSNBC, BYTE Magazine, and the Direct Marketing Association. Ron is an active
-  code contributor to many open source projects, including being the creator of the 
-  award-winning KidsRuby, free software to help teach Ruby programming to kids.
+  bio: |-
+    Ron Evans is a well-known software developer who has been very active in the free 
+    and open source community for over 20 years. As ringleader of The Hybrid Group, he has 
+    been helping clients solve some of their most difficult technical and business problems. 
+    Ron has been a very active speaker, presenting at conferences such as RubyConf, FutureRuby, 
+    Ignite, Golden Gate Ruby Conference, Los Angeles Ruby Conference, Conferencia Rails, 
+    and MagmaConf. He was featured in Computerworld Magazine in the article "Rock Star Coders" 
+    for his popular blog post "I'd Rather Be A Jazz Programmer", as well as having written 
+    articles for MSNBC, BYTE Magazine, and the Direct Marketing Association. Ron is an active
+    code contributor to many open source projects, including being the creator of the 
+    award-winning KidsRuby, free software to help teach Ruby programming to kids.
   company: Ringleader at The Hybrid Group
   location: Los Angeles, CA, USA
   gravatar: 2f6254b55c3e1693bd1e64d246cead33
@@ -37,11 +38,12 @@ speakers:
     github: deadprogram
     twitter: deadprogram
 - name: Adrian Zankich
-  bio: Adrian is a Southern Californian native with a passion for technology. He has worked 
-  on telematics-based web applications, physical computing and robotics applications since joining
-  The Hybrid Group. As one of the main committers to Artoo, Adrian has integrated cool hardware
-  including some drone collaborations with well-known Rubyist Jim Weirich. Adrian is also one
-  of the main current committers to KidsRuby.
+  bio: |-
+    Adrian is a Southern Californian native with a passion for technology. He has worked 
+    on telematics-based web applications, physical computing and robotics applications since joining
+    The Hybrid Group. As one of the main committers to Artoo, Adrian has integrated cool hardware
+    including some drone collaborations with well-known Rubyist Jim Weirich. Adrian is also one
+    of the main current committers to KidsRuby.
   company: Serious Programming Guy at The Hybrid Group
   location: Los Angeles, CA, USA
   gravatar: fbc9c9b33dc1ce68c353b3233ca22bfe
