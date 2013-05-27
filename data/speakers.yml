@@ -127,9 +127,14 @@ speakers:
   gravatar: 0b30c6aa6b9027d124ca028325b80b15
 - name: Ron Evans
   links:
-    github: deadprogrammer
+    github: deadprogram
     twitter: deadprogram
   gravatar: 2f6254b55c3e1693bd1e64d246cead33
+- name: Adrian Zankich
+  links:
+    github: adzankich
+    twitter: adzankich
+  gravatar: fbc9c9b33dc1ce68c353b3233ca22bfe
 - name: John Foley
   links:
     github: jfoley
