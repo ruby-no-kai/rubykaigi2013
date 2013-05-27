@@ -239,10 +239,17 @@ silver_sponsors:
     description: |-
       The unchallenged leader in interpretation service for the IT industry.
 
-ticketing_sponsors:
-  - id: Ticketing01
+additional_sponsors:
+  - id: Additional01
     name: Doorkeeper
     link: 'http://www.doorkeeperhq.com/'
     weight: 1
     description: |-
       Discover more great <a href="http://www.doorkeeper.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/ruby">Ruby events</a>!
+
+  - id: Additional02
+    name: Misoca
+    link: 'http://www.misoca.jp/'
+    weight: 1
+    description: |-
+      Cloud invoice management system that lets users create and send snail mail from within the browser.
