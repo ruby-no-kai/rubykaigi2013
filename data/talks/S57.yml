@@ -1,12 +1,12 @@
 ---
 title: The History of Ruby;20th Anniversary Ed.
-description:
+description: The first session in RubyKaigi 2006, the first RubyKaigi, is "The History of Ruby."  As re-booting of RubyKaigi, we'd like to take a look back over the history of Ruby and us again.
 spoken_language: Japanese
 speakers:
 - name: Masayoshi Takahashi
-  bio:
-  company: Ruby-no-Kai(Japan Ruby Group)
-  location:
+  bio: Masayoshi Takahashi is a Rubyist, web application developer, founder of a ebook publisher called Tatsu-zine Publishing Inc., and founder of Ruby no Kai.
+  company: Ruby no Kai (Japan Ruby Group), Tatsu-zine Publishing Inc.
+  location: Tokyo, Japan
   gravatar: 21a4b941766d805333e11c5766be43b4
   links:
     github: takahashim
