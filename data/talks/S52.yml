@@ -1,6 +1,6 @@
 ---
 title: Two Legal Bodies about Ruby and its projects
-description: (To Be Announced)
+description: There are two legal bodies who support Rubyists in Japan; Ruby Association and Ruby-no-Kai.  What are their activities?  What is the difference between them?  It's time to unveil them.
 spoken_language: Japanese
 organizers:
 - name: Ruby Association & Ruby-no-Kai
@@ -22,9 +22,9 @@ speakers:
     github:
     twitter: tobaken
 - name: Masayoshi Takahashi
-  bio:
-  company: Ruby-no-Kai(Japan Ruby Group)
-  location:
+  bio: Masayoshi Takahashi is a Rubyist, web application developer, founder of a ebook publisher called Tatsu-zine Publishing Inc., and founder of Ruby-no-Kai.
+  company: Ruby-no-Kai(Japan Ruby Group), Tatsu-zine Publishing Inc.
+  location: Tokyo, Japan
   gravatar: 21a4b941766d805333e11c5766be43b4
   links:
     github: takahashim
