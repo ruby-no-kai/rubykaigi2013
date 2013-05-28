@@ -23,9 +23,9 @@ committers:
   gravatar: 1ecef11b3cc6abfda85798858745ef72
 - name: Keiju Ishitsuka
   links:
-    github: 
-    twitter: 
-  gravatar: 
+    github:
+    twitter:
+  gravatar:
 - name: Shugo Maeda
   links:
     github: shugo
@@ -55,7 +55,7 @@ committers:
   links:
     github: ko1
     twitter: koichisasada
-  gravatar: 
+  gravatar:
 - name: Kouhei Sutou
   links:
     github: kou
@@ -282,19 +282,19 @@ speakers:
   gravatar: 63a6bff89d692e21de20868202bc8dde
 - name: Kazuyoshi Fukuda
   links:
-    github: 
+    github:
     twitter: KazuyoshiFukuda
   gravatar: 42ebafce7cc89f79b0910b53609ce99b
 - name: Kenji Sugihara
   links:
-    github: 
+    github:
     twitter: tobaken
   gravatar: 22d17209eab280d1e1af349d4f9e4300
 - name: Daisuke Inoue
   links:
     github: daisukei
     twitter: daisukei777
-  gravatar: 
+  gravatar:
 - name: Joshua Ballanco
   links:
     github: jballanc
