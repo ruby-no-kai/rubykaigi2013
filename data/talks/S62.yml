@@ -28,15 +28,15 @@ speakers:
   bio: RubyKaja 2013 Coordinator (Shibuya.rb, Yokohama.rb)
   company:
   location:
-  gravatar: https://secure.gravatar.com/avatar/2c246b10eca87568dda9f431c1134cb3
+  gravatar: 2c246b10eca87568dda9f431c1134cb3
   links:
-    github: https://github.com/tyabe
-    twitter: https://twitter.com/tyabe
+    github: tyabe
+    twitter: tyabe
 - name: "Toshiaki Koshiba / @bash0C7"
   bio: RubyKaja Coordinator (Shibuya.rb)
   company:
   location:
-    gravatar: https://secure.gravatar.com/avatar/9d2d4c8b739b1b4d7882ba49dcf1d276
+    gravatar: 9d2d4c8b739b1b4d7882ba49dcf1d276
   links:
-    github: https://github.com/bash0C7
-    twitter: https://twitter.com/bash0C7
+    github: bash0C7
+    twitter: bash0C7
