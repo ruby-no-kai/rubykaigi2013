@@ -13,6 +13,8 @@ description_ja: |-
   変態審査員が選ぶ、あるまじき Ruby コードたちをお楽しみ頂ける予定です。
   詳細はこちら: [https://sites.google.com/site/trickcontest2013/](https://sites.google.com/site/trickcontest2013/)
 spoken_language: Japanese
+materials:
+  []
 organizers:
 - name: Yusuke Endoh & the judges
 speakers:

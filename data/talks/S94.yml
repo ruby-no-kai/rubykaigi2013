@@ -19,6 +19,8 @@ description: |
   this talk is a trigger for increasing the number of better "library
   developers".
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Kouhei Sutou
   bio: He is a free software programmer and the president of ClearCode Inc. He is

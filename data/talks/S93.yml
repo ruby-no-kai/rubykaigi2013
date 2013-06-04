@@ -6,6 +6,8 @@ description_ja: |+
   Ruby誕生前夜か一般公開されるまでのRubyの歴史を発掘します。
 
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Keiju Ishitsuka
   bio: Ruby's Godfather.

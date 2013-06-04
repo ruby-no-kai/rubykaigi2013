@@ -4,6 +4,8 @@ description: This talk will describe the internals of RubyMotion, a Ruby toolcha
   for iOS development. RubyMotion is different from CRuby in many ways and this session
   will focus on the technical differences and explain what makes RubyMotion unique.
 spoken_language: Both English and Japanese
+materials:
+  []
 speakers:
 - name: Laurent Sansonetti
   bio: |-

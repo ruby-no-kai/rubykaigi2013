@@ -5,6 +5,8 @@ description: |-
 description_ja: |
   Windows プラットフォームでのRuby対応についてこれまでの取り組みと今後の方向性をご紹介します。また、今現在、実際にWindows上でRubyがどう使えるのか、あまり知られていないその真相を紹介します。
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Usaku NAKAMURA
   bio: "Joined Ruby development community from the end of the 1990s \nInaugurated

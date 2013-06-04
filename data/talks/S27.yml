@@ -5,6 +5,8 @@ description: "RubyJS is a JavaScript implementation of all methods from Ruby cla
   can use RubyJS to stay sane when writing JavaScript. I'll show best practices, tips
   & tricks for daily use and how you can extend RubyJS with more methods and classes.\n\n"
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Sebastian Burkhard
   bio: Sebastian cultivates a passionate on-and-off relationship with JavaScript.

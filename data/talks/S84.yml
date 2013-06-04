@@ -2,6 +2,8 @@
 title: Ruby on Your Rails
 description: My Rails are not like yours. I'm gonna tell you why and how.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Akira Matsuda
   bio: Rails committer, Ruby core, Asakusa.rb

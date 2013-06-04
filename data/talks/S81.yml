@@ -1,5 +1,7 @@
 keynote: true
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Yukihiro "Matz" Matsumoto
   bio: The Creator of Ruby

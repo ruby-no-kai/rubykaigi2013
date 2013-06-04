@@ -7,6 +7,8 @@ description: |-
 
   This talk will explore patterns to smoothly deal with increasing intrinsic complexity (read: features!) of your application. Transform fat models into a coordinated set of small, encapsulated objects working together in a veritable symphony.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Bryan Helmkamp
   bio: Bryan (@brynary) is the founder of Code Climate, an automated code review tool

@@ -5,6 +5,8 @@ description: As the responsibility of our applications grows, so too does our co
   We'll walk through techniques of object-oriented programming that help clarify our
   intent and put responsibilities right where we need them.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Jim Gay
   bio: Jim is the author of Clean Ruby ([http://clean-ruby.com](http://clean-ruby.com)) and has been exploring

@@ -7,6 +7,8 @@ description_ja: |-
   CRuby の開発は日々 CRuby の committer によってたゆまず進められています。また近代の Ruby の開発はさまざまなサービスによってサポートされています。
   この発表ではそんな CRuby の開発の裏側を紹介します。
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Tomoyuki,Chikanaga
   bio: CRuby committer. Ruby 2.0.0 branch maintainer. Editor of ruby-trunk-changes (explains every commit to ruby repository in Japanese).

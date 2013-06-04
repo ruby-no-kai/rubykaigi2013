@@ -8,6 +8,8 @@ description: |-
   and easy to operate, scale, manage and query.
   Useful logging patters and query tools in Ruby-ish way will also be introduced.
 spoken_language: I can speak either. Just prefer Japanese.
+materials:
+  []
 speakers:
 - name: Kota Uenishi
   bio: |

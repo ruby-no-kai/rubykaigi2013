@@ -5,6 +5,8 @@ description: Pair programming shares a similar philosophy with Ruby- the focus i
   experiences with pair programming and how it helped me become a better engineer,
   enjoy coding more, and maybe even grow as a person.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: John Foley
   bio: John Foley is a developer at Pivotal Labs in Boulder, Colorado

@@ -8,6 +8,8 @@ description: |-
   with legacy code, and discovering the most effective way to harness the power
   of code generation without the maintenance nightmare
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Aaron Patterson
   bio: |-

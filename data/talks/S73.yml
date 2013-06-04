@@ -5,6 +5,8 @@ description: "In this presentation, I will show the ways to achieve more efficie
   optimizations, memory/object management and runtime \nlibraries modification. Most
   of techniques and implementations may be \nwork in progress.\n"
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Koichi Sasada
   bio: |

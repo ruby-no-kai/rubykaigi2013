@@ -27,6 +27,8 @@ description_ja: |-
   * Node.jsやX11, dRubyなどのようなselectとTCPを利用した高水準の多元待ちのプログラミング経験のある中上級者
   * Lindaやアクターモデルなどに反応するマニア
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Masatoshi SEKI
   bio: Masatoshi SEKI, a programmer. Author of ERB, dRuby, Rinda, Drip and The dRuby

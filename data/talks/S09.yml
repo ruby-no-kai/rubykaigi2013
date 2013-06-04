@@ -9,6 +9,8 @@ description: |-
 
   Zachary Scott has been a Ruby committer since last Fall and will share his experiences with the standard library of MRI.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Zachary Scott
   bio: Vermont native, with strong family values, and a big heart.

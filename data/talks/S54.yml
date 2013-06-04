@@ -9,6 +9,8 @@ description: |-
 
   We've prototyped a replay service, to replay production traffic to different Heroku apps. With this and our instrumentation we were able to compare performance impact of different changes. We've used this data to guide our decision to change web servers from thin to unicorn. We're also keeping tabs on various setups including MRI 2 and JRuby under real production code and load. We'll go over how we've set this up and how it works on Heroku.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Terence Lee
   bio: |-

@@ -7,6 +7,8 @@ description: |-
 
   This talk will cover the development of mruby. The current state of the implementation and the reason why you should contribute to it.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Daniel Bovensiepen
   bio: During daytime Daniel is building Metros all around the world and empowers

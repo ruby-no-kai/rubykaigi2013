@@ -8,6 +8,8 @@ description: |-
 
   Vagrant and VirtualBox are used to provide a development environment with the same OS you use in production. Chef is used to install the same packages. In fact you use the same chef recipes everywhere.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Christopher Rigor
   bio: Christopher Rigor works at Engine Yard. He is the team lead of the Asia-Pacific

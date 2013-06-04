@@ -5,6 +5,8 @@ description: Traditional data structures like stacks and queues are strict - per
   provide alternative constraints that will allow our algorithms to achieve a greater
   level of concurrency. Examples will include a mix of Ruby and Postgres.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Ryan Smith
   bio: I spend my days solving problems in Heroku's distributed computing environment.

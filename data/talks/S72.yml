@@ -42,6 +42,8 @@ description_ja: |
   そこで、 Jenkins と GitHub の Pull Request を使って上に挙げた問題を解決し、アップデート作業が滞らない仕組みを作りました。
   このトークでは、発表者がこれらの問題をどのように解決したのかを解説し、この方法が類似のものに対してどのような点で優れているか比較します。
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Kensuke Nagae
   bio: |

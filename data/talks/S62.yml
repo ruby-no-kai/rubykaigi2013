@@ -23,6 +23,8 @@ description: |-
   * 西脇.rb & 東灘.rb
 
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: "Takeshi Yabe / @tyabe"
   bio: RubyKaja 2013 Coordinator (Shibuya.rb, Yokohama.rb)

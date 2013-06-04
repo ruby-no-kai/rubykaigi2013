@@ -18,6 +18,8 @@ description_ja: |-
 
   講演者は、Rails 3のころからこの手法をたくさんの"実務の"アプリケーションに適用して来ました。その過程でずっと、関心ごとの切り取り方やちょうどよい程度のメタプログラミング、関心ごとに対するテストの書き方などに悩みながらやって来ました。本講演では、それらのノウハウを紹介したいと思います。
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: moro, Kyosuke MOROHASHI
   bio: Ruby/Rails Programmer. Love TDD/BDD.

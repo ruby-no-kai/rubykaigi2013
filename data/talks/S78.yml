@@ -16,6 +16,8 @@ description_ja: |
 
   Gemに採用されている実践的で有用なパターンを見ていき、さらにミッシングピースとそれを埋める可能性のある開発中のGemについて紹介します。
 spoken_language: Japanese
+materials:
+  []
 speakers:
 - name: Toru Kawamura
   bio: |-

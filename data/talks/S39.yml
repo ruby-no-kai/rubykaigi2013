@@ -5,6 +5,8 @@ description: |-
 
   This presentation will answer questions like this and give some examples of exciting future projects involving JRuby.  If you want a good insight into where JRuby is going then this talk is for you.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Thomas E. Enebo
   bio: Thomas Enebo and Charles Nutter are the co-leads of the JRuby project. They

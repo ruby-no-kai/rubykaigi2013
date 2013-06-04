@@ -7,6 +7,8 @@ description: Webruby uses emscripten to compile mruby, the lightweight Ruby impl
   Webruby also provides an alternative for modern single-page applications without
   using JavaScript.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Xuejie "Rafael" Xiao
   bio: Despite an experience of writing G-BASIC on NES-compatible systems in primary

@@ -28,6 +28,8 @@ description: "Many people don't like Cryptography. Whenever he falls out of a ba
   the Ruby standard library, and with our combined effort we could actually steer
   the story of Ruby cryptography towards a happy ending.\n\nFind out how!"
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Martin Bosslet
   bio: Martin is a member of ruby-core, one of the maintainers of the Ruby OpenSSL

@@ -11,6 +11,8 @@ description: So, it seems like you've finished writing your awesome gem. However
   those multiple Gemfiles. Lastly, I'm going to show you how you can config Travis
   CI to test your gem against those multiple versions of dependencies.
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Prem Sichanugrist
   bio: Prem started using Ruby and Ruby on Rails since 2007 and fell in love with

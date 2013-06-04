@@ -6,6 +6,8 @@ description: For building today's web applications, our job is less about doing 
   easy to build add-ons for this marketplace and provide the components for applications
   of the future. I'll show you how!
 spoken_language: English
+materials:
+  []
 speakers:
 - name: Matthew Conway
   bio: A Gentleman, Rubyist and Go enthusiast. Formerly a Rails consultant at Hashrocket,
