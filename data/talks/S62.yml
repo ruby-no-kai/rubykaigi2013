@@ -26,7 +26,7 @@ spoken_language: Japanese
 materials:
   []
 speakers:
-- name: "Takeshi Yabe / @tyabe"
+- name: Takeshi Yabe
   bio: RubyKaja 2013 Coordinator (Shibuya.rb, Yokohama.rb)
   company:
   location:
@@ -34,7 +34,7 @@ speakers:
   links:
     github: tyabe
     twitter: tyabe
-- name: "Toshiaki Koshiba / @bash0C7"
+- name: Toshiaki Koshiba
   bio: RubyKaja Coordinator (Shibuya.rb)
   company:
   location:
