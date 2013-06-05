@@ -11,7 +11,12 @@ description_ja: |-
   これからるりまプロジェクトとしてやりたいことについても話をします。
 spoken_language: Japanese
 materials:
-  []
+  - title: The slides on SlideShare
+    url: http://slideshare.net/okkez/rubykaigi2013
+  - title: The slides on Speaker Deck
+    url: https://speakerdeck.com/okkez/ruby2-dot-0-reference-manual-for-japanese
+  - title: The slides on Rabbit Slide Show
+    url: http://slide.rabbit-shocker.org/authors/okkez/rubykaigi-2013/
 speakers:
 - name: okkez
   bio: |
