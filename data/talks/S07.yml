@@ -8,7 +8,8 @@ description: Webruby uses emscripten to compile mruby, the lightweight Ruby impl
   using JavaScript.
 spoken_language: English
 materials:
-  []
+  - title: 'Webruby: Now you can write your favorite Ruby code for the browser!'
+    url: http://qiezi.me/talks/rubykaigi2013/index.html
 speakers:
 - name: Xuejie "Rafael" Xiao
   bio: Despite an experience of writing G-BASIC on NES-compatible systems in primary
