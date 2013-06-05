@@ -14,6 +14,13 @@
       :markdown
         #{talk.description}
 
+    %ul.presentation-materials
+      - talk.materials.each do |material|
+        %li
+          = link_to material, target: '_blank' do
+            = material
+            %i.icon-external-link
+
     - talk.speakers.each do |speaker|
       %h3
         %span.name
