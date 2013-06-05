@@ -14,7 +14,8 @@ description_ja: |-
   詳細はこちら: [https://sites.google.com/site/trickcontest2013/](https://sites.google.com/site/trickcontest2013/)
 spoken_language: Japanese
 materials:
-  []
+  - title: TRICK 2013 results
+    url: http://www.slideshare.net/mametter/trick2013-results
 organizers:
 - name: Yusuke Endoh & the judges
 speakers:
