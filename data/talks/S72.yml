@@ -43,7 +43,8 @@ description_ja: |
   このトークでは、発表者がこれらの問題をどのように解決したのかを解説し、この方法が類似のものに対してどのような点で優れているか比較します。
 spoken_language: Japanese
 materials:
-  []
+  - title: Continuous gem dependency updating with Jenkins and Pull Request
+    url: https://speakerdeck.com/kyanny/continuous-gem-dependency-updating-with-jenkins-and-pull-request
 speakers:
 - name: Kensuke Nagae
   bio: |
