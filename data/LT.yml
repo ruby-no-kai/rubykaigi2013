@@ -9,6 +9,8 @@
     In this lightning talk, you'll learn how to broadcast, how it works,
     and how it's used by terminal broadcasters. ScreenX TV http://screenx.tv/
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: YASUKAWA, Yohei
     bio: Founder of Okinawa.rb, organizer of CoderDojo Tokyo/Okinawa, and contributor
@@ -30,6 +32,8 @@
 
     In this talk, we show our experience and key points of transferring one local culture to other cultures using Rails web application.
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Yuki Torii
     bio: Rails developer, the one of the RailsGirls Tokyo 2nd organizers.
@@ -49,6 +53,8 @@
     this task is now simple enough that just a few developers can build and replicate
     full feature telephony systems.
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Christian Sousa
     bio: |-
@@ -67,6 +73,8 @@
     "flaws" means some bugs and redundant code,  which is similar to  bug pattern of FindBugs - a static analysis tool of java bytecode.
     I wish you use FlawDetector and improve it with me.
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Rikiya Ayukawa
     bio: |-
@@ -85,6 +93,8 @@
     and deploy them onto lots of fluentd nodes by one click.  \n\nHaikanko is written
     with ruby / sinatra / erb / mina (yet another capistrano)."
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Naotoshi Seo
     bio: After graduating the University of Maryland, USA, Naotoshi Seo started to
@@ -105,6 +115,8 @@
     グリッチとは、電子回路の接触不良などによる誤作動のことであり、転じて、様々な媒体でエラーが生じることによって引き起こされる現象やそれを用いた藝術作品のことを指します。
     この発表では、主に画像グリッチについて、グリッチ初心者が Ruby を使って簡易に試すことができる方法を紹介します。
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Shimpei Makimoto
     bio: |-
@@ -120,6 +132,8 @@
   description: Introduce the history, activities and achievements of Ruby Taiwan Community
     and talk about what I have learned from the community.
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Mu-Fan Teng
     bio: 鄧慕凡(a.k.a Ryudo) is the senior backend engineer at Resume Companion. He has
@@ -136,26 +150,28 @@
 - title: Image resizing and cache Engine by Sinatra
   description: |-
     Realtime resizing and caching images engine with GET Parameters made by Sinatra.
-    
+
     It's useful to use as The Image Server with big web service using many images.  
-    
+
     And also useful to fit the image size to smartphone or mobile views without time and effort.
   description_ja: |-
     GETパラメータでリアルタイムに画像をリサイズ・同時にキャッシュする画像エンジン。Sinatra使用。
     用途：中規模・大規模webサービスの画像サーバー、スマホ・モバイルビュー用画像サーバー
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: chikahiro tokoro @kibitan
     bio: |-
       here is my profile!
       [http://kibitan.com/](http://kibitan.com/)   (only japanese)
-      
+
       I am Web Engineer, and I am Tabla player (Indian classical drum), and I am ... Traveler of the earth!
     company: |-
-      2011-2013 ZIGExN as Engineer (Rails) / 
-      2010-2011 WorksApplications as Engineer (Java) / 
+      2011-2013 ZIGExN as Engineer (Rails) /
+      2010-2011 WorksApplications as Engineer (Java) /
       2006-2007 Drecom as Engineer InternShip(Rails) /
-      2005-2006 PrimeStyle as Sales InternShip / 
+      2005-2006 PrimeStyle as Sales InternShip /
       I'm Jobless Now :)
     gravatar: 70d31d2a58c69153b84b7a0f5d648ea7
     links:
@@ -178,6 +194,8 @@
     for methods is not perfect but it's pretty important to reduce the psychological
     barrier. \n\nI'll show some examples about rspec-kickstarter in this talk."
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Kazuhiro Sera
     bio: A programmer, a newbie dad, living with a rabbit and a chinchilla lanigera.
@@ -194,6 +212,8 @@
     to make sure you remember everything you want to remember about Ruby (or anything
     else for that matter).
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Peter Evjan
     bio: |-
@@ -214,6 +234,8 @@
     convert 3D models to a common format for convenient view on web browsers and use
     rspec and CI for reliability check."
   spoken_language: English
+  materials:
+    []
   speakers:
   - name: Hiroyuki Inoue
     bio: A member of 3dcg-arts dev team and a graduate school student at university

@@ -10,16 +10,7 @@
 
       = talk.title
 
-    %div
-      :markdown
-        #{talk.description}
-
-    %ul.presentation-materials
-      - talk.materials.each do |material|
-        %li
-          = link_to material, target: '_blank' do
-            = material
-            %i.icon-external-link
+    = partial 'talk_description', locals: {talk: talk}
 
     - talk.speakers.each do |speaker|
       %h3
