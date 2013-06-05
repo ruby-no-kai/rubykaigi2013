@@ -7,7 +7,8 @@ description: For building today's web applications, our job is less about doing 
   of the future. I'll show you how!
 spoken_language: English
 materials:
-  []
+  - title: 'Building Heroku Add-ons For Fun and Profit'
+    url: https://speakerdeck.com/mattonrails/building-heroku-add-ons
 speakers:
 - name: Matthew Conway
   bio: A Gentleman, Rubyist and Go enthusiast. Formerly a Rails consultant at Hashrocket,
