@@ -4,7 +4,8 @@ description: Learn more about Ruby internal by reading Ruby source code, which m
   or may not be revealed on textbook.
 spoken_language: English
 materials:
-  []
+  - title: Code Reading - Learning More about Ruby by Reading Ruby Source Code
+    url: https://speakerdeck.com/eddie/code-reading
 speakers:
 - name: Eddie Kao
   bio: |-
