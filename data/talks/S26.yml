@@ -8,7 +8,8 @@ description: |-
   Why? Because we're curious about it, that's why.
 spoken_language: English
 materials:
-  []
+  - title: From Rails to the web server to the browser
+    url: https://speakerdeck.com/dabit/from-rails-to-the-webserver-to-the-browser-ruby-kaigi
 speakers:
 - name: David Padilla
   bio: |+
