@@ -5,6 +5,6 @@
 %ul.presentation-materials
   - talk.materials.each do |material|
     %li
-      = link_to material, target: '_blank' do
-        = material
+      = link_to material.url, target: '_blank' do
+        = material.title.presence || material.url
         %i.icon-external-link

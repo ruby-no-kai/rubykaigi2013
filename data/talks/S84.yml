@@ -3,7 +3,8 @@ title: Ruby on Your Rails
 description: My Rails are not like yours. I'm gonna tell you why and how.
 spoken_language: English
 materials:
-  - https://speakerdeck.com/a_matsuda/ruby-on-your-rails
+  - title: Ruby on Your Rails
+    url: https://speakerdeck.com/a_matsuda/ruby-on-your-rails
 speakers:
 - name: Akira Matsuda
   bio: Rails committer, Ruby core, Asakusa.rb
