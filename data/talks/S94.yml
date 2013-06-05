@@ -20,7 +20,12 @@ description: |
   developers".
 spoken_language: Japanese
 materials:
-  []
+  - title: The slides on SlideShare
+    url: http://www.slideshare.net/kou/rubykaigi-2013
+  - title: The slides on Speaker Deck
+    url: https://speakerdeck.com/kou/be-a-library-developer
+  - title: The slides on Rabbit Slide Show
+    url: http://slide.rabbit-shocker.org/authors/kou/rubykaigi-2013/
 speakers:
 - name: Kouhei Sutou
   bio: He is a free software programmer and the president of ClearCode Inc. He is
