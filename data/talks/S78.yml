@@ -17,7 +17,8 @@ description_ja: |
   Gemに採用されている実践的で有用なパターンを見ていき、さらにミッシングピースとそれを埋める可能性のある開発中のGemについて紹介します。
 spoken_language: Japanese
 materials:
-  []
+  - title: Rails Gems realize RESTful modeling patterns
+    url: http://www.slideshare.net/tkawa1/rubykaigi2013-rails-gems-realize-restful-modeling-patterns
 speakers:
 - name: Toru Kawamura
   bio: |-
