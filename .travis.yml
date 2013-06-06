@@ -7,3 +7,4 @@ script: bundle exec middleman build
 notifications:
   webhooks:
     - https://koideploy.com/webhooks/travis-ci/hibariya
+    - https://idobata.io/hook/44b8043c-2e2c-4a62-aef6-9f3b7f93cbde
