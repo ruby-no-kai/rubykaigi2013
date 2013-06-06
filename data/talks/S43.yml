@@ -4,13 +4,12 @@ description: |
   The last few months have been pretty brutal for anyone who depends on Ruby libraries in production. Ruby is really popular now, and that’s exciting! But it also means that we are now square in the crosshairs of security researchers, whether whitehat, blackhat, or some other hat. Only the Ruby and Rails core teams have meaningful experience with vulnerabilites so far. It won’t last. Vulnerabilities are everywhere, and handling security issues responsibly is critical if we want Ruby (and Rubyists) to stay in high demand. Using Bundler’s first CVE as a case study, I’ll explain responsible disclosure for bugs you find, and repsonsible ownership of your own code. Don’t let your site get hacked, or worse yet, let your project allow someone else’s site to get hacked! Learn from the hard-won wisdom of the security community so that we won’t repeat the mistakes of others.
 spoken_language: English
 materials:
-  []
+  - title: Security is hard slides
+    url: https://speakerdeck.com/indirect/security-is-hard-but-we-cant-go-shopping-rubykaigi-2013
 speakers:
 - name: André Arko
-  bio: André Arko leads open source and developer outreach at Mavenlink. He has been
-    a Rubyist for 8 years, somehow wound up on the Bundler core team, and spends a
-    lot of time excited to be writing in or about Ruby.
-  company: Open source lead
+  bio: André Arko has been a Rubyist for 8 years, somehow wound up on the Bundler core team, and spends a lot of time excited to be writing in or about Ruby.
+  company: Cloud City
   location: San Francisco, USA
   gravatar: 91eeff0aae76794bad5d0eb72d577386
   links:
