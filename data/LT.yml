@@ -159,7 +159,8 @@
     用途：中規模・大規模webサービスの画像サーバー、スマホ・モバイルビュー用画像サーバー
   spoken_language: English
   materials:
-    []
+    - title: Image resizing and cache Engine by Sinatra // speakerdeck
+      url: https://speakerdeck.com/kibitan/rubykaigi-2013-lightning-talk-kibitan
   speakers:
   - name: chikahiro tokoro @kibitan
     bio: |-
