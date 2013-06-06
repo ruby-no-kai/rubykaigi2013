@@ -9,7 +9,7 @@ description_ja: |-
 spoken_language: Japanese
 materials:
   - title: "Ruby's GC 2.0"
-  - url: "http://www.slideshare.net/authorNari/rubys-gc-20"
+    url: "http://www.slideshare.net/authorNari/rubys-gc-20"
 speakers:
 - name: nari
   bio: A GarbageCollector lover.
