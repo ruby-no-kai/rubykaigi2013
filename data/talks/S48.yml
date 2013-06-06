@@ -10,7 +10,8 @@ description_ja: |-
   そこでイベントデータの収集・配送について強力な機能をもつFluentdの上でCEPを実現し、それがRubyのコードとしてどのように実現されるか、現場でどのような効果を発揮するかについて紹介をできればと思います。
 spoken_language: Japanese
 materials:
-  []
+  - title: "Complex Event Processing on Ruby, Fluentd and Norikra"
+    url: "http://www.slideshare.net/tagomoris/rubykaigi-2013-111130"
 speakers:
 - name: tagomoris
   bio: |+
