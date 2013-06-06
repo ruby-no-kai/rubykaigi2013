@@ -8,16 +8,17 @@ spoken_language: Japanese
 materials:
   - title: Ruby on Windows -- the past, the present, and the future
     url: http://www.garbagecollect.jp/~usa/Ruby_on_Windows.pdf
-- name: Usaku NAKAMURA
-  bio: "Joined Ruby development community from the end of the 1990s \nInaugurated
-    as the 7th Ruby committor in 2000.\n5% of commitment for Ruby contribution as
-    of October 2011.\n\nThe main charge in Ruby development is Ruby on Windows. \nEspecially
-    development corresponding to 64bit Windows was mainly implemented. \nThe name
-    on a Ruby repository is \"usa.\"\n"
-  company: "TOUA CORPORATION / Synergy Box Inc."
-  location: Japan
-  gravatar: 8cbb39dadafaf2287a83a13ee4981ec9
-  committer: true
-  links:
-    github: unak
-    twitter: unak
+speakers:
+  - name: Usaku NAKAMURA
+    bio: "Joined Ruby development community from the end of the 1990s \nInaugurated
+      as the 7th Ruby committor in 2000.\n5% of commitment for Ruby contribution as
+      of October 2011.\n\nThe main charge in Ruby development is Ruby on Windows. \nEspecially
+      development corresponding to 64bit Windows was mainly implemented. \nThe name
+      on a Ruby repository is \"usa.\"\n"
+    company: "TOUA CORPORATION / Synergy Box Inc."
+    location: Japan
+    gravatar: 8cbb39dadafaf2287a83a13ee4981ec9
+    committer: true
+    links:
+      github: unak
+      twitter: unak
