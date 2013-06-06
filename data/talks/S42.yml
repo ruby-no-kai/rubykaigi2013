@@ -5,7 +5,8 @@ description: We all want to keep our code clean. But it's not very easy when fea
   or do no good? Let's seek with some data in the wild.
 spoken_language: Japanese
 materials:
-  []
+  - title: The Metric Talks or Not
+    url: https://speakerdeck.com/irohiroki/the-metric-talks-or-not
 speakers:
 - name: Hiroki Yoshioka
   bio: Web developer, CSM (Certified Scrum Master) in KRAY Inc. Have a strong interest
