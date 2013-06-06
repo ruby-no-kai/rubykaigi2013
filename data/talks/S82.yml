@@ -9,7 +9,8 @@ description: |-
   I'll talk about such nightmare in my experience.
 spoken_language: Japanese
 materials:
-  []
+- title: Fight with Diversity
+  url: http://www.a-k-r.org/pub/2013-06-01-rubykaigi-akr-en.pdf
 speakers:
 - name: Akira “akr” Tanaka
   bio: |-
