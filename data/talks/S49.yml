@@ -8,7 +8,8 @@ description_ja: |-
   具体的には「Bitmap Marking GC」と「Non-recursive Marking」の改善について、実装で苦労した点や、実装後のベンチマーク結果などを紹介します。
 spoken_language: Japanese
 materials:
-  []
+  - title: "Ruby's GC 2.0"
+    url: "http://www.slideshare.net/authorNari/rubys-gc-20"
 speakers:
 - name: nari
   bio: A GarbageCollector lover.
