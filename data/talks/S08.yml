@@ -7,7 +7,8 @@ description_ja: |-
   *.ruby-lang.org の root 権限を持つ hsbt が2月から6月の間に Ruby について手を動かした結果についてご紹介します。
 spoken_language: Japanese
 materials:
-  []
+  - title: "Ruby 'root'"
+    url: https://speakerdeck.com/hsbt/ruby-root
 speakers:
 - name: SHIBATA Hiroshi
   bio: |-
