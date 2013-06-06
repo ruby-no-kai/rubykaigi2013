@@ -24,7 +24,8 @@ description_ja: |-
   また、Webサイトのパフォーマンス担当者は企業においてどう働くべきかについて述べます。
 spoken_language: Japanese
 materials:
-  []
+  - title: High Performance Rails // Speaker Deck
+    url: https://speakerdeck.com/mirakui/high-performance-rails
 speakers:
 - name: Issei Naruta
   bio: |-
