@@ -1,6 +1,10 @@
 %article#content
   %h1 Lightning Talks
 
+  - if data.talks.LT.vimeo_id
+    %h2 Recorded Video
+    = partial 'vimeo', locals: {talk: data.talks.LT}
+
   #lt
     %ul
       - data.LT.each do |talk|
