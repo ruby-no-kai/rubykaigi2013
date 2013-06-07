@@ -8,13 +8,14 @@ description_ja: |+
 spoken_language: Japanese
 materials:
   []
+vimeo_id:
 speakers:
 - name: Keiju Ishitsuka
   bio: Ruby's Godfather.
-  company: 
-  location: 
-  gravatar: 
+  company:
+  location:
+  gravatar:
   committer: true
   links:
-    github: 
-    twitter: 
+    github:
+    twitter:

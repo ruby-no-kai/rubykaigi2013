@@ -26,6 +26,7 @@ spoken_language: Japanese
 materials:
   - title: High Performance Rails // Speaker Deck
     url: https://speakerdeck.com/mirakui/high-performance-rails
+vimeo_id:
 speakers:
 - name: Issei Naruta
   bio: |-

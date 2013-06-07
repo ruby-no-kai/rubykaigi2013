@@ -9,6 +9,7 @@ description_ja: |-
 spoken_language: Japanese
 materials:
   []
+vimeo_id:
 speakers:
 - name: Tomoyuki,Chikanaga
   bio: CRuby committer. Ruby 2.0.0 branch maintainer. Editor of ruby-trunk-changes (explains every commit to ruby repository in Japanese).

@@ -25,6 +25,7 @@ description: |-
 spoken_language: Japanese
 materials:
   []
+vimeo_id:
 speakers:
 - name: Takeshi Yabe
   bio: RubyKaja 2013 Coordinator (Shibuya.rb, Yokohama.rb)

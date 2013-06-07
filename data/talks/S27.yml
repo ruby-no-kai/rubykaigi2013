@@ -1,5 +1,5 @@
 ---
-title: 'RubyJS '
+title: 'RubyJS'
 description: "RubyJS is a JavaScript implementation of all methods from Ruby classes
   like Array, String, Numbers, Time and more. \n\nThis talk will tell you how you
   can use RubyJS to stay sane when writing JavaScript. I'll show best practices, tips
@@ -7,13 +7,14 @@ description: "RubyJS is a JavaScript implementation of all methods from Ruby cla
 spoken_language: English
 materials:
   []
+vimeo_id:
 speakers:
 - name: Sebastian Burkhard
   bio: Sebastian cultivates a passionate on-and-off relationship with JavaScript.
     The past 5 years he neglected JS in favour of Ruby/Rails. To stay sane in JavaScript
     land he created RubyJS, a JS library that combines the good parts of JS with Ruby.
-  company: 
-  location: 
+  company:
+  location:
   gravatar: 5a3cdca851be0f6fea2a746b78afa0b8
   links:
     github: hasclass

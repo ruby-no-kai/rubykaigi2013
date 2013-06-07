@@ -1,0 +1,8 @@
+%iframe(src="http://player.vimeo.com/video/#{talk.vimeo_id}" width=500 height=281 frameborder=0 webkitAllowFullScreen='webkitAllowFullScreen' mozallowfullscreen='mozallowfullscreen' allowFullScreen='allowFullScreen')
+%p
+  = link_to talk.title, "http://vimeo.com/#{talk.vimeo_id}", target: '_blank'
+  from
+  = link_to 'rubykaigi', 'http://vimeo.com/rubykaigi', target: '_blank'
+  on
+  = link_to 'Vimeo', 'http://vimeo.com', target: '_blank'
+  \.

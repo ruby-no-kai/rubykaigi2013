@@ -45,6 +45,7 @@ spoken_language: Japanese
 materials:
   - title: Continuous gem dependency updating with Jenkins and Pull Request
     url: https://speakerdeck.com/kyanny/continuous-gem-dependency-updating-with-jenkins-and-pull-request
+vimeo_id:
 speakers:
 - name: Kensuke Nagae
   bio: |
