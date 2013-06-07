@@ -253,3 +253,10 @@ additional_sponsors:
     weight: 1
     description: |-
       Cloud invoice management system that lets users create and send snail mail from within the browser.
+
+drinkup_sponsor:
+  - id: Drinkup01
+    name: GitHub
+    link: 'https://github.com/'
+    weight: 4
+    description: |-
