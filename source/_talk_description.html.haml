@@ -1,15 +1,6 @@
-.description
-  :markdown
-    #{talk.description}
-
 %ul.presentation-materials
   - talk.materials.each do |material|
     %li
       = link_to material.url, target: '_blank' do
         = material.title.presence || material.url
-        %i.icon-external-link
-  - if vimeo_id = talk.vimeo_id
-    %li
-      = link_to "http://vimeo.com/#{vimeo_id}", target: '_blank' do
-        Vimeo
         %i.icon-external-link

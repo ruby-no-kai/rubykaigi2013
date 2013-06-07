@@ -10,6 +10,10 @@
             :markdown
               #{talk.title}
 
+          .description
+            :markdown
+              #{talk.description}
+
           = partial 'talk_description', locals: {talk: talk}
 
           %div
