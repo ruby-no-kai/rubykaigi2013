@@ -20,6 +20,7 @@ description_ja: |-
 spoken_language: Japanese
 materials:
   []
+vimeo_id:
 speakers:
 - name: moro, Kyosuke MOROHASHI
   bio: Ruby/Rails Programmer. Love TDD/BDD.

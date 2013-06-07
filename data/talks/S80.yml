@@ -7,6 +7,7 @@ spoken_language: English
 materials:
   - title: Concurrency in Ruby
     url: https://speakerdeck.com/plataformatec/concurrency-in-ruby-in-search-of-inspiration
+vimeo_id:
 speakers:
 - name: José Valim
   bio: José Valim (@josevalim) is a Rails Core Team Member, author of Crafting Rails Applications and co-founder of Plataformatec, a consultancy firm based in Brazil. He started working with Ruby in late 2006 and received a Ruby Hero award for his open source work on Devise, Simple Form, and Rails itself. He enjoys travelling around, speaking at conferences, and lately working on Elixir, a highly concurrent programming language for the Erlang VM.

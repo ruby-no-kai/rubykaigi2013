@@ -9,6 +9,7 @@ spoken_language: English
 materials:
   - title: 'Building Heroku Add-ons For Fun and Profit'
     url: https://speakerdeck.com/mattonrails/building-heroku-add-ons
+vimeo_id:
 speakers:
 - name: Matthew Conway
   bio: A Gentleman, Rubyist and Go enthusiast. Formerly a Rails consultant at Hashrocket,

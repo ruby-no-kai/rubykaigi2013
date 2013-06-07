@@ -16,6 +16,7 @@ spoken_language: English
 materials:
   - title: How to fail at Background Jobs
     url: http://jacobo.github.io/background_jobs_kaigi
+vimeo_id:
 speakers:
 - name: Jacob Burkhart
   bio: 'Jacob is the world''s foremost expert on Background Jobs (within the subset

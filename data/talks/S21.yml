@@ -7,6 +7,7 @@ description: As the responsibility of our applications grows, so too does our co
 spoken_language: English
 materials:
   []
+vimeo_id:
 speakers:
 - name: Jim Gay
   bio: Jim is the author of Clean Ruby ([http://clean-ruby.com](http://clean-ruby.com)) and has been exploring

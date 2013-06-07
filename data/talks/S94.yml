@@ -26,6 +26,7 @@ materials:
     url: https://speakerdeck.com/kou/be-a-library-developer
   - title: The slides on Rabbit Slide Show
     url: http://slide.rabbit-shocker.org/authors/kou/rubykaigi-2013/
+vimeo_id:
 speakers:
 - name: Kouhei Sutou
   bio: He is a free software programmer and the president of ClearCode Inc. He is

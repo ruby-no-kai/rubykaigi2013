@@ -12,6 +12,7 @@ spoken_language: Japanese
 materials:
   - title: "Complex Event Processing on Ruby, Fluentd and Norikra"
     url: "http://www.slideshare.net/tagomoris/rubykaigi-2013-111130"
+vimeo_id:
 speakers:
 - name: tagomoris
   bio: |+

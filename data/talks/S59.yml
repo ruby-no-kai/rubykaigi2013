@@ -13,6 +13,7 @@ description: So, it seems like you've finished writing your awesome gem. However
 spoken_language: English
 materials:
   []
+vimeo_id:
 speakers:
 - name: Prem Sichanugrist
   bio: Prem started using Ruby and Ruby on Rails since 2007 and fell in love with

@@ -17,12 +17,13 @@ materials:
     url: https://speakerdeck.com/okkez/ruby2-dot-0-reference-manual-for-japanese
   - title: The slides on Rabbit Slide Show
     url: http://slide.rabbit-shocker.org/authors/okkez/rubykaigi2013/
+vimeo_id:
 speakers:
 - name: okkez
   bio: |
     [http://doc.ruby-lang.org/ja/](http://doc.ruby-lang.org/ja/)
-  company: 
-  location: 
+  company:
+  location:
   gravatar: 9673ac7770ee09f76ff5d839820db157
   committer: true
   links:

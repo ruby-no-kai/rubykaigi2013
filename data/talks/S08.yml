@@ -9,6 +9,7 @@ spoken_language: Japanese
 materials:
   - title: "Ruby 'root'"
     url: https://speakerdeck.com/hsbt/ruby-root
+vimeo_id:
 speakers:
 - name: SHIBATA Hiroshi
   bio: |-

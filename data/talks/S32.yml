@@ -9,6 +9,7 @@ description: |-
 spoken_language: English
 materials:
   []
+vimeo_id:
 speakers:
 - name: Bryan Helmkamp
   bio: Bryan (@brynary) is the founder of Code Climate, an automated code review tool

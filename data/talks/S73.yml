@@ -7,13 +7,14 @@ description: "In this presentation, I will show the ways to achieve more efficie
 spoken_language: Japanese
 materials:
   []
+vimeo_id:
 speakers:
 - name: Koichi Sasada
   bio: |
     Koichi Sasada is a member of Matz's team in Heroku, Inc. He concentrates on Ruby development, especially virtual machine development for next release.
   company: Heroku, Inc.
   location: Tokyo, Japan
-  gravatar: 
+  gravatar:
   committer: true
   links:
     github: ko1
