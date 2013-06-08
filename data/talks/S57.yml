@@ -3,7 +3,8 @@ title: The History of Ruby;20th Anniversary Ed.
 description: The first session in RubyKaigi 2006, the first RubyKaigi, is "The History of Ruby."  As re-booting of RubyKaigi, we'd like to take a look back over the history of Ruby and us again.
 spoken_language: Japanese
 materials:
-  []
+- title: The History of Ruby; 20th Anniversary Ed.
+  url: http://www.slideshare.net/takahashim/the-history-of-ruby-20th-anniversary-ed
 vimeo_id: 67731254
 speakers:
 - name: Masayoshi Takahashi
