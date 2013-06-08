@@ -592,6 +592,8 @@ footer {
   h3 {
     border-radius: 7px;
     background: $white;
+    color: $brightRed;
+    font-weight: bold;
   }
   h2 {
     padding: 20px 10px;
@@ -601,11 +603,10 @@ footer {
     margin: 40px 0 20px 0;
     @include outer-container;
     .name {
-      @include span-columns(9);
-      font-weight: bold;
-      margin: 5px 0;
       height: 1.5em;
       line-height: 1.5em;
+      margin: 5px 0;
+      @include span-columns(9);
     }
     .links {
       @include span-columns(3);

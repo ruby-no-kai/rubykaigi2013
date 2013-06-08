@@ -15,11 +15,11 @@
         #{talk.description}
 
     - if talk.vimeo_id
-      %h2 Recorded Video
+      %h3 Recorded Video
       = partial 'vimeo', locals: {talk: talk}
 
     - if talk.materials.present?
-      %h2 Presentation Material(s)
+      %h3 Presentation Material(s)
       = partial 'talk_description', locals: {talk: talk}
 
     - talk.speakers.each do |speaker|
