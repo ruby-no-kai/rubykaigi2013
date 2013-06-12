@@ -12,7 +12,8 @@ description: Netzke is a library that allows creating full-featured client-serve
   will demonstrate a few highly practical aspects of Netzke.
 spoken_language: English
 materials:
-  []
+  - title: Rapid development of enterprise web apps with Netzke
+    url: https://speakerdeck.com/nomadcoder/rapid-development-of-enterprise-web-apps-with-netzke
 vimeo_id:
 speakers:
 - name: Max Gorin
