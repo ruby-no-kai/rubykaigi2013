@@ -1,8 +1,10 @@
 keynote: true
+title: How to create Ruby
+description: Keynote given by Matz.
 spoken_language: Japanese
 materials:
   []
-vimeo_id:
+vimeo_id: 67807958
 speakers:
 - name: Yukihiro "Matz" Matsumoto
   bio: The Creator of Ruby
