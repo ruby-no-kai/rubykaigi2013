@@ -90,7 +90,7 @@ gold_sponsors:
     link: 'http://www.basho.co.jp'
     weight: 2
     description: |-
-      With Riak distributed database and Riak Cloud Storage, Basho delivers extreme stability, availability and scalability to every users.
+      With Riak distributed database and Riak Cloud Storage, Basho delivers extreme stability, availability and scalability to every user.
 
   - id: Gold04
     name: Tabelog
