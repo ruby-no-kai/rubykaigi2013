@@ -9,7 +9,8 @@ description: |-
   Useful logging patters and query tools in Ruby-ish way will also be introduced.
 spoken_language: I can speak either. Just prefer Japanese.
 materials:
-  []
+  - title: Casual Log Collection and Querying with fluent-plugin-riak
+    url: https://speakerdeck.com/kuenishi/casual-log-collection-and-querying-with-fluent-plugin-riak
 vimeo_id:
 speakers:
 - name: Kota Uenishi
