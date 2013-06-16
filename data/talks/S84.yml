@@ -5,7 +5,7 @@ spoken_language: English
 materials:
   - title: Ruby on Your Rails
     url: https://speakerdeck.com/a_matsuda/ruby-on-your-rails
-vimeo_id:
+vimeo_id: 68464117
 speakers:
 - name: Akira Matsuda
   bio: Rails committer, Ruby core, Asakusa.rb

@@ -6,7 +6,7 @@ spoken_language: English
 materials:
   - title: Security is hard slides
     url: https://speakerdeck.com/indirect/security-is-hard-but-we-cant-go-shopping-rubykaigi-2013
-vimeo_id:
+vimeo_id: 68464116
 speakers:
 - name: André Arko
   bio: André Arko has been a Rubyist for 8 years, somehow wound up on the Bundler core team, and spends a lot of time excited to be writing in or about Ruby.
