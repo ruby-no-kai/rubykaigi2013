@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'middleman', '~> 3.1.0.beta.1'
+gem 'middleman', '~> 3.1.0'
 
 group :development do
   gem 'rake'
