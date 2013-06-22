@@ -7,7 +7,7 @@ description: Traditional data structures like stacks and queues are strict - per
 spoken_language: English
 materials:
   []
-vimeo_id:
+vimeo_id: 68850147
 speakers:
 - name: Ryan Smith
   bio: I spend my days solving problems in Heroku's distributed computing environment.
