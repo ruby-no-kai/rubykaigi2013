@@ -11,7 +11,7 @@ spoken_language: I can speak either. Just prefer Japanese.
 materials:
   - title: Casual Log Collection and Querying with fluent-plugin-riak
     url: https://speakerdeck.com/kuenishi/casual-log-collection-and-querying-with-fluent-plugin-riak
-vimeo_id:
+vimeo_id: 69128202
 speakers:
 - name: Kota Uenishi
   bio: |
