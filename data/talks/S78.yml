@@ -19,7 +19,7 @@ spoken_language: Japanese
 materials:
   - title: Rails Gems realize RESTful modeling patterns
     url: http://www.slideshare.net/tkawa1/rubykaigi2013-rails-gems-realize-restful-modeling-patterns
-vimeo_id:
+vimeo_id: 70184260
 speakers:
 - name: Toru Kawamura
   bio: |-

@@ -30,7 +30,7 @@ description: "Many people don't like Cryptography. Whenever he falls out of a ba
 spoken_language: English
 materials:
   []
-vimeo_id:
+vimeo_id: 70184257
 speakers:
 - name: Martin Bosslet
   bio: Martin is a member of ruby-core, one of the maintainers of the Ruby OpenSSL

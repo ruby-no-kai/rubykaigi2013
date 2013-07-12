@@ -10,7 +10,7 @@ spoken_language: English
 materials:
   - title: From Rails to the web server to the browser
     url: https://speakerdeck.com/dabit/from-rails-to-the-webserver-to-the-browser-ruby-kaigi
-vimeo_id:
+vimeo_id: 70184258
 speakers:
 - name: David Padilla
   bio: |+
