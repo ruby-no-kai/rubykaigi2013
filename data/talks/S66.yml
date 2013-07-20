@@ -8,7 +8,7 @@ spoken_language: Japanese
 materials:
   - title: Ruby on Windows -- the past, the present, and the future
     url: http://www.garbagecollect.jp/~usa/Ruby_on_Windows.pdf
-vimeo_id:
+vimeo_id: 70673037
 speakers:
   - name: Usaku NAKAMURA
     bio: "Joined Ruby development community from the end of the 1990s \nInaugurated

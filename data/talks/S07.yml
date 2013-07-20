@@ -10,7 +10,7 @@ spoken_language: English
 materials:
   - title: 'Webruby: Now you can write your favorite Ruby code for the browser!'
     url: http://qiezi.me/talks/rubykaigi2013/index.html
-vimeo_id:
+vimeo_id: 70673036
 speakers:
 - name: Xuejie "Rafael" Xiao
   bio: Despite an experience of writing G-BASIC on NES-compatible systems in primary
