@@ -6,7 +6,7 @@ spoken_language: Japanese
 materials:
   - title: Refining refinements
     url: https://speakerdeck.com/shugo/refining-refinements
-vimeo_id:
+vimeo_id: 71052100
 speakers:
 - name: Shugo Maeda
   bio: A Ruby committer, the director of Network Applied Communication Laboratory,
