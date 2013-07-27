@@ -12,7 +12,8 @@ description: So, it seems like you've finished writing your awesome gem. However
   CI to test your gem against those multiple versions of dependencies.
 spoken_language: English
 materials:
-  []
+  - title: You have to test multiple versions of your gem's dependencies. You used Appraisal. It's super affective!
+    url: https://speakerdeck.com/sikachu/you-have-to-test-multiple-versions-of-your-gems-dependencies-you-used-appraisal-its-super-affective
 vimeo_id: 69748748
 speakers:
 - name: Prem Sichanugrist
