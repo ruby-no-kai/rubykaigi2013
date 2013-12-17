@@ -1,5 +1,8 @@
 # coding: utf-8
 
+require 'bundler'
+Bundler.require
+
 require 'yaml'
 require 'active_attr'
 
@@ -92,4 +95,13 @@ namespace :speakers do
 
     Speaker.dump speakers
   end
+end
+
+namespace :assets do
+  task :precompile => :build
+end
+
+desc "Build"
+task :build do
+  sh "middleman build --clean"
 end
