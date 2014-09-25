@@ -8,7 +8,8 @@ description_ja: |-
   この発表ではそんな CRuby の開発の裏側を紹介します。
 spoken_language: Japanese
 materials:
-  []
+ - title: CRuby Committers Who's Who in 2013
+   url: http://www.slideshare.net/nagachika/cruby-committers-whos-who-in-2013
 vimeo_id: 68611165
 speakers:
 - name: Tomoyuki,Chikanaga
